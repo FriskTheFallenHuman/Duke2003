@@ -71,9 +71,9 @@ void RHIInit()
 #endif
 			{
 				// command line overrides
-				const UBOOL bForceD3D9 = ParseParam(appCmdLine(),TEXT("d3d9")) || ParseParam(appCmdLine(),TEXT("sm3")) || ParseParam(appCmdLine(),TEXT("dx9"));
-				const UBOOL bForceD3D11 = ParseParam(appCmdLine(),TEXT("d3d11")) || ParseParam(appCmdLine(),TEXT("sm5")) || ParseParam(appCmdLine(),TEXT("dx11"));
-				const UBOOL bForceOpenGL = ParseParam(appCmdLine(),TEXT("opengl"));
+				const UBOOL bForceD3D9 = FALSE; //ParseParam(appCmdLine(),TEXT("d3d9")) || ParseParam(appCmdLine(),TEXT("sm3")) || ParseParam(appCmdLine(),TEXT("dx9"));
+				const UBOOL bForceD3D11 = TRUE; //ParseParam(appCmdLine(),TEXT("d3d11")) || ParseParam(appCmdLine(),TEXT("sm5")) || ParseParam(appCmdLine(),TEXT("dx11"));
+				const UBOOL bForceOpenGL = FALSE; //ParseParam(appCmdLine(),TEXT("opengl"));
 				
 				if ((bForceD3D11 && bForceD3D9) || (bForceD3D11 && bForceOpenGL) || (bForceD3D9 && bForceOpenGL))
 				{
@@ -81,19 +81,19 @@ void RHIInit()
 				}
 
 				// ini file enables
-				const UBOOL bAllowD3D11 = GSystemSettings.bAllowD3D11;
-				const UBOOL bAllowOpenGL = GSystemSettings.bAllowOpenGL;
-				UBOOL bEditorUsesD3D11 = FALSE;
-
+				const UBOOL bAllowD3D11 = TRUE; //GSystemSettings.bAllowD3D11;
+				const UBOOL bAllowOpenGL = FALSE; //GSystemSettings.bAllowOpenGL;
+				UBOOL bEditorUsesD3D11 = TRUE;
+/*
 				if (GSystemSettings.GetIsEditor())
 				{
 					GConfig->GetBool( TEXT("EditorFrame"), TEXT("EditorUsesD3D11"), bEditorUsesD3D11, GEditorUserSettingsIni );
 				}
-
+*/
 				// machine spec enables
 				// Only check for supported if the RHI is allowed or forced so we don't have a dependency on the dll unless we need it
-				UBOOL bSupportsD3D11Features = FALSE;
-				UBOOL bSupportsD3D11RHI = (bForceD3D11 || bAllowD3D11 || bEditorUsesD3D11) && IsDirect3D11Supported(bSupportsD3D11Features);
+				UBOOL bSupportsD3D11Features = TRUE;
+				UBOOL bSupportsD3D11RHI = TRUE; //(bForceD3D11 || bAllowD3D11 || bEditorUsesD3D11) && IsDirect3D11Supported(bSupportsD3D11Features);
 
 				// These are handy for QA and others to know why they aren't getting the proper API.
 				if(bForceD3D11 && !bSupportsD3D11RHI)
