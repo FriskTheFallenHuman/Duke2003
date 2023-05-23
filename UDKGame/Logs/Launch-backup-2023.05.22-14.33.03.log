@@ -1,0 +1,255 @@
+Log: Log file open, 05/22/23 14:32:14
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line:  
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.57] Init: Computer: JUSTIN-MAINPC
+[0000.57] Init: User: justi
+[0000.57] Init: CPU Page size=4096, Processors=32
+[0000.57] Init: High frequency timer resolution =10.000000 MHz
+[0000.57] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.57] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.62] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.62] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.62] Init: Object subsystem initialized
+[0000.62] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.62] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.62] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.62] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.62] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.62] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.62] DevSave:    Loading value for Extensions from [Core.System]
+[0000.62] DevSave:    Loading value for Suppress from [Core.System]
+[0000.62] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.63] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.63] DevSave:    Loading value for Paths from [Core.System]
+[0000.63] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.63] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.63] DevSave:    Loading value for CachePath from [Core.System]
+[0000.63] DevSave:    Loading value for SavePath from [Core.System]
+[0000.63] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.63] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.63] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.63] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.63] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.35] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.35] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.35] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.36] Init: Skipping CPU performance test in debug build.
+[0019.71] Init: OS stats:
+[0019.71] Init: 	Windows 7 
+[0019.71] Init: 	RemoteDesktop=0
+[0019.71] Init: Memory stats:
+[0019.71] Init: 	Physical: 64662MB
+[0019.71] Init: 	Virtual: 134217727MB
+[0019.71] Init: 	PageFile: 86166MB
+[0019.71] Init: CPU stats:
+[0019.72] Init: 	MeasuredPerformanceTime: -1.000 (measured now)
+[0019.72] Init: GPU stats:
+[0019.72] Init: 	VendorID: 000010DE
+[0019.72] Init: 	DeviceID: 00002684
+[0019.72] Init: 	DriverVersion: 31.0.15.3168
+[0019.72] Init: 	DeviceName: NVIDIA GeForce RTX 4090
+[0019.72] Init: 	DriverName: nvldumdx.dll
+[0019.72] Init: 	PixelShaderVersion: 3
+[0019.72] Init: 	VertexShaderVersion: 3
+[0019.72] Init: 	VRAMQuantity: 3072
+[0019.72] Init: 	DedicatedVRAM: 3072
+[0019.72] Init: 	AdapterCount: 2
+[0019.72] Init: 	SupportsHardwareTnL: 1
+[0019.72] Init: Machine  detected compatibility level: Composite: 4. CPU: 5. GPU: 4.
+[0019.72] Init: Previous detected compatibility level: Composite: 0. CPU: 0. GPU: 0.
+[0019.72] Init: System Settings changed using SetFriendlyGraphicsSettings:
+[0019.72] Init: System Settings:
+[0019.72] Init: 	StaticDecals=true
+[0019.72] Init: 	DynamicDecals=true
+[0019.72] Init: 	UnbatchedDecals=true
+[0019.72] Init: 	DynamicLights=true
+[0019.72] Init: 	DynamicShadows=true
+[0019.72] Init: 	LightEnvironmentShadows=true
+[0019.72] Init: 	CompositeDynamicLights=true
+[0019.72] Init: 	SHSecondaryLighting=true
+[0019.72] Init: 	DirectionalLightmaps=true
+[0019.72] Init: 	MotionBlur=true
+[0019.72] Init: 	MotionBlurPause=true
+[0019.72] Init: 	DepthOfField=true
+[0019.73] Init: 	AmbientOcclusion=true
+[0019.73] Init: 	Bloom=true
+[0019.73] Init: 	bAllowLightShafts=true
+[0019.73] Init: 	Distortion=true
+[0019.73] Init: 	FilteredDistortion=true
+[0019.73] Init: 	DropParticleDistortion=false
+[0019.73] Init: 	bAllowDownsampledTranslucency=false
+[0019.73] Init: 	SpeedTreeLeaves=true
+[0019.73] Init: 	bUseMaxQualityMode=false
+[0019.73] Init: 	SpeedTreeFronds=true
+[0019.73] Init: 	OnlyStreamInTextures=false
+[0019.73] Init: 	LensFlares=true
+[0019.73] Init: 	FogVolumes=true
+[0019.73] Init: 	FloatingPointRenderTargets=true
+[0019.73] Init: 	OneFrameThreadLag=true
+[0019.73] Init: 	UseVsync=false
+[0019.73] Init: 	UpscaleScreenPercentage=true
+[0019.73] Init: 	Fullscreen=false
+[0019.73] Init: 	bAllowD3D9MSAA=false
+[0019.73] Init: 	AllowD3D11=false
+[0019.73] Init: 	AllowOpenGL=false
+[0019.73] Init: 	AllowRadialBlur=true
+[0019.73] Init: 	AllowSubsurfaceScattering=true
+[0019.73] Init: 	AllowImageReflections=true
+[0019.73] Init: 	AllowImageReflectionShadowing=true
+[0019.73] Init: 	bEnableBranchingPCFShadows=false
+[0019.73] Init: 	bAllowHardwareShadowFiltering=false
+[0019.73] Init: 	bAllowBetterModulatedShadows=false
+[0019.73] Init: 	bEnableForegroundShadowsOnWorld=false
+[0019.73] Init: 	bEnableForegroundSelfShadowing=false
+[0019.73] Init: 	bAllowWholeSceneDominantShadows=true
+[0019.73] Init: 	bUseConservativeShadowBounds=false
+[0019.73] Init: 	bAllowFracturedDamage=true
+[0019.73] Init: 	bForceCPUAccessToGPUSkinVerts=false
+[0019.73] Init: 	bDisableSkeletalInstanceWeights=false
+[0019.73] Init: 	HighPrecisionGBuffers=false
+[0019.73] Init: 	bAllowSeparateTranslucency=true
+[0019.73] Init: 	bAllowTemporalAA=false
+[0019.73] Init: 	bEnableParallelApexClothingFetch=false
+[0019.73] Init: 	SkeletalMeshLODBias=0
+[0019.73] Init: 	ParticleLODBias=0
+[0019.73] Init: 	DetailMode=2
+[0019.73] Init: 	ShadowFilterQualityBias=0
+[0019.73] Init: 	MaxAnisotropy=4
+[0019.73] Init: 	MaxMultiSamples=1
+[0019.73] Init: 	MinShadowResolution=64
+[0019.73] Init: 	MinPreShadowResolution=8
+[0019.73] Init: 	MaxShadowResolution=1120
+[0019.73] Init: 	MaxWholeSceneDominantShadowResolution=1344
+[0019.73] Init: 	ResX=1024
+[0019.73] Init: 	ResY=768
+[0019.73] Init: 	UnbuiltNumWholeSceneDynamicShadowCascades=3
+[0019.73] Init: 	WholeSceneShadowUnbuiltInteractionThreshold=50
+[0019.73] Init: 	ShadowFadeResolution=128
+[0019.73] Init: 	PreShadowFadeResolution=16
+[0019.73] Init: 	MotionBlurSkinning=1
+[0019.73] Init: 	ApexDestructionMaxChunkIslandCount=2147483647
+[0019.73] Init: 	MaxDrawDistanceScale=1.000
+[0019.73] Init: 	ScreenPercentage=100.000
+[0019.73] Init: 	SceneCaptureStreamingMultiplier=1.000
+[0019.73] Init: 	ShadowTexelsPerPixel=1.273
+[0019.74] Init: 	PreShadowResolutionFactor=0.500
+[0019.74] Init: 	ShadowFilterRadius=2.000
+[0019.74] Init: 	ShadowDepthBias=0.012
+[0019.74] Init: 	PerObjectShadowTransition=60.000
+[0019.74] Init: 	CSMSplitPenumbraScale=0.500
+[0019.74] Init: 	CSMSplitSoftTransitionDistanceScale=4.000
+[0019.74] Init: 	CSMSplitDepthBiasScale=0.500
+[0019.74] Init: 	CSMMinimumFOV=40.000
+[0019.74] Init: 	CSMFOVRoundFactor=4.000
+[0019.74] Init: 	UnbuiltWholeSceneDynamicShadowRadius=20000.000
+[0019.74] Init: 	ShadowFadeExponent=0.250
+[0019.74] Init: 	NumFracturedPartsScale=1.000
+[0019.74] Init: 	FractureDirectSpawnChanceScale=1.000
+[0019.74] Init: 	FractureRadialSpawnChanceScale=1.000
+[0019.74] Init: 	FractureCullDistanceScale=1.000
+[0019.74] Init: 	DecalCullDistanceScale=1.000
+[0019.74] Init: 	TessellationFactorMultiplier=1.000
+[0019.74] Init: 	TemporalAA_MinDepth=500.000
+[0019.74] Init: 	TemporalAA_StartDepthVelocityScale=100.000
+[0019.74] Init: 	TemporalAA_JitterStartDepthScale=3.000
+[0019.74] Init: 	ApexLODResourceBudget=1000000020040877300000.000
+[0019.74] Init: 	ApexDestructionMaxChunkSeparationLOD=1.000
+[0019.74] Log: 	TEXTUREGROUP_World: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_WorldNormalMap: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_WorldSpecular: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Character: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_CharacterNormalMap: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_CharacterSpecular: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Weapon: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_WeaponNormalMap: (MinLODSize=1024,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_WeaponSpecular: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Vehicle: (MinLODSize=1024,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_VehicleNormalMap: (MinLODSize=1024,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_VehicleSpecular: (MinLODSize=1024,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Cinematic: (MinLODSize=256,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Effects: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Linear,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_EffectsNotFiltered: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Skybox: (MinLODSize=512,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_UI: (MinLODSize=1024,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Lightmap: (MinLODSize=512,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_RenderTarget: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_MobileFlattened: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_ProcBuilding_Face: (MinLODSize=1,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_ProcBuilding_LightMap: (MinLODSize=1,MaxLODSize=256,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Shadowmap: (MinLODSize=512,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,NumStreamedMips=3,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_ColorLookupTable: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Terrain_Heightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_Terrain_Weightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Log: 	TEXTUREGROUP_ImageBasedReflection: (MinLODSize=256,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Linear,MipGenSettings=TMGS_Blur5)
+[0019.74] Log: 	TEXTUREGROUP_Bokeh: (MinLODSize=1,MaxLODSize=256,LODBias=0,MinMagFilter=Linear,MipFilter=Linear,MipGenSettings=TMGS_SimpleAverage)
+[0019.74] Init: Friendly System Settings:
+[0019.74] Init: 	TextureDetail=Level5
+[0019.74] Init: 	WorldDetail=Level5
+[0019.74] Init: 	ShadowDetail=Level5
+[0019.74] Init: 	bUseVSync=0
+[0019.74] Init: 	bUseMSAA=0
+[0019.74] Init: 	ScreenPercentage=100
+[0019.74] Init: 	UpscaleScreenPercentage=1
+[0019.74] Init: 	ResX=1024
+[0019.74] Init: 	ResY= 768
+[0019.75] Init: 	Fullscreen=0
+[0019.75] Init: Writing new compatibility level to ini. Composite: 4. CPU: 5. GPU: 4.
+[0019.78] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.89] Log: PhysX GPU Support: DISABLED
+[0019.90] Init: Initializing FaceFX...
+[0019.90] Init: FaceFX 1.7.4 initialized.
+[0019.95] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0021.73] Init: Finished loading startup packages in 1.62 seconds
+[0021.74] Log: 67396 objects as part of root set at end of initial load.
+[0021.74] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.74] Log: Initializing Engine...
+[0021.77] Init: UEngine initialized
+[0021.77] Log: Working around XDK XAudio2 regression: TRUE
+[0021.81] Init: XAudio2Device initialized.
+[0022.28] Init: Client initialized
+[0026.15] Log: LoadMap: UDKFrontEndMap?Name=Player?Team=255
+[0026.29] Log: 
+[0026.29] DevMemory: Memory allocations reported by the OS: 409.64 MB (with 0.00 MB waste)
+[0026.30] Log: Game class is 'UTEntryGame'
+[0026.31] Log: Primary PhysX scene will be in software.
+[0026.31] Log: Creating Primary PhysX Scene.
+[0026.32] Log: Bringing World UDKFrontEndMap.TheWorld up for play (0) at 2023.05.22-14.32.39
+[0026.32] Log: Bringing up level for play took: 0.008876
+[0026.32] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0026.32] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0026.32] Log: ########### Finished loading level: 0.174136 seconds
+[0026.32] Init: Game engine initialized
+[0026.32] Log: Initializing Engine Completed
+[0032.20] Log: >>>>>>>>>>>>>> Initial startup: 32.20s <<<<<<<<<<<<<<<
+[0032.21] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemPC Transient.OnlineSubsystemPC_0
+	Function OnlineSubsystemPC.OnlineSubsystemPC:ClearReadProfileSettingsCompleteDelegate:00C2
+[0032.21] Log: All Windows Closed
+[0032.21] Log: appRequestExit(0)
+[0032.30] Exit: Preparing to exit.
+[0032.39] Exit: Game engine shut down
+[0032.39] Exit: Windows client shut down
+[0032.39] Exit: XAudio2 Device shut down.
+[0032.46] Exit: Object subsystem successfully closed.
+[0032.46] Log: Shutting down FaceFX...
+[0032.46] Log: FaceFX shutdown.
+[0032.49] DevDataBase: Spent 18.711899 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0032.49] Exit: Exiting.
+[0032.50] Log: Log file closed, 05/22/23 14:32:46

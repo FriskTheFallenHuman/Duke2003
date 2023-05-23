@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<FolderProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" FolderName=".">
+  <Folders>
+    <FolderProperties FolderName="Binaries">
+      <Folders>
+        <FolderProperties FolderName="InstallData">
+          <Folders />
+          <Files>
+            <FileProperties FileName="EULA.CHN.rtf" Size="417064" />
+            <FileProperties FileName="EULA.CZE.rtf" Size="360351" />
+            <FileProperties FileName="EULA.DEU.rtf" Size="273021" />
+            <FileProperties FileName="EULA.ESN.rtf" Size="268378" />
+            <FileProperties FileName="EULA.FRA.rtf" Size="270630" />
+            <FileProperties FileName="EULA.HIN.rtf" Size="888583" />
+            <FileProperties FileName="EULA.HUN.rtf" Size="287678" />
+            <FileProperties FileName="EULA.INT.rtf" Size="273089" />
+            <FileProperties FileName="EULA.ITA.rtf" Size="302306" />
+            <FileProperties FileName="EULA.JPN.rtf" Size="504500" />
+            <FileProperties FileName="EULA.KOR.rtf" Size="1287789" />
+            <FileProperties FileName="EULA.POL.rtf" Size="275559" />
+            <FileProperties FileName="EULA.RUS.rtf" Size="367623" />
+            <FileProperties FileName="GameIcon.ico" Size="54948" />
+            <FileProperties FileName="Interop.IWshRuntimeLibrary.dll" Size="55128" />
+            <FileProperties FileName="Link.ico" Size="85182" />
+            <FileProperties FileName="Uninstall.ico" Size="85182" />
+          </Files>
+        </FolderProperties>
+        <FolderProperties FolderName="Win32">
+          <Folders>
+            <FolderProperties FolderName="Microsoft.VC90.CRT">
+              <Folders />
+              <Files>
+                <FileProperties FileName="Microsoft.VC90.CRT.manifest" Size="1857" />
+                <FileProperties FileName="msvcm90.dll" Size="230680" />
+                <FileProperties FileName="msvcp90.dll" Size="572928" />
+                <FileProperties FileName="msvcr90.dll" Size="655872" />
+              </Files>
+            </FolderProperties>
+            <FolderProperties FolderName="UserCode">
+              <Folders />
+              <Files>
+                <FileProperties FileName="DO_NOT_DELETE.TXT" Size="0" />
+              </Files>
+            </FolderProperties>
+          </Folders>
+          <Files>
+            <FileProperties FileName="ApexFramework_x86.dll" Size="723736" />
+            <FileProperties FileName="APEX_Clothing_Legacy_x86.dll" Size="216344" />
+            <FileProperties FileName="APEX_Clothing_x86.dll" Size="789784" />
+            <FileProperties FileName="APEX_Destructible_Legacy_x86.dll" Size="132376" />
+            <FileProperties FileName="APEX_Destructible_x86.dll" Size="802072" />
+            <FileProperties FileName="cudart.dll" Size="199200" />
+            <FileProperties FileName="cudart32_30_9.dll" Size="290408" />
+            <FileProperties FileName="EasyHook32.dll" Size="75608" />
+            <FileProperties FileName="FonixTtsDtSimpleFr.dll" Size="132376" />
+            <FileProperties FileName="FonixTtsDtSimpleGr.dll" Size="496920" />
+            <FileProperties FileName="FonixTtsDtSimpleIt.dll" Size="259352" />
+            <FileProperties FileName="FonixTtsDtSimpleLa.dll" Size="75032" />
+            <FileProperties FileName="FonixTtsDtSimpleSp.dll" Size="79128" />
+            <FileProperties FileName="FonixTtsDtSimpleUk.dll" Size="554264" />
+            <FileProperties FileName="FonixTtsDtSimpleUs.dll" Size="472344" />
+            <FileProperties FileName="libresample.dll" Size="88344" />
+            <FileProperties FileName="nvtt.dll" Size="124184" />
+            <FileProperties FileName="NxCharacter.dll" Size="130840" />
+            <FileProperties FileName="ogg.dll" Size="21784" />
+            <FileProperties FileName="PhysXCooking.dll" Size="651032" />
+            <FileProperties FileName="PhysXCore.dll" Size="3695896" />
+            <FileProperties FileName="PhysXDevice.dll" Size="71008" />
+            <FileProperties FileName="PhysXExtensions.dll" Size="153368" />
+            <FileProperties FileName="PhysXLoader.dll" Size="64280" />
+            <FileProperties FileName="steam_api.dll" Size="128808" />
+            <FileProperties FileName="steam_appid.txt" Size="5" />
+            <FileProperties FileName="UDK.com" Size="14616" />
+            <FileProperties FileName="UDK.exe" Size="38165272" />
+            <FileProperties FileName="UDK.exe.config" Size="475" />
+            <FileProperties FileName="vorbis.dll" Size="324888" />
+            <FileProperties FileName="vorbisenc.dll" Size="988440" />
+            <FileProperties FileName="vorbisfile.dll" Size="28952" />
+            <FileProperties FileName="wxmsw28u_adv_vc_custom.dll" Size="721176" />
+            <FileProperties FileName="wxmsw28u_aui_vc_custom.dll" Size="336152" />
+            <FileProperties FileName="wxmsw28u_core_vc_custom.dll" Size="3024152" />
+            <FileProperties FileName="wxmsw28u_html_vc_custom.dll" Size="505624" />
+            <FileProperties FileName="wxmsw28u_richtext_vc_custom.dll" Size="794904" />
+            <FileProperties FileName="wxmsw28u_vc_custom.dll" Size="1302296" />
+            <FileProperties FileName="wxmsw28u_xml_vc_custom.dll" Size="130840" />
+            <FileProperties FileName="wxmsw28u_xrc_vc_custom.dll" Size="553752" />
+          </Files>
+        </FolderProperties>
+        <FolderProperties FolderName="Redist">
+          <Folders />
+          <Files>
+            <FileProperties FileName="UE3Redist.exe" Size="24911744" />
+          </Files>
+        </FolderProperties>
+      </Folders>
+      <Files>
+        <FileProperties FileName="build.properties" Size="92" />
+        <FileProperties FileName="Ionic.Zip.Reduced.dll" Size="204568" />
+        <FileProperties FileName="UnSetup.exe" Size="942360" />
+        <FileProperties FileName="UnSetup.exe.config" Size="274" />
+        <FileProperties FileName="UnSetup.Manifests.xml" Size="6533" />
+      </Files>
+    </FolderProperties>
+    <FolderProperties FolderName="Engine">
+      <Folders>
+        <FolderProperties FolderName="Config">
+          <Folders />
+          <Files>
+            <FileProperties FileName="BaseCompat.ini" Size="16732" />
+            <FileProperties FileName="BaseEditor.ini" Size="48987" />
+            <FileProperties FileName="BaseEditorKeyBindings.ini" Size="5268" />
+            <FileProperties FileName="BaseEditorUserSettings.ini" Size="10293" />
+            <FileProperties FileName="BaseEngine.ini" Size="39495" />
+            <FileProperties FileName="BaseGame.ini" Size="2083" />
+            <FileProperties FileName="BaseGameStats.ini" Size="425" />
+            <FileProperties FileName="BaseInput.ini" Size="24711" />
+            <FileProperties FileName="BaseLightmass.ini" Size="9160" />
+            <FileProperties FileName="BaseUI.ini" Size="1758" />
+          </Files>
+        </FolderProperties>
+        <FolderProperties FolderName="Localization">
+          <Folders>
+            <FolderProperties FolderName="CHN">
+              <Folders />
+              <Files>
+                <FileProperties FileName="core.CHN" Size="16588" />
+                <FileProperties FileName="descriptions.CHN" Size="15248" />
+                <FileProperties FileName="editortips.CHN" Size="8666" />
+                <FileProperties FileName="Engine.chn" Size="24894" />
+                <FileProperties FileName="gfxuieditor.CHN" Size="1484" />
+                <FileProperties FileName="launch.CHN" Size="1992" />
+                <FileProperties FileName="onlinesubsystemgamespy.CHN" Size="254" />
+                <FileProperties FileName="Properties.CHN" Size="55726" />
+                <FileProperties FileName="startup.CHN" Size="3452" />
+                <FileProperties FileName="subtitles.CHN" Size="76" />
+                <FileProperties FileName="unrealed.CHN" Size="401094" />
+                <FileProperties FileName="windrv.CHN" Size="892" />
+                <FileProperties FileName="xwindow.CHN" Size="212" />
+              </Files>
+            </FolderProperties>
+            <FolderProperties FolderName="INT">
+              <Folders />
+              <Files>
+                <FileProperties FileName="Core.int" Size="16680" />
+                <FileProperties FileName="Descriptions.int" Size="15172" />
+                <FileProperties FileName="EditorTips.int" Size="19120" />
+                <FileProperties FileName="Engine.int" Size="24384" />
+                <FileProperties FileName="GFxUIEditor.int" Size="1484" />
+                <FileProperties FileName="Launch.int" Size="1992" />
+                <FileProperties FileName="OnlineSubsystemGameSpy.int" Size="254" />
+                <FileProperties FileName="Properties.int" Size="0" />
+                <FileProperties FileName="Startup.int" Size="3452" />
+                <FileProperties FileName="Subtitles.int" Size="76" />
+                <FileProperties FileName="UnrealEd.int" Size="594020" />
+                <FileProperties FileName="WinDrv.int" Size="892" />
+                <FileProperties FileName="XWindow.int" Size="212" />
+              </Files>
+            </FolderProperties>
+            <FolderProperties FolderName="JPN">
+              <Folders />
+              <Files>
+                <FileProperties FileName="Core.jpn" Size="13274" />
+                <FileProperties FileName="Descriptions.jpn" Size="14298" />
+                <FileProperties FileName="EditorTips.jpn" Size="11770" />
+                <FileProperties FileName="Engine.jpn" Size="22304" />
+                <FileProperties FileName="gfxuieditor.JPN" Size="1484" />
+                <FileProperties FileName="IpDrv.jpn" Size="126" />
+                <FileProperties FileName="Launch.jpn" Size="1992" />
+                <FileProperties FileName="onlinesubsystemgamespy.JPN" Size="254" />
+                <FileProperties FileName="Properties.JPA" Size="1476898" />
+                <FileProperties FileName="properties.JPN" Size="0" />
+                <FileProperties FileName="Startup.jpn" Size="2378" />
+                <FileProperties FileName="subtitles.JPN" Size="76" />
+                <FileProperties FileName="UnrealEd.jpn" Size="495378" />
+                <FileProperties FileName="WinDrv.jpn" Size="752" />
+                <FileProperties FileName="XWindow.jpn" Size="176" />
+              </Files>
+            </FolderProperties>
+            <FolderProperties FolderName="KOR">
+              <Folders />
+              <Files>
+                <FileProperties FileName="core.KOR" Size="11844" />
+                <FileProperties FileName="descriptions.KOR" Size="15642" />
+                <FileProperties FileName="EditorTips.kor" Size="10418" />
+                <FileProperties FileName="Engine.kor" Size="19060" />
+                <FileProperties FileName="gfxuieditor.KOR" Size="910" />
+                <FileProperties FileName="launch.KOR" Size="1396" />
+                <FileProperties FileName="onlinesubsystemgamespy.KOR" Size="208" />
+                <FileProperties FileName="Properties.kor" Size="1099214" />
+                <FileProperties FileName="startup.KOR" Size="2244" />
+                <FileProperties FileName="subtitles.KOR" Size="72" />
+                <FileProperties FileName="UnrealEd.kor" Size="449996" />
+                <FileProperties FileName="windrv.KOR" Size="710" />
+                <FileProperties FileName="xwindow.KOR" Size="154" />
+              </Files>
+            </FolderProperties>
+          </Folders>
+          <Files />
+        </FolderProperties>
+        <FolderProperties FolderName="Shaders">
+          <Folders>
+            <FolderProperties FolderName="Binaries">
+              <Folders />
+              <Files>
+                <FileProperties FileName="AmbientOcclusionShader.bin" Size="28453" />
+                <FileProperties FileName="ApexGpuSkinVertexFactory.bin" Size="82" />
+                <FileProperties FileName="ApexGpuSkinVertexFactory_1Bone.bin" Size="86" />
+                <FileProperties FileName="BasePassCommon.bin" Size="4562" />
+                <FileProperties FileName="BasePassPixelShader.bin" Size="21150" />
+                <FileProperties FileName="BasePassTessellationShaders.bin" Size="3378" />
+                <FileProperties FileName="BasePassVertexCommon.bin" Size="5749" />
+                <FileProperties FileName="BasePassVertexShader.bin" Size="5727" />
+                <FileProperties FileName="BinkShaders.bin" Size="1184" />
+                <FileProperties FileName="BokehDOF.bin" Size="7990" />
+                <FileProperties FileName="BranchingPCFCommon.bin" Size="14171" />
+                <FileProperties FileName="BranchingPCFModProjectionPixelShader.bin" Size="5416" />
+                <FileProperties FileName="BranchingPCFProjectionPixelShader.bin" Size="3935" />
+                <FileProperties FileName="Common.bin" Size="34203" />
+                <FileProperties FileName="DecalFactoryCommon.bin" Size="4270" />
+                <FileProperties FileName="DeferredLightingCommon.bin" Size="3230" />
+                <FileProperties FileName="DeferredLightShaders.bin" Size="13337" />
+                <FileProperties FileName="Definitions.bin" Size="6321" />
+                <FileProperties FileName="DepthDependentHaloApplyPixelShader.bin" Size="3400" />
+                <FileProperties FileName="DepthOfFieldCommon.bin" Size="2399" />
+                <FileProperties FileName="DepthOnlyPixelShader.bin" Size="1413" />
+                <FileProperties FileName="DepthOnlyVertexShader.bin" Size="6350" />
+                <FileProperties FileName="DirectionalLightPixelShader.bin" Size="4590" />
+                <FileProperties FileName="DirectionalLightVertexShader.bin" Size="6425" />
+                <FileProperties FileName="DistortAccumulatePixelShader.bin" Size="2412" />
+                <FileProperties FileName="DistortAccumulateVertexShader.bin" Size="5424" />
+                <FileProperties FileName="DistortApplyScreenPixelShader.bin" Size="2337" />
+                <FileProperties FileName="DistortApplyScreenVertexShader.bin" Size="689" />
+                <FileProperties FileName="DOFAndBloomBlendPixelShader.bin" Size="1237" />
+                <FileProperties FileName="DOFAndBloomBlendVertexShader.bin" Size="776" />
+                <FileProperties FileName="DOFAndBloomGatherPixelShader.bin" Size="8488" />
+                <FileProperties FileName="DOFAndBloomGatherVertexShader.bin" Size="868" />
+                <FileProperties FileName="DownsampleDepthPixelShader.bin" Size="1319" />
+                <FileProperties FileName="DynamicLightingCommon.bin" Size="3613" />
+                <FileProperties FileName="FilterPixelShader.bin" Size="5217" />
+                <FileProperties FileName="FilterVertexShader.bin" Size="735" />
+                <FileProperties FileName="FlatTessellation.bin" Size="3020" />
+                <FileProperties FileName="FluidSurfaceSimulation.bin" Size="5187" />
+                <FileProperties FileName="FluidVertexFactory.bin" Size="13798" />
+                <FileProperties FileName="FogIntegralPixelShader.bin" Size="9665" />
+                <FileProperties FileName="FogIntegralVertexShader.bin" Size="1161" />
+                <FileProperties FileName="FogVolumeApplyPixelShader.bin" Size="3403" />
+                <FileProperties FileName="FogVolumeApplyVertexShader.bin" Size="1618" />
+                <FileProperties FileName="FogVolumeCommon.bin" Size="10217" />
+                <FileProperties FileName="GammaCorrectionPixelShader.bin" Size="798" />
+                <FileProperties FileName="GammaCorrectionVertexShader.bin" Size="565" />
+                <FileProperties FileName="GFxFilterPixelShader.bin" Size="17085" />
+                <FileProperties FileName="GFxFilterVertexShader.bin" Size="593" />
+                <FileProperties FileName="GFxPixelShader.bin" Size="7335" />
+                <FileProperties FileName="GFxVertexShader.bin" Size="4379" />
+                <FileProperties FileName="GpuSkinVertexFactory.bin" Size="29869" />
+                <FileProperties FileName="HeightFogCommon.bin" Size="5680" />
+                <FileProperties FileName="HeightFogPixelShader.bin" Size="9556" />
+                <FileProperties FileName="HeightFogVertexShader.bin" Size="2021" />
+                <FileProperties FileName="HitMaskPixelShader.bin" Size="3189" />
+                <FileProperties FileName="HitMaskVertexShader.bin" Size="2263" />
+                <FileProperties FileName="HitProxyPixelShader.bin" Size="1032" />
+                <FileProperties FileName="HitProxyVertexShader.bin" Size="4888" />
+                <FileProperties FileName="ImageReflectionMeshShader.bin" Size="4107" />
+                <FileProperties FileName="ImageReflectionShader.bin" Size="56182" />
+                <FileProperties FileName="LandscapeVertexFactory.bin" Size="18234" />
+                <FileProperties FileName="LDRExtractVertexShader.bin" Size="552" />
+                <FileProperties FileName="LensFlareVertexFactory.bin" Size="8255" />
+                <FileProperties FileName="LightFunctionPixelShader.bin" Size="1899" />
+                <FileProperties FileName="LightFunctionVertexShader.bin" Size="559" />
+                <FileProperties FileName="LightMapDensityShader.bin" Size="8365" />
+                <FileProperties FileName="LightShaftShader.bin" Size="13667" />
+                <FileProperties FileName="LocalVertexFactory.bin" Size="32109" />
+                <FileProperties FileName="LUTBlender.bin" Size="2201" />
+                <FileProperties FileName="MaterialTemplate.bin" Size="35322" />
+                <FileProperties FileName="MemCopyShader.bin" Size="392" />
+                <FileProperties FileName="MeshInstancedVertexFactory.bin" Size="14661" />
+                <FileProperties FileName="MeshPaintPixelShader.bin" Size="5574" />
+                <FileProperties FileName="MeshPaintVertexShader.bin" Size="1046" />
+                <FileProperties FileName="ModShadowCommon.bin" Size="3398" />
+                <FileProperties FileName="ModShadowMeshAttenuationPS.bin" Size="1952" />
+                <FileProperties FileName="ModShadowMeshAttenuationVS.bin" Size="6043" />
+                <FileProperties FileName="ModShadowProjectionPixelShader.bin" Size="4550" />
+                <FileProperties FileName="ModShadowProjectionVertexShader.bin" Size="596" />
+                <FileProperties FileName="MotionBlurCommon.bin" Size="13009" />
+                <FileProperties FileName="NullPixelShader.bin" Size="397" />
+                <FileProperties FileName="OcclusionQueryPixelShader.bin" Size="414" />
+                <FileProperties FileName="OcclusionQueryVertexShader.bin" Size="1592" />
+                <FileProperties FileName="OneColorShader.bin" Size="985" />
+                <FileProperties FileName="ParticleBeamTrailVertexFactory.bin" Size="9613" />
+                <FileProperties FileName="ParticleSpriteVertexFactory.bin" Size="18332" />
+                <FileProperties FileName="PerFragmentMaskShader.bin" Size="1062" />
+                <FileProperties FileName="PNTriangles.bin" Size="6631" />
+                <FileProperties FileName="PointLightPixelShader.bin" Size="4168" />
+                <FileProperties FileName="PointLightVertexShader.bin" Size="6278" />
+                <FileProperties FileName="PositionOnlyDepthVertexShader.bin" Size="699" />
+                <FileProperties FileName="PostProcessCommon.bin" Size="4246" />
+                <FileProperties FileName="RadialBlurScreenShader.bin" Size="5604" />
+                <FileProperties FileName="Random.bin" Size="647" />
+                <FileProperties FileName="ResolvePixelShader.bin" Size="1386" />
+                <FileProperties FileName="ResolveVertexShader.bin" Size="554" />
+                <FileProperties FileName="RestoreColorDepthShader.bin" Size="2360" />
+                <FileProperties FileName="ScreenPixelShader.bin" Size="468" />
+                <FileProperties FileName="ScreenVertexShader.bin" Size="552" />
+                <FileProperties FileName="ShaderComplexityAccumulatePixelShader.bin" Size="529" />
+                <FileProperties FileName="ShaderComplexityApplyPixelShader.bin" Size="2692" />
+                <FileProperties FileName="ShadowDepthCommon.bin" Size="1197" />
+                <FileProperties FileName="ShadowDepthPixelShader.bin" Size="1857" />
+                <FileProperties FileName="ShadowDepthVertexShader.bin" Size="7961" />
+                <FileProperties FileName="ShadowProjectionCommon.bin" Size="16552" />
+                <FileProperties FileName="ShadowProjectionPixelShader.bin" Size="7486" />
+                <FileProperties FileName="ShadowProjectionVertexShader.bin" Size="595" />
+                <FileProperties FileName="SimpleElementColorChannelMaskPixelShader.bin" Size="1548" />
+                <FileProperties FileName="SimpleElementHitProxyPixelShader.bin" Size="754" />
+                <FileProperties FileName="SimpleElementPixelShader.bin" Size="6198" />
+                <FileProperties FileName="SimpleElementVertexShader.bin" Size="934" />
+                <FileProperties FileName="SimpleF32PixelShader.bin" Size="501" />
+                <FileProperties FileName="SimpleF32VertexShader.bin" Size="496" />
+                <FileProperties FileName="SpeedTreeBillboardVertexFactory.bin" Size="4691" />
+                <FileProperties FileName="SpeedTreeBranchVertexFactory.bin" Size="2624" />
+                <FileProperties FileName="SpeedTreeFrondVertexFactory.bin" Size="2912" />
+                <FileProperties FileName="SpeedTreeLeafCardVertexFactory.bin" Size="3105" />
+                <FileProperties FileName="SpeedTreeLeafMeshVertexFactory.bin" Size="2818" />
+                <FileProperties FileName="SpeedTreeVertexFactoryBase.bin" Size="12831" />
+                <FileProperties FileName="SphericalHarmonicCommon.bin" Size="6916" />
+                <FileProperties FileName="SphericalHarmonicLightPixelShader.bin" Size="2502" />
+                <FileProperties FileName="SphericalHarmonicLightVertexShader.bin" Size="5237" />
+                <FileProperties FileName="SplashScreenShader.bin" Size="1507" />
+                <FileProperties FileName="SpotLightPixelShader.bin" Size="4397" />
+                <FileProperties FileName="SpotLightVertexShader.bin" Size="6251" />
+                <FileProperties FileName="SubsurfaceScatteringCommon.bin" Size="1033" />
+                <FileProperties FileName="SubsurfaceScatteringPixelShader.bin" Size="7528" />
+                <FileProperties FileName="SubsurfaceScatteringVertexShader.bin" Size="610" />
+                <FileProperties FileName="TemporalAA.bin" Size="1999" />
+                <FileProperties FileName="TerrainVertexFactory.bin" Size="19588" />
+                <FileProperties FileName="Tessellation.bin" Size="444" />
+                <FileProperties FileName="TextureDensityShader.bin" Size="7420" />
+                <FileProperties FileName="TranslucencyPostRenderDepthPixelShader.bin" Size="1508" />
+                <FileProperties FileName="UberPostProcessBlendPixelShader.bin" Size="19763" />
+                <FileProperties FileName="UberPostProcessVertexShader.bin" Size="1314" />
+                <FileProperties FileName="VelocityShader.bin" Size="8485" />
+                <FileProperties FileName="Xbox360Common.bin" Size="500" />
+              </Files>
+            </FolderProperties>
+          </Folders>
+          <Files />
+        </FolderProperties>
+      </Folders>
+      <Files />
+    </FolderProperties>
+    <FolderProperties FolderName="UDKGame">
+      <Folders>
+        <FolderProperties FolderName="Splash">
+          <Folders>
+            <FolderProperties FolderName="PC">
+              <Folders />
+              <Files>
+                <FileProperties FileName="Forums.url" Size="47" />
+                <FileProperties FileName="Splash.bmp" Size="732056" />
+                <FileProperties FileName="UDN.url" Size="55" />
+              </Files>
+            </FolderProperties>
+          </Folders>
+          <Files />
+        </FolderProperties>
+        <FolderProperties FolderName="Config">
+          <Folders />
+          <Files>
+            <FileProperties FileName="DefaultCharInfo.ini" Size="4102" />
+            <FileProperties FileName="DefaultCompat.ini" Size="0" />
+            <FileProperties FileName="DefaultEditor.ini" Size="374" />
+            <FileProperties FileName="DefaultEditorKeyBindings.ini" Size="67" />
+            <FileProperties FileName="DefaultEditorUDK.ini" Size="2102" />
+            <FileProperties FileName="DefaultEditorUserSettings.ini" Size="575" />
+            <FileProperties FileName="DefaultEngine.ini" Size="5375" />
+            <FileProperties FileName="DefaultEngineUDK.ini" Size="9624" />
+            <FileProperties FileName="DefaultGame.ini" Size="24386" />
+            <FileProperties FileName="DefaultGameUDK.ini" Size="5439" />
+            <FileProperties FileName="DefaultInput.ini" Size="28339" />
+            <FileProperties FileName="DefaultInputCoverSystem.ini" Size="52551" />
+            <FileProperties FileName="DefaultInputDefaults.ini" Size="138" />
+            <FileProperties FileName="DefaultLightmass.ini" Size="61" />
+            <FileProperties FileName="DefaultUI.ini" Size="5017" />
+            <FileProperties FileName="DefaultWeapon.ini" Size="1418" />
+            <FileProperties FileName="DefaultWeaponDefaults.ini" Size="141" />
+          </Files>
+        </FolderProperties>
+        <FolderProperties FolderName="CookedPC">
+          <Folders>
+            <FolderProperties FolderName="GFx">
+              <Folders />
+              <Files>
+                <FileProperties FileName="UDKFrontEnd_SF.upk" Size="1243877" />
+              </Files>
+            </FolderProperties>
+            <FolderProperties FolderName="Maps">
+              <Folders />
+              <Files>
+                <FileProperties FileName="EnvyEntry.udk" Size="9364" />
+                <FileProperties FileName="UDK-UDKUltimate.udk" Size="331035" />
+                <FileProperties FileName="UDKFrontEndMap.udk" Size="3683638" />
+              </Files>
+            </FolderProperties>
+          </Folders>
+          <Files>
+            <FileProperties FileName="CharTextures.tfc" Size="9734102" />
+            <FileProperties FileName="Core.u" Size="87667" />
+            <FileProperties FileName="Engine.u" Size="3164271" />
+            <FileProperties FileName="GameFramework.u" Size="361995" />
+            <FileProperties FileName="GFxUI.u" Size="56907" />
+            <FileProperties FileName="GFxUIEditor.u" Size="3823" />
+            <FileProperties FileName="GlobalPersistentCookerData.upk" Size="276835" />
+            <FileProperties FileName="GlobalShaderCache-PC-D3D-SM3.bin" Size="669033" />
+            <FileProperties FileName="GlobalShaderCache-PC-D3D-SM5.bin" Size="1620265" />
+            <FileProperties FileName="GlobalShaderCache-PC-OpenGL.bin" Size="1527919" />
+            <FileProperties FileName="GuidCache.upk" Size="7704" />
+            <FileProperties FileName="IpDrv.u" Size="120947" />
+            <FileProperties FileName="Lighting.tfc" Size="717" />
+            <FileProperties FileName="OnlineSubsystemSteamworks.u" Size="84445" />
+            <FileProperties FileName="PersistentCookerShaderData.bin" Size="33587" />
+            <FileProperties FileName="RefShaderCache-PC-D3D-SM3.upk" Size="14505554" />
+            <FileProperties FileName="RefShaderCache-PC-D3D-SM5.upk" Size="32640985" />
+            <FileProperties FileName="RefShaderCache-PC-OpenGL.upk" Size="4105823" />
+            <FileProperties FileName="Startup.upk" Size="344717" />
+            <FileProperties FileName="Startup_LOC_INT.upk" Size="965803" />
+            <FileProperties FileName="Textures.tfc" Size="56893126" />
+            <FileProperties FileName="UDKBase.u" Size="194727" />
+            <FileProperties FileName="UDKBase_LOC_INT.upk" Size="1463045" />
+            <FileProperties FileName="UDKUltimate.u" Size="109312" />
+            <FileProperties FileName="UnrealEd.u" Size="179231" />
+            <FileProperties FileName="UTEditor.u" Size="995" />
+            <FileProperties FileName="UTGame.u" Size="23191555" />
+          </Files>
+        </FolderProperties>
+        <FolderProperties FolderName="Localization">
+          <Folders>
+            <FolderProperties FolderName="INT">
+              <Folders />
+              <Files>
+                <FileProperties FileName="GFxUI.int" Size="574" />
+                <FileProperties FileName="UDKGameUI.int" Size="14366" />
+                <FileProperties FileName="utgame.int" Size="111290" />
+                <FileProperties FileName="UTGameContent.int" Size="29672" />
+                <FileProperties FileName="UTGameUI.int" Size="81148" />
+              </Files>
+            </FolderProperties>
+          </Folders>
+          <Files />
+        </FolderProperties>
+        <FolderProperties FolderName="Movies">
+          <Folders />
+          <Files>
+            <FileProperties FileName="UDKFrontEnd.udk_loading.bik" Size="1529276" />
+            <FileProperties FileName="UE3_logo.bik" Size="4831844" />
+          </Files>
+        </FolderProperties>
+      </Folders>
+      <Files>
+        <FileProperties FileName="PCTOC.txt" Size="433417" />
+        <FileProperties FileName="PCTOC_CHN.txt" Size="1100" />
+        <FileProperties FileName="PCTOC_JPN.txt" Size="1260" />
+        <FileProperties FileName="PCTOC_KOR.txt" Size="1102" />
+      </Files>
+    </FolderProperties>
+  </Folders>
+  <Files>
+    <FileProperties FileName="Binaries\UnSetup.Manifests.xml" Size="6533" />
+    <FileProperties FileName="Binaries/UnSetup.Game.xml" Size="341" />
+  </Files>
+</FolderProperties>

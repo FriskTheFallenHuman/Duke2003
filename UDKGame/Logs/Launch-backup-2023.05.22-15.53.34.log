@@ -1,0 +1,542 @@
+Log: Log file open, 05/22/23 15:51:26
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.56] Init: Computer: JUSTIN-MAINPC
+[0000.56] Init: User: justi
+[0000.56] Init: CPU Page size=4096, Processors=32
+[0000.56] Init: High frequency timer resolution =10.000000 MHz
+[0000.56] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.56] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.61] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.61] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.62] Init: Object subsystem initialized
+[0000.62] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.62] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.62] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.62] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.62] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.62] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.62] DevSave:    Loading value for Extensions from [Core.System]
+[0000.62] DevSave:    Loading value for Suppress from [Core.System]
+[0000.62] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.62] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.62] DevSave:    Loading value for Paths from [Core.System]
+[0000.62] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.62] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.62] DevSave:    Loading value for CachePath from [Core.System]
+[0000.62] DevSave:    Loading value for SavePath from [Core.System]
+[0000.62] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.62] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.62] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.32] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.32] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.32] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.39] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.55] Log: PhysX GPU Support: DISABLED
+[0019.56] Init: Initializing FaceFX...
+[0019.56] Init: FaceFX 1.7.4 initialized.
+[0022.38] Log: Missing cached shader map for material FogVolumeMaterial, compiling.
+[0022.48] Log: Missing cached shader map for material ImageReflectionPreview, compiling.
+[0022.56] Log: Missing cached shader map for material NodeBuddy_Red1, compiling.
+[0022.69] Log: Missing cached shader map for material NodeBuddy_Text2, compiling.
+[0022.76] Log: Missing cached shader map for material NodeBuddy_Target, compiling.
+[0022.87] Log: Missing cached shader map for material NodeBuddy_Text1, compiling.
+[0022.98] Log: Missing cached shader map for material NodeBuddy_White1, compiling.
+[0023.10] Log: Missing cached shader map for material DefaultMaterial, compiling.
+[0025.49] Log: Missing cached shader map for material ThumbnailBack, compiling.
+[0025.53] Log: Missing cached shader map for material ThumbnailSolid, compiling.
+[0026.22] Log: Missing cached shader map for material M_WP_RocketLauncher_Explosion_SubUV_Z_Dark, compiling.
+[0026.32] Log: Missing cached shader map for material M_Soft_Flair_rocket, compiling.
+[0026.43] Log: Missing cached shader map for material M_Lens_Flair_hard_rocket, compiling.
+[0026.54] Log: Missing cached shader map for material M_FireTrail, compiling.
+[0026.66] Log: Missing cached shader map for material M_EFX_Explo_PaintOver, compiling.
+[0026.78] Log: Missing cached shader map for material M_EFX_Dust_Ground_Bias2, compiling.
+[0026.89] Log: Missing cached shader map for material M_EFX_Dust_Ground_Bias, compiling.
+[0027.00] Log: Missing cached shader map for material M_EFX_Smoke_Distort_Z, compiling.
+[0027.12] Log: Missing cached shader map for material M_EFX_Sparks_01, compiling.
+[0027.25] Log: Missing cached shader map for material M_Envy_Rocks, compiling.
+[0027.31] Log: Missing cached shader map for material M_EFX_Dirt_ShootUp_01, compiling.
+[0027.44] Log: Missing cached shader map for material M_Explo_Dirt_Color_Shift, compiling.
+[0027.56] Log: Missing cached shader map for material M_HU_Supports_SM_IbeamA, compiling.
+[0027.76] Log: Missing cached shader map for material M_Fire_001, compiling.
+[0027.90] Log: Missing cached shader map for material M_Explo_HIGH_Sub_UV_Smoke, compiling.
+[0028.00] Log: Missing cached shader map for material M_Explo_HIGH_Sub_UV, compiling.
+[0028.07] Log: Missing cached shader map for material M_Explo_Back, compiling.
+[0028.20] Log: Missing cached shader map for material M_Scorpion_large_Flair, compiling.
+[0028.31] Log: Missing cached shader map for material M_EFX_Explo_PaintOver_Translucent, compiling.
+[0028.41] Log: Missing cached shader map for material M_EFX_Energy_Swirl_BumpOffset_01, compiling.
+[0028.54] Log: Missing cached shader map for material M_EFX_Lightning_3_bright_2, compiling.
+[0028.64] Log: Missing cached shader map for material M_Udamage_Flare01, compiling.
+[0028.75] Log: Missing cached shader map for material M_Deployables_EMP_Mine_Arc01, compiling.
+[0028.85] Log: Missing cached shader map for material M_ShieldBelt_Blue, compiling.
+[0028.94] Log: Missing cached shader map for material M_ShieldBelt_Overlay, compiling.
+[0029.02] Log: Missing cached shader map for material M_ShieldBelt_Red, compiling.
+[0029.10] Log: Missing cached shader map for material M_Water_Splash03, compiling.
+[0029.26] Log: Missing cached shader map for material M_FX_Blood_Splatter_07_new, compiling.
+[0029.40] Log: Missing cached shader map for material M_FX_Blood_Splatter_04_new, compiling.
+[0029.53] Log: Missing cached shader map for material M_FX_Blood_Splatter_02_new, compiling.
+[0029.67] Log: Missing cached shader map for material M_FX_Blood_Splatter_06_new, compiling.
+[0029.81] Log: Missing cached shader map for material M_Blood_mist, compiling.
+[0029.95] Log: Missing cached shader map for material M_WP_Enforcers_01, compiling.
+[0030.23] Log: Missing cached shader map for material M_WP_RocketLauncher_Smoke_Distort, compiling.
+[0030.35] Log: Missing cached shader map for material M_EFX_MuzzleFlash_Core, compiling.
+[0030.49] Log: Missing cached shader map for material M_EFX_MuzzleFlash_Side, compiling.
+[0030.56] Log: Missing cached shader map for material M_EFX_Soft_Flair, compiling.
+[0030.68] Log: Missing cached shader map for material M_WP_LinkGun_PulseBeam, compiling.
+[0030.77] Log: Missing cached shader map for material M_WP_LinkGun_PulseBeam_Trans, compiling.
+[0030.85] Log: Missing cached shader map for material M_WP_Linkgun_BeamMaterial, compiling.
+[0030.93] Log: Missing cached shader map for material M_FX_DecalParent_Simple_Multiply, compiling.
+[0031.02] Log: Missing cached shader map for material M_WP_Link_Splash, compiling.
+[0031.14] Log: Missing cached shader map for material M_EFX_Flare_Burst_01, compiling.
+[0031.26] Log: Missing cached shader map for material WP_Link_MF_Cone_mat, compiling.
+[0031.39] Log: Missing cached shader map for material M_EFX_CameraFlare_01_Z_Bias, compiling.
+[0031.51] Log: Missing cached shader map for material M_WP_Link_Beam_Impact_Ground, compiling.
+[0031.61] Log: Missing cached shader map for material M_FootStep_Mesh, compiling.
+[0031.73] Log: Missing cached shader map for material M_WP_Linkgun_Connection, compiling.
+[0031.82] Log: Missing cached shader map for material M_FX_BloodDecal_FadeViaDissolving, compiling.
+[0031.91] Log: Missing cached shader map for material M_UI_HUD_Icons01, compiling.
+[0031.98] Log: Missing cached shader map for material M_UI_HUD_DamageDir, compiling.
+[0032.05] Log: Missing cached shader map for material CharPortrait, compiling.
+[0032.13] Log: Missing cached shader map for material M_CH_All_Base_02, compiling.
+[0032.54] Log: Missing cached shader map for material M_Dark_Smoke_Movement, compiling.
+[0032.66] Log: Missing cached shader map for material M_EFX_CameraFlare_01, compiling.
+[0032.77] Log: Missing cached shader map for material M_EFX_ShockMuzzleFlash, compiling.
+[0032.89] Log: Missing cached shader map for material M_Water_Splash_01_Z, compiling.
+[0033.02] Log: Missing cached shader map for material M_FX_HoloSquare, compiling.
+[0033.13] Log: Missing cached shader map for material M_FX_HeadshotShield_Fragment, compiling.
+[0033.25] Log: Missing cached shader map for material M_Dist_flair_shock, compiling.
+[0033.38] Log: Missing cached shader map for material M_WP_Translocator_Flare01, compiling.
+[0033.51] Log: Missing cached shader map for material M_Energy_tower_Arks, compiling.
+[0033.63] Log: Missing cached shader map for material M_Ring, compiling.
+[0033.75] Log: Missing cached shader map for material M_WP_Enforcer_hit, compiling.
+[0033.90] Log: Missing cached shader map for material M_warp_Ring_out, compiling.
+[0034.03] Log: Missing cached shader map for material M_Shock_colorball_mesh_sprite, compiling.
+[0034.15] Log: Missing cached shader map for material M_WP_ShockRifle_EnergyBall_SubUV, compiling.
+[0034.29] Log: Missing cached shader map for material M_Shock_colorball_mesh_sphere, compiling.
+[0034.42] Log: Missing cached shader map for material M_WP_ShockRifle_Ring, compiling.
+[0034.55] Log: Missing cached shader map for material M_EFX_Smoke_Dark_02, compiling.
+[0034.68] Log: Missing cached shader map for material M_EFX_Energy_Arc_SubUV, compiling.
+[0034.79] Log: Missing cached shader map for material M_EFX_Flair_Multi_Color3, compiling.
+[0034.92] Log: Missing cached shader map for material M_Lightning_Curve, compiling.
+[0035.04] Log: Missing cached shader map for material M_FX_BloodDecal_FadeViaDissolving, compiling.
+[0035.14] Log: Missing cached shader map for material M_FX_Blood_Splatter_02, compiling.
+[0035.29] Log: Missing cached shader map for material M_FX_Blood_Splatter_01, compiling.
+[0035.38] Log: Missing cached shader map for material M_FX_BloodDecal_Medium01, compiling.
+[0035.68] Log: Missing cached shader map for material M_FX_Blood_Splatter_03_new, compiling.
+[0035.83] Log: Missing cached shader map for material M_FX_Blood_Splatter_04_smooth, compiling.
+[0035.97] Log: Missing cached shader map for material M_Blood_Splat, compiling.
+[0036.12] Log: Missing cached shader map for material M_FX_Blood_Splatter_04_new_less_Distort, compiling.
+[0036.27] Log: Missing cached shader map for material M_CH_Gibs_Gore01, compiling.
+[0036.39] Log: Missing cached shader map for material M_CH_NEWGore, compiling.
+[0036.51] Log: Missing cached shader map for material M_EFX_Explo_Frames03, compiling.
+[0036.62] Log: Missing cached shader map for material MapRing_Mat, compiling.
+[0036.69] Log: Missing cached shader map for material M_WP_RocketLauncher_ExhaustCone, compiling.
+[0036.80] Log: Missing cached shader map for material M_Smoke_001_Zbias, compiling.
+[0036.95] Log: Missing cached shader map for material M_Spark_Flyup, compiling.
+[0037.09] Log: Missing cached shader map for material M_WP_Enforcers_Hard_Flair_yellow, compiling.
+[0037.24] Log: Missing cached shader map for material M_WP_Enforcer_Smoke_thick, compiling.
+[0037.39] Log: Missing cached shader map for material M_Distortion_fire, compiling.
+[0037.52] Log: Missing cached shader map for material M_WP_Rocketlauncher_Impact, compiling.
+[0037.65] Log: Missing cached shader map for material M_WP_RocketLauncher_Rocket_flake_lit, compiling.
+[0037.71] Log: Missing cached shader map for material M_EFX_SmokeDark_FakeLighting_Test, compiling.
+[0037.82] Log: Missing cached shader map for material M_EFX_Energy_Loop_Mesh, compiling.
+[0037.94] Log: Missing cached shader map for material M_Link_Tube_glow_Dup, compiling.
+[0038.04] Log: Missing cached shader map for material M_Link_Tube_glow, compiling.
+[0038.14] Log: Missing cached shader map for material M_Trail_spark, compiling.
+[0038.27] Log: Missing cached shader map for material M_EFX_SparkCluster02, compiling.
+[0038.41] Log: Missing cached shader map for material M_EFX_Flare_Long_Red_01, compiling.
+[0038.55] Log: Missing cached shader map for material M_Pickups_Base_Health_Glow, compiling.
+[0038.66] Log: Missing cached shader map for material M_EFX_Energy_Loop_Scroll_01, compiling.
+[0038.77] Log: Missing cached shader map for material M_Willo_Wisp_cone, compiling.
+[0038.92] Log: Missing cached shader map for material M_Pickups_Jump_Pad_Squares, compiling.
+[0039.03] Log: Missing cached shader map for material M_Pickups_Jump_Pad_Gas, compiling.
+[0039.16] Log: Missing cached shader map for material ScreenMaterial, compiling.
+[0039.20] Log: Missing cached shader map for material Baird_MHead01_V01, compiling.
+[0039.36] Log: Missing cached shader map for material ShadowTex_Mat, compiling.
+[0039.47] Log: Missing cached shader map for material M_WP_Linkgun_smoke_hole, compiling.
+[0039.59] Log: Missing cached shader map for material Grunt_MBody01_V01, compiling.
+[0039.73] Log: Missing cached shader map for material Baird_MBody01_V01, compiling.
+[0039.87] Log: Missing cached shader map for material Hofman_MBody01_V01, compiling.
+[0039.99] Log: Missing cached shader map for material Hofman_MHead01_V01, compiling.
+[0040.10] Log: Missing cached shader map for material Locust4_Mbody01_V01, compiling.
+[0040.23] Log: Missing cached shader map for material Dom_MBody01_V01, compiling.
+[0040.35] Log: Missing cached shader map for material Dom_MHead01_V01, compiling.
+[0040.52] Log: Missing cached shader map for material Gus_MBody01_V01, compiling.
+[0040.64] Log: Missing cached shader map for material Gus_MHead01_V01, compiling.
+[0040.77] Log: Missing cached shader map for material Locust1_Mbody01_V01, compiling.
+[0040.89] Log: Missing cached shader map for material Grunt_Helmet01_V01, compiling.
+[0041.02] Log: Missing cached shader map for material Grunt_MHead01_V01, compiling.
+[0041.14] Log: Missing cached shader map for material Grunt_ShoPad_V01, compiling.
+[0041.26] Log: Missing cached shader map for material Locust2_Mbody01_V01, compiling.
+[0041.39] Log: Missing cached shader map for material Locust4_Mhead01_V01, compiling.
+[0041.52] Log: Missing cached shader map for material UT3_Model_MarcusFenix_Mbody01_V01, compiling.
+[0041.64] Log: Missing cached shader map for material UT3_Model_MarcusFenix_Mhead01_V01, compiling.
+[0041.78] Log: Missing cached shader map for material M_Pickups_Ammo_Shader_Medium, compiling.
+[0041.97] Log: Missing cached shader map for material M_Ammo_LinkGun, compiling.
+[0042.17] Log: Missing cached shader map for material M_WP_Stinger, compiling.
+[0042.27] Log: Missing cached shader map for material M_Ammo_ShockRifle, compiling.
+[0042.44] Log: Missing cached shader map for material M_Pickups_Health_Small, compiling.
+[0042.61] Log: Missing cached shader map for material M_Pickups_Jump_Pad, compiling.
+[0042.75] Log: Missing cached shader map for material M_Pickups_WeaponBase, compiling.
+[0042.89] Log: Missing cached shader map for material M_WP_Enforcers_Hard_Flair, compiling.
+[0043.04] Log: Missing cached shader map for material MI_Ammo_Enforcer, compiling.
+[0043.13] Log: Missing cached shader map for material M_Ammo_SniperRifle, compiling.
+[0043.21] Log: Missing cached shader map for material M_WP_Stinger_Cord, compiling.
+[0043.32] Log: Missing cached shader map for material M_Air_Wind_Ball, compiling.
+[0043.39] Log: Missing cached shader map for material M_BloodShaderParent, compiling.
+[0043.54] Log: Missing cached shader map for material M_FX_MainMenu, compiling.
+[0043.57] Log: Missing cached shader map for material Pistol, compiling.
+[0043.69] Log: Missing cached shader map for material RIFLEASSALTO, compiling.
+[0043.81] Log: Missing cached shader map for material Sniper, compiling.
+[0043.93] Log: Missing cached shader map for material M_Instagib_DebrisChunk01, compiling.
+[0044.07] Log: Missing cached shader map for material M_Sphere_link_impact, compiling.
+[0044.21] Log: Missing cached shader map for material M_WP_Enforcers_Impact_light, compiling.
+[0044.34] Log: Missing cached shader map for material M_WP_LinkGun_MF_3_new, compiling.
+[0044.47] Log: Missing cached shader map for material M_WP_LinkGun_ProjectileTrail, compiling.
+[0044.60] Log: Missing cached shader map for material M_WP_Linkgun_Soft_Lite_Flair, compiling.
+[0044.72] Log: Missing cached shader map for material MI_WP_ALL_Master, compiling.
+[0044.92] Log: Missing cached shader map for material M_Envy_Rocks_burn, compiling.
+[0044.99] Log: Missing cached shader map for material M_Deployables_EMP_Mine_LightningMesh, compiling.
+[0045.06] Log: Missing cached shader map for material M_Shock_colorball_mesh_sphere_02, compiling.
+[0045.13] Log: Missing cached shader map for material M_warp_Ring_out2, compiling.
+[0045.20] Log: Missing cached shader map for material M_Combo_Ring, compiling.
+[0045.28] Log: Missing cached shader map for material M_CH_NEWGore_Fake_Lit, compiling.
+[0045.33] Log: Missing cached shader map for material M_Gib_Gore_Fakelit, compiling.
+[0045.38] Log: Missing cached shader map for material M_Pickups_WeaponBase_Glow, compiling.
+[0045.47] Log: Missing cached shader map for material Duke_Hand_Material, compiling.
+[0045.59] Log: Missing cached shader map for material Master_Weapon_Shader, compiling.
+[0045.70] Log: Missing cached shader map for material BlinkingCaret, compiling.
+[0045.78] Log: Missing cached shader map for material CubeMaterial, compiling.
+[0045.83] Log: Missing cached shader map for material DefaultDecalMaterial, compiling.
+[0046.23] Log: Missing cached shader map for material DefaultParticle, compiling.
+[0046.44] Log: Missing cached shader map for material EditorBrushMaterial, compiling.
+[0046.51] Log: Missing cached shader map for material EmissiveTexturedMaterial, compiling.
+[0046.54] Log: Missing cached shader map for material PPVolumeMaterial, compiling.
+[0046.60] Log: Missing cached shader map for material RemoveSurfaceMaterial, compiling.
+[0046.63] Log: Missing cached shader map for material BlackUnlitMaterial, compiling.
+[0046.66] Log: Missing cached shader map for material BoneWeightMaterial, compiling.
+[0046.77] Log: Missing cached shader map for material GeomMaterial, compiling.
+[0046.84] Log: Missing cached shader map for material HeatmapMaterial, compiling.
+[0046.91] Log: Missing cached shader map for material LevelColorationLitMaterial, compiling.
+[0048.85] Log: Missing cached shader map for material LevelColorationUnlitMaterial, compiling.
+[0049.67] Log: Missing cached shader map for material M_TextureDefinedSpecularReflection, compiling.
+[0049.80] Log: Missing cached shader map for material LightmapResolutionMaterial, compiling.
+[0052.09] Log: Missing cached shader map for material MAT_LevelColorationLitLightmapUVs, compiling.
+[0054.10] Log: Missing cached shader map for material MaterialError_Mat, compiling.
+[0056.33] Log: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling.
+[0058.46] Log: Missing cached shader map for material ShadedLevelColorationUnlitMaterial, compiling.
+[0059.32] Log: Missing cached shader map for material TangentColorMaterial, compiling.
+[0059.42] Log: Missing cached shader map for material TerrainCollisionMaterial, compiling.
+[0060.63] Log: Missing cached shader map for material M_Sand_Master_VertPaint, compiling.
+[0060.71] Log: Missing cached shader map for material TexturePaint_2Tex_Color, compiling.
+[0060.90] Log: Missing cached shader map for material VertexColorMaterial, compiling.
+[0060.97] Log: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling.
+[0061.03] Log: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling.
+[0061.08] Log: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling.
+[0061.14] Log: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling.
+[0061.18] Log: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling.
+[0061.23] Log: Missing cached shader map for material VertexPaint_2Tex_Color, compiling.
+[0061.40] Log: Missing cached shader map for material VertexPaint_4Tex, compiling.
+[0061.57] Log: Missing cached shader map for material WireframeMaterial, compiling.
+[0062.47] Log: Missing cached shader map for material M_FX_HitEffect, compiling.
+[0062.49] Log: Missing cached shader map for material M_Vingette, compiling.
+[0062.56] Log: Missing cached shader map for material M_FilmGrain, compiling.
+[0062.64] Init: Finished loading startup packages in 40.50 seconds
+[0062.65] Log: 76363 objects as part of root set at end of initial load.
+[0062.65] Log: 0 out of 0 bytes used by permanent object pool.
+[0062.66] Log: Supported Consoles:
+[0062.66] Log:   PC
+[0062.66] Log: Initializing Engine...
+[0062.66] Log: Missing cached shader map for material Tick_Mat, compiling.
+[0062.73] Log: Missing cached shader map for material Cross_Mat, compiling.
+[0062.81] Log: Missing cached shader map for material ProcBuildingSimpleMaterial, compiling.
+[0062.90] Log: Encountered missing default brush - spawning new one
+[0062.90] Init: UEngine initialized
+[0062.90] Log: Primary PhysX scene will be in software.
+[0062.90] Log: Creating Primary PhysX Scene.
+[0062.91] Init: Transaction tracking system initialized
+[0063.19] Log: Missing cached shader map for material M_CTF_Flag_IG_FlagBlue, compiling.
+[0063.38] Log: Missing cached shader map for material M_Pickups_Base_Flag, compiling.
+[0063.51] Log: Missing cached shader map for material M_shock_Ring_Band, compiling.
+[0063.63] Log: Missing cached shader map for material M_Shock_Flair_Multi_Color, compiling.
+[0063.76] Log: Missing cached shader map for material M_WP_ShockRifle_EnergyBall_SubUV2, compiling.
+[0063.87] Log: Missing cached shader map for material M_Instagib_Energy_01, compiling.
+[0064.00] Log: Missing cached shader map for material M_Berserk_Overlay, compiling.
+[0064.09] Log: Missing cached shader map for material M_Raptor_MF_Splat, compiling.
+[0064.22] Log: Missing cached shader map for material M_VH_Cicada_MissileHead, compiling.
+[0064.35] Log: Missing cached shader map for material M_Cicada_trail_Smoke, compiling.
+[0064.49] Log: Missing cached shader map for material M_Pickup_Health_Medium, compiling.
+[0064.67] Log: Missing cached shader map for material M_Fire_Chunks, compiling.
+[0064.80] Log: Missing cached shader map for material M_JumpBoots, compiling.
+[0065.00] Log: Missing cached shader map for material M_UN_Pickup_Thigh, compiling.
+[0065.20] Log: Missing cached shader map for material M_Pickups_Udamage_Base, compiling.
+[0065.37] Log: Missing cached shader map for material M_EFX_Flare_Round_Hard_01, compiling.
+[0065.50] Log: Missing cached shader map for material M_VH_Fury_Exhaust, compiling.
+[0065.63] Log: Missing cached shader map for material M_Pickups_Udamage_Add, compiling.
+[0065.70] Log: Missing cached shader map for material M_Soft_Flair_Manta_5, compiling.
+[0065.83] Log: Missing cached shader map for material M_VH_Manta_ShotShell, compiling.
+[0065.95] Log: Missing cached shader map for material M_Flair_R_Z, compiling.
+[0066.04] Log: Missing cached shader map for material M_WP_RocketLanucher_Explosion_SubUV_Z_New, compiling.
+[0066.15] Log: Missing cached shader map for material M_VH_Manta_Blades01, compiling.
+[0066.26] Log: Missing cached shader map for material M_Soft_Flair_Manta_4, compiling.
+[0066.39] Log: Missing cached shader map for material M_FX_StreamStreak, compiling.
+[0066.51] Log: Missing cached shader map for material M_Darktest_Manta_smoke, compiling.
+[0066.64] Log: Missing cached shader map for material M_Raptor_SparkSpurt, compiling.
+[0066.76] Log: Missing cached shader map for material M_Manta_Gun_Impact, compiling.
+[0066.86] Log: Missing cached shader map for material M_Manta_EnergyFog, compiling.
+[0066.97] Log: Missing cached shader map for material M_Scorpion_FireBall, compiling.
+[0067.10] Log: Missing cached shader map for material M_Scorpion_Bomb, compiling.
+[0067.17] Log: Missing cached shader map for material M_EFX_3d_Ray_2, compiling.
+[0067.30] Log: Missing cached shader map for material M_Energy_projectile_Mass, compiling.
+[0067.43] Log: Missing cached shader map for material M_Scorpion_Gun_Impact_red, compiling.
+[0067.55] Log: Missing cached shader map for material M_EFX_3d_Ray_2_Red, compiling.
+[0067.69] Log: Missing cached shader map for material M_EFX_Smoke_Distort, compiling.
+[0067.80] Log: Missing cached shader map for material M_VH_Manta_GroundEffect2_Z, compiling.
+[0067.92] Log: Missing cached shader map for material M_UN_Pickup_Armor, compiling.
+[0068.11] Log: Missing cached shader map for material M_T_Pickups_Teleporter_Portal_Destination, compiling.
+[0068.21] Log: Missing cached shader map for material M_UDamage_Overlay, compiling.
+[0068.31] Log: Missing cached shader map for material M_VH_All_Axon_Base, compiling.
+[0069.01] Log: Missing cached shader map for material M_VH_Burnout, compiling.
+[0070.49] Log: Missing cached shader map for material M_Beam, compiling.
+[0070.58] Log: Missing cached shader map for material M_EFX_Flare_Spiked_Red_01, compiling.
+[0070.71] Log: Missing cached shader map for material M_VH_Cicada_ExhaustCone, compiling.
+[0070.85] Log: Missing cached shader map for material M_VH_Cicada_Booster_heat, compiling.
+[0070.95] Log: Missing cached shader map for material M_EFX_Smokeball, compiling.
+[0071.10] Log: Missing cached shader map for material M_VH_Hoverboard_jet, compiling.
+[0071.25] Log: Missing cached shader map for material M_Rocket_light, compiling.
+[0071.39] Log: Missing cached shader map for material M_Energy_Mesh_Mat, compiling.
+[0071.51] Log: Missing cached shader map for material M_CTF_Flag_IronGuard_Flare, compiling.
+[0071.67] Log: Missing cached shader map for material M_Soft_Flair_Manta_3, compiling.
+[0071.85] Log: Missing cached shader map for material M_Fan_burn_Mesh_Distort, compiling.
+[0071.99] Log: Missing cached shader map for material M_Manta_boost_soft, compiling.
+[0072.11] Log: Missing cached shader map for material M_Manta_D_Smoke_2, compiling.
+[0072.23] Log: Missing cached shader map for material M_Manta_D_Smoke, compiling.
+[0072.72] Log: Missing cached shader map for material M_Instagib_Energy_01, compiling.
+[0073.63] Log: Missing cached shader map for material M_VH_Scorpion_BoostTrail, compiling.
+[0073.73] Log: Missing cached shader map for material M_VH_Scorpion_Boost02, compiling.
+[0073.87] Log: Missing cached shader map for material M_VH_Scorpion_Boost01, compiling.
+[0074.01] Log: Missing cached shader map for material Mat_dirt_02, compiling.
+[0074.15] Log: Missing cached shader map for material M_VH_Snow, compiling.
+[0074.29] Log: Missing cached shader map for material M_Flagbase_LightFlare, compiling.
+[0074.42] Log: Missing cached shader map for material M_Flagbase_Lightcone, compiling.
+[0074.55] Log: Missing cached shader map for material M_T_Pickups_Teleporter_Portal_DestFingers, compiling.
+[0074.67] Log: Missing cached shader map for material M_T_Pickups_Teleporter_Portal_Base, compiling.
+[0074.80] Log: Missing cached shader map for material M_Raptor_Soft_Lite_Flair, compiling.
+[0074.93] Log: Missing cached shader map for material M_VH_EnergyRing, compiling.
+[0075.05] Log: Missing cached shader map for material M_FX_GenExplosionFlash, compiling.
+[0075.19] Log: Missing cached shader map for material M_Darktest, compiling.
+[0075.33] Log: Missing cached shader map for material M_WP_RocketLauncher_ExplosionFrames_deleteme, compiling.
+[0075.45] Log: Missing cached shader map for material M_EFX_Beam_EnergyScroll_03, compiling.
+[0075.54] Log: Missing cached shader map for material M_UDamage_Lightning, compiling.
+[0075.67] Log: Missing cached shader map for material M_UDamage_LightCone, compiling.
+[0075.80] Log: Missing cached shader map for material M_EFX_Lightning, compiling.
+[0075.92] Log: Missing cached shader map for material M_EFX_Flare_Long_Blue_01, compiling.
+[0076.06] Log: Missing cached shader map for material M_EFX_Energy_Swirl_BumpOffset_02, compiling.
+[0076.19] Log: Missing cached shader map for material M_EFX_Beam_EnergyFlare_Centered, compiling.
+[0076.28] Log: Missing cached shader map for material Explo_MH_Mat_Dup, compiling.
+[0076.42] Log: Missing cached shader map for material M_EFX_Beam_EnergyCore, compiling.
+[0076.54] Log: Missing cached shader map for material M_CTF_Flag_IG_Pole, compiling.
+[0076.72] Log: Missing cached shader map for material M_CTF_Flag_IG_FlagRed, compiling.
+[0076.92] Log: Missing cached shader map for material M_Armor_ShieldBelt, compiling.
+[0077.12] Log: Missing cached shader map for material M_Pickups_Base_Armor, compiling.
+[0077.26] Log: Missing cached shader map for material M_Pickups_Base_Powerup, compiling.
+[0077.40] Log: Missing cached shader map for material M_Pickups_Berserk, compiling.
+[0077.62] Log: Missing cached shader map for material M_Pickups_Base_Health_Large, compiling.
+[0077.75] Log: Missing cached shader map for material M_Pickups_Health_Large_Keg, compiling.
+[0077.93] Log: Missing cached shader map for material M_WP_ShockRifle_Softlight_Z2, compiling.
+[0078.09] Log: Missing cached shader map for material M_Exp_Warp_Shock, compiling.
+[0078.23] Log: Missing cached shader map for material M_EFX_Distortion_Noise_01, compiling.
+[0078.37] Log: Missing cached shader map for material M_Distortion_mesh, compiling.
+[0078.50] Log: Missing cached shader map for material M_VH_Scorpion_Damaged, compiling.
+[0078.63] Log: Missing cached shader map for material M_WP_RocketLauncher, compiling.
+[0078.80] Log: Missing cached shader map for material M_SK_VH_Hoverboard, compiling.
+[0078.97] Log: Missing cached shader map for material M_GP_Ons_Weapon_Locker, compiling.
+[0079.11] Log: Missing cached shader map for material M_WP_ShockRifle_Impact, compiling.
+[0079.24] Log: Missing cached shader map for material M_Shock_colorball_mesh, compiling.
+[0079.37] Log: Missing cached shader map for material M_WP_ShockRifle_Softlight_2, compiling.
+[0079.49] Log: Missing cached shader map for material M_Pickups_Base_Teleporter_Swirl, compiling.
+[0079.55] Log: Missing cached shader map for material M_Shock_Flair_Multi_Color_2, compiling.
+[0079.68] Log: Missing cached shader map for material M_Shock_Flair_Multi_Color_mix, compiling.
+[0079.76] Log: Missing cached shader map for material M_WP_ShockRifle_Panning_Beam, compiling.
+[0079.84] Log: Missing cached shader map for material M_WP_ShockRifle_1P, compiling.
+[0079.98] Log: Missing cached shader map for material M_VH_Beserk, compiling.
+[0080.05] Log: Missing cached shader map for material M_VH_UDamage, compiling.
+[0080.12] Log: Missing cached shader map for material M_Scorpion_Bomb_Red, compiling.
+[0080.16] Log: Missing cached shader map for material Bio_Blob_Mat, compiling.
+[0080.27] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0080.28] Log: Working around XDK XAudio2 regression: TRUE
+[0080.29] Init: XAudio2Device initialized.
+[0080.77] Init: Client initialized
+[0080.77] Init: Editor engine initialized
+[0080.78] Log: Missing cached shader map for material CASC_BackgroundCube_MAT, compiling.
+[0080.81] Log: Missing cached shader map for material CASC_CurveEd_MAT, compiling.
+[0080.88] Log: Missing cached shader map for material CASC_ModuleDisable_MAT, compiling.
+[0080.98] Log: Missing cached shader map for material CASC_ModuleEnable_MAT, compiling.
+[0081.10] Log: Missing cached shader map for material CASC_RenderCross_MAT, compiling.
+[0081.21] Log: Missing cached shader map for material CASC_RenderNone_MAT, compiling.
+[0081.32] Log: Missing cached shader map for material CASC_RenderNormal_MAT, compiling.
+[0081.43] Log: Missing cached shader map for material CASC_RenderPoint_MAT, compiling.
+[0081.55] Log: Missing cached shader map for material CheckMaterial, compiling.
+[0081.62] Log: Missing cached shader map for material CovergroupIcon_Mat, compiling.
+[0081.69] Log: Missing cached shader map for material Frac_ElementMaterial, compiling.
+[0081.76] Log: Missing cached shader map for material GridMaterial, compiling.
+[0081.82] Log: Missing cached shader map for material MAT_EnableTrack_Mat, compiling.
+[0081.90] Log: Missing cached shader map for material MAT_ColorTrack_Mat, compiling.
+[0081.97] Log: Missing cached shader map for material MAT_Groups_Anim_Mat, compiling.
+[0082.06] Log: Missing cached shader map for material MAT_Groups_AudioMaster_Mat, compiling.
+[0082.16] Log: Missing cached shader map for material MAT_Groups_Director_Mat, compiling.
+[0082.25] Log: Missing cached shader map for material MAT_Groups_Event_Mat, compiling.
+[0082.34] Log: Missing cached shader map for material MAT_Groups_Fade_Mat, compiling.
+[0082.41] Log: Missing cached shader map for material MAT_Groups_Float_Mat, compiling.
+[0082.51] Log: Missing cached shader map for material MAT_Groups_Graph_Off_Mat, compiling.
+[0082.59] Log: Missing cached shader map for material MAT_Groups_Graph_On_Mat, compiling.
+[0082.65] Log: Missing cached shader map for material MAT_Groups_Left_Off_Mat, compiling.
+[0082.74] Log: Missing cached shader map for material MAT_Groups_Left_On_Mat, compiling.
+[0082.84] Log: Missing cached shader map for material MAT_Groups_Move_Mat, compiling.
+[0082.93] Log: Missing cached shader map for material MAT_Groups_ParticleReplay_Mat, compiling.
+[0083.02] Log: Missing cached shader map for material MAT_Groups_Right_Off_Mat, compiling.
+[0083.12] Log: Missing cached shader map for material MAT_Groups_Right_On_Mat, compiling.
+[0083.22] Log: Missing cached shader map for material MAT_Groups_Slomo_Mat, compiling.
+[0083.32] Log: Missing cached shader map for material MAT_Groups_Sound_Mat, compiling.
+[0083.42] Log: Missing cached shader map for material MAT_Groups_Toggle_Mat, compiling.
+[0083.51] Log: Missing cached shader map for material MAT_Groups_Trajectory_Off_Mat, compiling.
+[0083.58] Log: Missing cached shader map for material MAT_Groups_Trajectory_On_Mat, compiling.
+[0083.66] Log: Missing cached shader map for material MAT_Groups_Vector_Mat, compiling.
+[0083.76] Log: Missing cached shader map for material MAT_Groups_View_Off_Mat, compiling.
+[0083.86] Log: Missing cached shader map for material MAT_Groups_View_On_Mat, compiling.
+[0083.95] Log: Missing cached shader map for material MAT_Groups_Visibility_Mat, compiling.
+[0084.04] Log: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling.
+[0084.11] Log: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling.
+[0084.17] Log: Missing cached shader map for material PhAT_JointLimitMaterial, compiling.
+[0084.24] Log: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling.
+[0084.30] Log: Missing cached shader map for material PhAT_UnselectedMaterial, compiling.
+[0084.37] Log: Missing cached shader map for material TLB_AddLayer_Icon_MAT, compiling.
+[0084.43] Log: Missing cached shader map for material TLB_AddMaterial_Icon_MAT, compiling.
+[0084.51] Log: Missing cached shader map for material TLB_Closed_Alpha_MAT, compiling.
+[0084.62] Log: Missing cached shader map for material TLB_Closed_MAT, compiling.
+[0084.69] Log: Missing cached shader map for material TLB_DecoLayer_Alpha_MAT, compiling.
+[0084.79] Log: Missing cached shader map for material TLB_DecoLayer_Icon_MAT, compiling.
+[0084.86] Log: Missing cached shader map for material TLB_DecoLayer_MAT, compiling.
+[0084.94] Log: Missing cached shader map for material TLB_DecoLayer_Pressed_MAT, compiling.
+[0085.02] Log: Missing cached shader map for material TLB_Decoration_Alpha_MAT, compiling.
+[0085.13] Log: Missing cached shader map for material TLB_Decoration_Icon_MAT, compiling.
+[0085.21] Log: Missing cached shader map for material TLB_Empty_MAT, compiling.
+[0085.28] Log: Missing cached shader map for material TLB_Foliage_Alpha_MAT, compiling.
+[0085.39] Log: Missing cached shader map for material TLB_FoliageOverlay_Alpha_MAT, compiling.
+[0085.49] Log: Missing cached shader map for material TLB_FoliageOverlayLeft_Alpha_MAT, compiling.
+[0085.59] Log: Missing cached shader map for material TLB_HeightMap_Alpha_MAT, compiling.
+[0085.69] Log: Missing cached shader map for material TLB_HeightMap_MAT, compiling.
+[0085.77] Log: Missing cached shader map for material TLB_Layer_Alpha_MAT, compiling.
+[0085.89] Log: Missing cached shader map for material TLB_Lock_MAT, compiling.
+[0085.96] Log: Missing cached shader map for material TLB_Material_Alpha_MAT, compiling.
+[0086.07] Log: Missing cached shader map for material TLB_Open_Alpha_MAT, compiling.
+[0086.18] Log: Missing cached shader map for material TLB_Open_MAT, compiling.
+[0086.25] Log: Missing cached shader map for material TLB_ProceduralOverlay_Alpha_MAT, compiling.
+[0086.37] Log: Missing cached shader map for material TLB_Solid_MAT, compiling.
+[0086.44] Log: Missing cached shader map for material TLB_SolidOff_MAT, compiling.
+[0086.51] Log: Missing cached shader map for material TLB_View_MAT, compiling.
+[0086.59] Log: Missing cached shader map for material TLB_Wireframe_MAT, compiling.
+[0086.65] Log: Missing cached shader map for material TLB_WireframeOff_MAT, compiling.
+[0086.72] Log: Missing cached shader map for material LinearColorPicker_MAT, compiling.
+[0086.78] Log: Missing cached shader map for material WidgetGridVertexColorMaterial_Mat, compiling.
+[0086.89] Log: Missing cached shader map for material WidgetMaterial, compiling.
+[0087.00] Log: Missing cached shader map for material WidgetMaterial_Current, compiling.
+[0087.04] Log: Missing cached shader map for material WidgetMaterial_X, compiling.
+[0087.07] Log: Missing cached shader map for material WidgetMaterial_Y, compiling.
+[0087.10] Log: Missing cached shader map for material WidgetMaterial_Z, compiling.
+[0087.13] Log: Missing cached shader map for material WidgetVertexColorMaterial, compiling.
+[0087.22] Log: Missing cached shader map for material M_ES_Phong_Masked_Master_1sided, compiling.
+[0087.46] Log: Missing cached shader map for material M_ES_Phong_Masked_Master_2sided, compiling.
+[0087.82] Log: Missing cached shader map for material M_ES_Phong_Opaque_Liquid_Master_01, compiling.
+[0088.41] Log: Missing cached shader map for material M_ES_Phong_Opaque_Master_01, compiling.
+[0088.59] Log: Missing cached shader map for material M_ES_Phong_Translucent_Liquid_Master_01, compiling.
+[0089.25] Log: Missing cached shader map for material M_ES_Phong_Translucent_Liquid_Master_01_1sided, compiling.
+[0089.84] Log: Missing cached shader map for material M_ES_Phong_Translucent_Master_01, compiling.
+[0090.06] Log: Missing cached shader map for material M_ES_Unlit_Translucent_Liquid_Master_01, compiling.
+[0090.13] Log: Missing cached shader map for material M_Shader_Complex, compiling.
+[0090.27] Log: Missing cached shader map for material M_Shader_Medium, compiling.
+[0090.46] Log: Missing cached shader map for material M_Shader_PlanarMap, compiling.
+[0090.61] Log: Missing cached shader map for material M_Shader_Simple, compiling.
+[0090.78] Log: Missing cached shader map for material M_Shader_Simple_CustomUV, compiling.
+[0090.91] Log: Missing cached shader map for material M_Shader_SimpleMasked, compiling.
+[0091.14] Log: Missing cached shader map for material M_Shader_SimpleMaskedTwoSided, compiling.
+[0091.32] Log: Missing cached shader map for material M_Shader_SimpleTranslucent, compiling.
+[0091.58] Log: Initializing Engine Completed
+[0091.58] Log: >>>>>>>>>>>>>> Initial startup: 91.58s <<<<<<<<<<<<<<<
+[0091.62] Log: Missing cached shader map for material CircleBrushMaterial, compiling.
+[0092.11] Log: Missing cached shader map for material SelectBrushMaterial, compiling.
+[0092.23] Cmd: MODE MAPEXT=udk
+[0092.29] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0092.31] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0093.05] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0093.05] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0093.12] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0093.12] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0096.14] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0096.40] Log: Encountered missing default brush - spawning new one
+[0096.92] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0096.94] Log: Missing cached shader map for material M_Procedural_Sky_MASTER02, compiling.
+[0097.30] Log: -- Checking Building LODs
+[0097.31] Log: Primary PhysX scene will be in software.
+[0097.31] Log: Creating Primary PhysX Scene.
+[0097.32] Log: Finished looking for orphan Actors (0.003 secs)
+[0097.32] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0097.94] Log: Save=579.379100
+[0097.94] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0098.00] Log: TIMER ALL OF INIT : [78.422597]
+[0104.23] Cmd: MAP LOAD FILE="D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk"
+[0104.27] Log: Encountered missing default brush - spawning new one
+[0105.07] Log: Missing cached shader map for material dcasino_logos_dcaslogo1RC_Mat, compiling.
+[0105.21] Log: Missing cached shader map for material dcasino_walls_dcaswallbotm6RC_Mat, compiling.
+[0105.33] Log: Missing cached shader map for material airforcebase_pavement_tarmack3aRC_Mat, compiling.
+[0105.46] Log: Missing cached shader map for material airforcebase_sets_exbldBac1bRC_Mat, compiling.
+[0105.58] Log: Missing cached shader map for material dcasino_doors_dcasdoors1RC_Mat, compiling.
+[0105.70] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild22R_Mat, compiling.
+[0105.82] Log: Missing cached shader map for material Penthouse_library_pentlibwall2RC_Mat, compiling.
+[0105.94] Log: Missing cached shader map for material Penthouse_marble_pentmarstair1aR_Mat, compiling.
+[0106.06] Log: Missing cached shader map for material Penthouse_Pool_pentpool1aRC_Mat, compiling.
+[0106.20] Log: Missing cached shader map for material Penthouse_Pool_pentpool1fRC_Mat, compiling.
+[0106.31] Log: Missing cached shader map for material Penthouse_trim_penttrim8RC_Mat, compiling.
+[0106.44] Log: Missing cached shader map for material stratosfear_walls_strwall4RC_Mat, compiling.
+[0106.57] Log: Missing cached shader map for material Streets_City_Street_gen3lane1RC_Mat, compiling.
+[0106.70] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[0106.89] Log: Missing cached shader map for material vegas_casino1_cieling1FBC_Mat, compiling.
+[0107.02] Log: Missing cached shader map for material vegas_casino1_dukesym3BC_Mat, compiling.
+[0107.15] Log: Missing cached shader map for material vegas_casino1_genericgold1BC_Mat, compiling.
+[0107.27] Log: Missing cached shader map for material vegas_casinos_ext_vegwallnight1RC_Mat, compiling.
+[0107.39] Log: Missing cached shader map for material vegas_furniture_vegblackj1aRC_Mat, compiling.
+[0107.51] Log: Missing cached shader map for material vegas_plants_bush2aRC_Mat, compiling.
+[0107.64] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0108.42] Log: -- Checking Building LODs
+[0108.43] Log: Primary PhysX scene will be in software.
+[0108.43] Log: Creating Primary PhysX Scene.
+[0108.44] Log: Finished looking for orphan Actors (0.005 secs)
+[0108.49] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0109.15] Log: Save=622.271000
+[0109.15] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0115.13] Exit: Preparing to exit.
+[0115.26] Exit: Editor shut down
+[0115.26] Exit: Transaction tracking system shut down
+[0115.44] Exit: Windows client shut down
+[0115.44] Exit: XAudio2 Device shut down.
+[0115.52] Exit: Object subsystem successfully closed.
+[0115.53] Log: Shutting down FaceFX...
+[0115.53] Log: FaceFX shutdown.
+[0115.56] DevDataBase: Spent 18.690113 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0115.56] Exit: Exiting.
+[0115.56] Log: Log file closed, 05/22/23 15:53:21

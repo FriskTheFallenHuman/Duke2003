@@ -1,0 +1,121 @@
+Log: Log file open, 05/21/23 23:44:43
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:59:00
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+[0000.53] Init: Computer: JUSTIN-MAINPC
+[0000.53] Init: User: justi
+[0000.53] Init: CPU Page size=4096, Processors=32
+[0000.53] Init: High frequency timer resolution =10.000000 MHz
+[0000.53] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.58] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.58] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.58] Init: Object subsystem initialized
+[0019.27] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.27] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.27] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.33] Log: Shader platform (RHI): PC-D3D-SM3
+[0021.90] Log: PhysX GPU Support: DISABLED
+[0021.91] Init: Initializing FaceFX...
+[0021.91] Init: FaceFX 1.7.4 initialized.
+[0021.99] Init: Version: 8364
+[0021.99] Init: Epic Internal: 0
+[0021.99] Init: Compiled (64-bit): May 21 2023 21:58:59
+[0021.99] Init: Command line:  
+[0021.99] Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+[0021.99] Init: Character set: Unicode
+[0021.99] Log: Executing Class UnrealEd.MakeCommandlet
+[0021.99] Init: UEngine initialized
+[0022.03] Heading: --------------------Core - Release--------------------
+[0022.04] Log: New File, Existing Package (Package Untitled_0, Package Core)
+[0022.04] Log: Loading global macros for Core
+[0022.05] Heading: --------------------Engine - Release--------------------
+[0022.08] Log: New File, Existing Package (Package Untitled_1, Package Engine)
+[0022.23] Log: Loading global macros for Engine
+[0022.47] Heading: --------------------GFxUI - Release--------------------
+[0022.47] Log: New File, Existing Package (Package Untitled_2, Package GFxUI)
+[0022.47] Log: Loading global macros for GFxUI
+[0022.48] Heading: --------------------GameFramework - Release--------------------
+[0022.48] Log: New File, Existing Package (Package Untitled_3, Package GameFramework)
+[0022.50] Log: Loading global macros for GameFramework
+[0022.52] Heading: --------------------UnrealEd - Release--------------------
+[0022.53] Log: New File, Existing Package (Package Untitled_4, Package UnrealEd)
+[0022.54] Log: Loading global macros for UnrealEd
+[0022.55] Heading: --------------------GFxUIEditor - Release--------------------
+[0022.55] Log: New File, Existing Package (Package Untitled_5, Package GFxUIEditor)
+[0022.55] Log: Loading global macros for GFxUIEditor
+[0022.56] Heading: --------------------IpDrv - Release--------------------
+[0022.56] Log: New File, Existing Package (Package Untitled_6, Package IpDrv)
+[0022.56] Log: Loading global macros for IpDrv
+[0022.58] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0022.58] Log: New File, Existing Package (Package Untitled_7, Package OnlineSubsystemPC)
+[0022.58] Log: Loading global macros for OnlineSubsystemPC
+[0022.59] Heading: --------------------OnlineSubsystemGameSpy - Release--------------------
+[0022.59] Log: New File, Existing Package (Package Untitled_8, Package OnlineSubsystemGameSpy)
+[0022.59] Log: Loading global macros for OnlineSubsystemGameSpy
+[0022.60] Heading: --------------------OnlineSubsystemLive - Release--------------------
+[0022.60] Log: New File, Existing Package (Package Untitled_9, Package OnlineSubsystemLive)
+[0022.61] Log: Loading global macros for OnlineSubsystemLive
+[0022.62] Heading: --------------------OnlineSubsystemSteamworks - Release--------------------
+[0022.62] Log: New File, Existing Package (Package Untitled_10, Package OnlineSubsystemSteamworks)
+[0022.62] Log: Loading global macros for OnlineSubsystemSteamworks
+[0022.63] Heading: --------------------UDKBase - Release--------------------
+[0022.64] Log: New File, Existing Package (Package Untitled_11, Package UDKBase)
+[0022.65] Log: Loading global macros for UDKBase
+[0022.66] Heading: --------------------UTEditor - Release--------------------
+[0022.66] Log: New File, Existing Package (Package Untitled_12, Package UTEditor)
+[0022.67] Log: Loading global macros for UTEditor
+[0022.67] Heading: --------------------UTGame - Release--------------------
+[0022.67] Log: Package UTGame changed, recompiling
+[0022.68] Log: Analyzing...
+[0022.68] Log: Loading global macros for UTGame
+[0024.27] Log: Exporting native class declarations for UTGame
+[0024.27] Log: Autogenerating C++ header: 
+[0024.27] Log: Autogenerating C++ header: UTGameNames.h
+[0024.37] Log: Success: Compiled 129628 line(s), 12652 statement(s).
+
+[0024.37] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UTGame.u'
+[0024.62] Log: Save=242.714800
+[0024.62] Log: Moving '..\..\UDKGame\Script\UTGame_save.tmp' to '..\..\UDKGame\Script\UTGame.u'
+[0024.62] Heading: --------------------UTGameContent - Release--------------------
+[0024.62] Log: Analyzing...
+[0024.62] Log: Loading global macros for UTGameContent
+[0024.82] Log: Success: Compiled 4380 line(s), 539 statement(s).
+
+[0024.82] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UTGameContent.u'
+[0024.87] Log: Save=58.961200
+[0024.88] Log: Moving '..\..\UDKGame\Script\UTGameContent_save.tmp' to '..\..\UDKGame\Script\UTGameContent.u'
+[0024.88] Heading: --------------------dnGame - Release--------------------
+[0024.88] Log: Analyzing...
+[0024.88] Log: Loading global macros for dnGame
+[0024.88] Log: Exporting native class declarations for dnGame
+[0024.88] Log: Autogenerating C++ header: 
+[0024.88] Log: Autogenerating C++ header: dnGameNames.h
+[0024.88] Log: Success: Compiled 22 line(s), 4 statement(s).
+
+[0024.88] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\dnGame.u'
+[0024.91] Log: Save=22.543300
+[0024.91] Log: Moving '..\..\UDKGame\Script\dnGame_save.tmp' to '..\..\UDKGame\Script\dnGame.u'
+[0024.91] Heading: --------------------UDKUltimate - Release--------------------
+[0024.91] Log: Analyzing...
+[0024.91] Log: Loading global macros for UDKUltimate
+[0024.95] Log: Success: Compiled 1075 line(s), 179 statement(s).
+
+[0024.95] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UDKUltimate.u'
+[0024.98] Log: Save=32.240500
+[0024.98] Log: Moving '..\..\UDKGame\Script\UDKUltimate_save.tmp' to '..\..\UDKGame\Script\UDKUltimate.u'
+[0025.57] Log: 
+[0025.57] Log: Success - 0 error(s), 0 warning(s)
+[0025.57] Log: 
+Execution of commandlet took:  3.58 seconds
+[0025.57] Exit: Preparing to exit.
+[0025.63] Exit: Object subsystem successfully closed.
+[0025.64] Log: Shutting down FaceFX...
+[0025.64] Log: FaceFX shutdown.
+[0025.64] DevDataBase: Spent 18.675384 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0025.64] Exit: Exiting.
+[0025.64] Log: Log file closed, 05/21/23 23:45:08

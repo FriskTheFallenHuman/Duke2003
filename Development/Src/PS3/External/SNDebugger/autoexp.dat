@@ -1,0 +1,105 @@
+[Visualizer]
+
+UObject{
+	preview ( #("name: ", $c.Name, "class: ", $c.Class->Name, "archetype: ", $c.ObjectArchetype->Name, "outer: ", $c.Outer->Name ) )
+}
+
+FString{
+	preview	( #((TCHAR*)$c.AllocatorInstance.Data, "Length=", $c.ArrayNum) )
+}
+
+FName{
+	preview
+	(
+		#if (($c.Index) < ($c.Names.ArrayNum))
+		(
+			#if (($c.Index) >= 0)
+			(
+				#if (($c.Number) > 0)
+				(
+					#if (((((FNameEntry**)$e.Names.AllocatorInstance.Data)[$e.Index])->Index) & 1)
+					(
+						#( (TCHAR*) &(((FNameEntry**)$c.Names.AllocatorInstance.Data)[$c.Index])->UniName, "_", $c.Number-1 )
+					)
+					#else
+					(
+						#( (char*) &(((FNameEntry**)$c.Names.AllocatorInstance.Data)[$c.Index])->AnsiName, "_", $c.Number-1 )
+					)
+				)
+				#else
+				(
+					#if (((((FNameEntry**)$e.Names.AllocatorInstance.Data)[$e.Index])->Index) & 1)
+					(
+						#( (TCHAR*) &(((FNameEntry**)$c.Names.AllocatorInstance.Data)[$c.Index])->UniName )
+					)
+					#else
+					(
+						#( (char*) &(((FNameEntry**)$c.Names.AllocatorInstance.Data)[$c.Index])->AnsiName )
+					)
+				)
+			)
+			#else
+			(
+				"Invalid"
+			)
+		)
+		#else
+		(
+			"Invalid"
+		)
+	)
+}
+
+TArray<*,*>|TArrayNoInit<*>{
+	preview
+	(
+		#(
+			#if(($c.ArrayNum) >= 0)
+			(
+				#if(($c.ArrayNum) == 0)
+				(
+					"Empty"
+				)
+				#else
+				(
+					#if(($c.ArrayNum) <= ($c.ArrayMax))
+					(
+						#("Num=", $c.ArrayNum)
+					)
+					#else
+					(
+						"Invalid"
+					)
+				)
+			)
+			#else
+			(
+				"Invalid"
+			)
+		)
+	)
+	children
+	(
+		#if(($c.ArrayNum) >= 0)
+		(
+			#if(($c.ArrayNum) <= ($c.ArrayMax))
+			(
+				#if(($c.ArrayNum) > 0)
+				(
+					#(
+						#array 
+						(
+							expr: *(($T1 *)$c.AllocatorInstance.Data + $i),
+							size: $c.ArrayNum
+						),
+						#([Members]: [$c,!])
+					)
+				)
+				#else
+				(
+					[Members]: [$c,!]
+				)
+			)
+		)
+	)
+}

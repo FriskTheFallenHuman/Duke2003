@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<SettableOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClassGroups>
+    <ClassGroup Name="Anim" bFilter="true" ClassNames="UAnimSet:: UAnimNode:: FAnimSetMeshLinkup:: AnimationEncodingFormatLegacyBase:: UAnimNodeBlendBase:: UGearAnim_UpperBodyIKHack::" />
+    <ClassGroup Name="Audio" bFilter="true" ClassNames="FXAudio2SoundBuffer:: UAudioDevice:: USoundNodeRandom::" />
+    <ClassGroup Name="ConfigCache" bFilter="true" ClassNames="FConfigCacheIni:: FConfigSection:: FConfigFile::" />
+    <ClassGroup Name="FName" bFilter="true" ClassNames="FName:: AllocateNameEntry" />
+    <ClassGroup Name="Font" bFilter="true" ClassNames="UFont::" />
+    <ClassGroup Name="GameEvent" bFilter="true" ClassNames="FGameEvent:: FGameEvents::" />
+    <ClassGroup Name="GC" bFilter="true" ClassNames="FGCReferenceTokenStream::" />
+    <ClassGroup Name="Gfx" bFilter="true" ClassNames="GHeapGranulator:: FGFxTexture:: FGFxEngine:: UGFxEngine:: FGFxRenderTargetResource:: GFxMesh GFxDisplayList::" />
+    <ClassGroup Name="Material" bFilter="true" ClassNames="UMaterial:: FMaterial:: FMaterialShaderMap:: UMaterialInstance:: UMaterialInstanceConstant:: FMaterialUniformExpression FUniformExpressionSet::" />
+    <ClassGroup Name="Nav" bFilter="true" ClassNames="UNavigationHandle:: UNavigationMeshBase:: IInterface_NavMeshPathObstacle:: FNavMesh" />
+    <ClassGroup Name="OC3" bFilter="true" ClassNames="OC3Ent:: UFaceFXAsset::" />
+    <ClassGroup Name="Package" bFilter="true" ClassNames="UPackage::" />
+    <ClassGroup Name="Particles" bFilter="true" ClassNames="UParticleLODLevel:: FParticleEmitterInstance:: UParticleSystemComponent::" />
+    <ClassGroup Name="PhysX" bFilter="true" ClassNames="PxsBroadPhaseContext:: PxsBroadPhaseEndPointArray:: PxsDynamicsContext:: PxcGenericCache PxcPoolMalloc PxcAlignedMalloc PxsContactCacheObject:: PxsContext:: PhysicsSDK:: NpScene:: NpPhysicsSDK:: NxFoundation:: NPhaseCore:: NPhaseContext:: FNxAllocator:: ExtensionQuickLoad::" />
+    <ClassGroup Name="Profile" bFilter="true" ClassNames="UOnlinePlayerStorage:: FProfileSettingsReader::" />
+    <ClassGroup Name="RHI" bFilter="true" ClassNames="RHICreateSharedMemory RHICreatePixelShader RHICreateVertexShader RHICreateVertexBuffer FPositionVertexBuffer::" />
+    <ClassGroup Name="Scene" bFilter="true" ClassNames="FSceneRenderer:: FScene:: FOcclusionQueryBatcher:: FOcclusionQueryPool:: FPrimitiveSceneInfo:: FLightPrimitiveInteraction:: FSceneViewState:: FDepthDrawingPolicyFactory::" />
+    <ClassGroup Name="ScriptArray" bFilter="true" ClassNames="FScriptArray:: UArrayProperty::" />
+    <ClassGroup Name="ScriptClass" bFilter="true" ClassNames="UClass::" />
+    <ClassGroup Name="ScriptConst" bFilter="true" ClassNames="UConst::" />
+    <ClassGroup Name="ScriptEnum" bFilter="true" ClassNames="UEnum::" />
+    <ClassGroup Name="ScriptProperty" bFilter="true" ClassNames="UProperty:: UStrProperty:: FPropertyTag::" />
+    <ClassGroup Name="ScriptState" bFilter="true" ClassNames="UState::" />
+    <ClassGroup Name="ScriptStruct" bFilter="true" ClassNames="UStruct:: UScriptStruct::" />
+    <ClassGroup Name="Shaders" bFilter="true" ClassNames="FShader:: FShaderType:: FShaderCache:: UShaderCache:: FBoundShaderCache:: FModShadowMeshVertexShader:: FVelocityVertexShader:: SerializeShaders SerializeGlobalShaders" />
+    <ClassGroup Name="ShippingClasses" bFilter="true" ClassNames="FStatNotifyManager:: FStatNotifyProvider_BinaryFile:: FStatManager:: FStatFactory::" />
+    <ClassGroup Name="SkeletalMesh" bFilter="true" ClassNames="USkeletalMesh:: USkeletalMeshComponent:: FStaticLODModel::" />
+    <ClassGroup Name="StaticMesh" bFilter="true" ClassNames="UStaticMesh:: FStaticMeshRenderData::" />
+    <ClassGroup Name="TexPool" bFilter="true" ClassNames="FXeTexturePool::" />
+    <ClassGroup Name="Texture" bFilter="true" ClassNames="FTexture2DResource:: UTexture:: UTexture2D::" />
+    <ClassGroup Name="TOC" bFilter="true" ClassNames="FMapPackageFileCache:: FTableOfContents:: UGuidCache::" />
+    <ClassGroup Name="Ungrouped" bFilter="true" />
+    <ClassGroup Name="World" bFilter="true" ClassNames="UWorld::" />
+  </ClassGroups>
+</SettableOptions>

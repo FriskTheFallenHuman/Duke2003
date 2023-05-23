@@ -1,0 +1,136 @@
+Log: Log file open, 05/22/23 12:08:25
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.56] Init: Computer: JUSTIN-MAINPC
+[0000.73] Init: User: justi
+[0000.73] Init: CPU Page size=4096, Processors=32
+[0000.73] Init: High frequency timer resolution =10.000000 MHz
+[0000.73] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.73] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.78] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.78] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.78] Init: Object subsystem initialized
+[0000.78] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.78] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.78] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.78] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.78] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.78] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.78] DevSave:    Loading value for Extensions from [Core.System]
+[0000.78] DevSave:    Loading value for Suppress from [Core.System]
+[0000.78] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.78] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.78] DevSave:    Loading value for Paths from [Core.System]
+[0000.78] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.78] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.78] DevSave:    Loading value for CachePath from [Core.System]
+[0000.78] DevSave:    Loading value for SavePath from [Core.System]
+[0000.78] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.78] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.78] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.78] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.78] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.58] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.58] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.58] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0024.27] Log: PhysX GPU Support: DISABLED
+[0024.27] Init: Initializing FaceFX...
+[0024.27] Init: FaceFX 1.7.4 initialized.
+[0024.31] Init: Version: 8364
+[0024.31] Init: Epic Internal: 0
+[0024.32] Init: Compiled (64-bit): May 21 2023 21:56:09
+[0024.32] Init: Command line:  
+[0024.32] Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+[0024.32] Init: Character set: Unicode
+[0024.32] Log: Executing Class UnrealEd.MakeCommandlet
+[0024.32] Init: UEngine initialized
+[0024.38] Heading: --------------------Core - Release--------------------
+[0024.38] Log: New File, Existing Package (Package Untitled_0, Package Core)
+[0024.39] Log: Loading global macros for Core
+[0024.42] Heading: --------------------Engine - Release--------------------
+[0024.46] Log: New File, Existing Package (Package Untitled_1, Package Engine)
+[0024.77] Log: Loading global macros for Engine
+[0025.39] Heading: --------------------GFxUI - Release--------------------
+[0025.39] Log: New File, Existing Package (Package Untitled_2, Package GFxUI)
+[0025.40] Log: Loading global macros for GFxUI
+[0025.42] Heading: --------------------GameFramework - Release--------------------
+[0025.42] Log: New File, Existing Package (Package Untitled_3, Package GameFramework)
+[0025.46] Log: Loading global macros for GameFramework
+[0025.53] Heading: --------------------UnrealEd - Release--------------------
+[0025.53] Log: New File, Existing Package (Package Untitled_4, Package UnrealEd)
+[0025.55] Log: Loading global macros for UnrealEd
+[0025.60] Heading: --------------------GFxUIEditor - Release--------------------
+[0025.60] Log: New File, Existing Package (Package Untitled_5, Package GFxUIEditor)
+[0025.61] Log: Loading global macros for GFxUIEditor
+[0025.61] Heading: --------------------IpDrv - Release--------------------
+[0025.61] Log: New File, Existing Package (Package Untitled_6, Package IpDrv)
+[0025.62] Log: Loading global macros for IpDrv
+[0025.65] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0025.65] Log: New File, Existing Package (Package Untitled_7, Package OnlineSubsystemPC)
+[0025.66] Log: Loading global macros for OnlineSubsystemPC
+[0025.67] Heading: --------------------OnlineSubsystemGameSpy - Release--------------------
+[0025.67] Log: New File, Existing Package (Package Untitled_8, Package OnlineSubsystemGameSpy)
+[0025.68] Log: Loading global macros for OnlineSubsystemGameSpy
+[0025.70] Heading: --------------------OnlineSubsystemLive - Release--------------------
+[0025.71] Log: New File, Existing Package (Package Untitled_9, Package OnlineSubsystemLive)
+[0025.72] Log: Loading global macros for OnlineSubsystemLive
+[0025.75] Heading: --------------------OnlineSubsystemSteamworks - Release--------------------
+[0025.75] Log: New File, Existing Package (Package Untitled_10, Package OnlineSubsystemSteamworks)
+[0025.76] Log: Loading global macros for OnlineSubsystemSteamworks
+[0025.79] Heading: --------------------UDKBase - Release--------------------
+[0025.79] Log: New File, Existing Package (Package Untitled_11, Package UDKBase)
+[0025.81] Log: Loading global macros for UDKBase
+[0025.86] Heading: --------------------UTEditor - Release--------------------
+[0025.86] Log: New File, Existing Package (Package Untitled_12, Package UTEditor)
+[0025.86] Log: Loading global macros for UTEditor
+[0025.86] Heading: --------------------UTGame - Release--------------------
+[0025.87] Log: New File, Existing Package (Package Untitled_13, Package UTGame)
+[0026.14] Log: Loading global macros for UTGame
+[0026.64] Heading: --------------------UTGameContent - Release--------------------
+[0026.64] Log: New File, Existing Package (Package Untitled_14, Package UTGameContent)
+[0026.67] Log: Loading global macros for UTGameContent
+[0026.69] Heading: --------------------dnGame - Release--------------------
+[0026.69] Log: Package dnGame changed, recompiling
+[0026.69] Log: Analyzing...
+[0026.69] Log: Loading global macros for dnGame
+[0026.71] Log: Exporting native class declarations for dnGame
+[0026.71] Log: Autogenerating C++ header: 
+[0026.71] Log: Autogenerating C++ header: dnGameNames.h
+[0026.71] Log: Success: Compiled 179 line(s), 11 statement(s).
+
+[0026.71] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\dnGame.u'
+[0026.79] Log: Save=79.247800
+[0026.79] Log: Moving '..\..\UDKGame\Script\dnGame_save.tmp' to '..\..\UDKGame\Script\dnGame.u'
+[0026.79] Heading: --------------------UDKUltimate - Release--------------------
+[0026.79] Log: Analyzing...
+[0026.79] Log: Loading global macros for UDKUltimate
+[0026.87] Log: Success: Compiled 1075 line(s), 179 statement(s).
+
+[0026.87] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UDKUltimate.u'
+[0026.96] Log: Save=92.172000
+[0026.96] Log: Moving '..\..\UDKGame\Script\UDKUltimate_save.tmp' to '..\..\UDKGame\Script\UDKUltimate.u'
+[0027.56] Log: 
+[0027.56] Log: Success - 0 error(s), 0 warning(s)
+[0027.56] Log: 
+Execution of commandlet took:  3.24 seconds
+[0027.56] Exit: Preparing to exit.
+[0027.64] Exit: Object subsystem successfully closed.
+[0027.64] Log: Shutting down FaceFX...
+[0027.64] Log: FaceFX shutdown.
+[0027.64] DevDataBase: Spent 18.782479 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0027.65] Exit: Exiting.
+[0027.65] Log: Log file closed, 05/22/23 12:08:52

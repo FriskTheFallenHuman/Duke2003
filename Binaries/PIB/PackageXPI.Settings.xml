@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PackageXPIOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NSSToolPath>C:\MozillaBins\nss-3.9</NSSToolPath>
+  <CertificateDBPath>.\NP\CertDB</CertificateDBPath>
+  <XPIFilePath>.\NP\XPIFiles</XPIFilePath>
+  <PrivateKeyPath>Secret!</PrivateKeyPath>
+</PackageXPIOptions>

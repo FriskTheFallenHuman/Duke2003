@@ -1,0 +1,377 @@
+Log: Log file open, 05/22/23 15:57:24
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.56] Init: Computer: JUSTIN-MAINPC
+[0000.56] Init: User: justi
+[0000.56] Init: CPU Page size=4096, Processors=32
+[0000.56] Init: High frequency timer resolution =10.000000 MHz
+[0000.56] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.57] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.62] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.62] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.62] Init: Object subsystem initialized
+[0000.62] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.62] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.62] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.62] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.62] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.62] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.62] DevSave:    Loading value for Extensions from [Core.System]
+[0000.62] DevSave:    Loading value for Suppress from [Core.System]
+[0000.62] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.62] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.62] DevSave:    Loading value for Paths from [Core.System]
+[0000.62] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.62] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.62] DevSave:    Loading value for CachePath from [Core.System]
+[0000.62] DevSave:    Loading value for SavePath from [Core.System]
+[0000.62] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.62] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.62] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.34] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.34] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.34] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.41] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.57] Log: PhysX GPU Support: DISABLED
+[0019.58] Init: Initializing FaceFX...
+[0019.58] Init: FaceFX 1.7.4 initialized.
+[0021.15] Init: Finished loading startup packages in 1.41 seconds
+[0021.16] Log: 76364 objects as part of root set at end of initial load.
+[0021.16] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.17] Log: Supported Consoles:
+[0021.17] Log:   PC
+[0021.17] Log: Initializing Engine...
+[0021.22] Log: Encountered missing default brush - spawning new one
+[0021.22] Init: UEngine initialized
+[0021.22] Log: Primary PhysX scene will be in software.
+[0021.22] Log: Creating Primary PhysX Scene.
+[0021.24] Init: Transaction tracking system initialized
+[0022.27] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0022.31] Log: Working around XDK XAudio2 regression: TRUE
+[0022.32] Init: XAudio2Device initialized.
+[0022.75] Init: Client initialized
+[0022.75] Init: Editor engine initialized
+[0022.84] Log: Initializing Engine Completed
+[0022.84] Log: >>>>>>>>>>>>>> Initial startup: 22.84s <<<<<<<<<<<<<<<
+[0022.91] Cmd: MODE MAPEXT=udk
+[0023.02] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0023.03] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0023.83] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0023.83] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0023.85] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0023.85] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0026.67] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0026.92] Log: Encountered missing default brush - spawning new one
+[0027.41] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0027.50] Log: -- Checking Building LODs
+[0027.51] Log: Primary PhysX scene will be in software.
+[0027.51] Log: Creating Primary PhysX Scene.
+[0027.51] Log: Finished looking for orphan Actors (0.003 secs)
+[0027.52] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0027.55] Log: TIMER ALL OF INIT : [7.961607]
+[0034.06] Cmd: MAP LOAD FILE="D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk"
+[0034.10] Log: Encountered missing default brush - spawning new one
+[0035.35] Log: -- Checking Building LODs
+[0035.36] Log: Primary PhysX scene will be in software.
+[0035.36] Log: Creating Primary PhysX Scene.
+[0035.37] Log: Finished looking for orphan Actors (0.005 secs)
+[0035.42] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0042.22] Log: 
+==== Worlds needing PIE Save:
+[0042.22] Log: z1l2
+[0042.22] Log: ==== 1 total
+[0042.27] Log: Built Phys StaticMesh Cache: 8.282 ms
+[0042.27] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[0042.57] Log: COOKEDPHYSICS: BSP 635.47 KB
+[0043.80] Log: Save=1522.484700
+[0043.80] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk'
+[0043.82] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0044.41] Log: Finished looking for orphan Actors (0.005 secs)
+[0044.41] Log: Game class is 'dnSinglePlayer'
+[0044.43] Log: Primary PhysX scene will be in software.
+[0044.43] Log: Creating Primary PhysX Scene.
+[0044.44] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0044.44] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-15.58.08
+[0044.46] Log: Bringing up level for play took: 0.045169
+[0044.82] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_0:GFxMinimap_0
+	Function UTGame.GFxMinimap:Init:00F2
+[0044.82] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0044.82] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0044.82] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0044.82] Log: PIE: play in editor start time for UEDPIEz1l2 2.822
+[0044.84] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:Init:00F2
+[0044.88] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0044.88] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0044.88] Cmd: SETSOUNDMODE Default
+[0044.89] ScriptLog: START MATCH
+[0044.91] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0055.38] Cmd: onrelease ShowMenu
+[0055.39] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0105.03] Log: 
+==== Worlds needing PIE Save:
+[0105.03] Log: ==== 0 total
+[0105.03] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0105.59] Log: Finished looking for orphan Actors (0.005 secs)
+[0105.59] Log: Game class is 'dnSinglePlayer'
+[0105.61] Log: Primary PhysX scene will be in software.
+[0105.62] Log: Creating Primary PhysX Scene.
+[0105.62] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0105.62] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-15.59.09
+[0105.64] Log: Bringing up level for play took: 0.042774
+[0105.69] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_2:GFxMinimap_2
+	Function UTGame.GFxMinimap:Init:00F2
+[0105.69] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0105.69] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0105.69] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0105.69] Log: PIE: play in editor start time for UEDPIEz1l2 0.863
+[0105.71] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_3:GFxMinimap_3
+	Function UTGame.GFxMinimap:Init:00F2
+[0105.83] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_2
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0105.83] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_2
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0105.83] Cmd: SETSOUNDMODE Default
+[0105.83] ScriptLog: START MATCH
+[0105.84] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_3:GFxMinimap_3
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0110.44] Cmd: onrelease ShowMenu
+[0110.45] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0113.84] Log: 
+==== Worlds needing PIE Save:
+[0113.84] Log: ==== 0 total
+[0113.84] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0114.42] Log: Finished looking for orphan Actors (0.005 secs)
+[0114.43] Log: Game class is 'dnSinglePlayer'
+[0114.45] Log: Primary PhysX scene will be in software.
+[0114.45] Log: Creating Primary PhysX Scene.
+[0114.46] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0114.46] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-15.59.18
+[0114.48] Log: Bringing up level for play took: 0.044203
+[0114.53] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_4:GFxMinimap_4
+	Function UTGame.GFxMinimap:Init:00F2
+[0114.53] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0114.53] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0114.53] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0114.53] Log: PIE: play in editor start time for UEDPIEz1l2 0.892
+[0114.56] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_5:GFxMinimap_5
+	Function UTGame.GFxMinimap:Init:00F2
+[0114.61] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0114.61] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0114.61] Cmd: SETSOUNDMODE Default
+[0114.61] ScriptLog: START MATCH
+[0114.63] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_5:GFxMinimap_5
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0124.78] Cmd: onrelease ShowMenu
+[0124.80] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0128.40] Log: 
+==== Worlds needing PIE Save:
+[0128.40] Log: ==== 0 total
+[0128.40] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0128.96] Log: Finished looking for orphan Actors (0.006 secs)
+[0128.96] Log: Game class is 'dnSinglePlayer'
+[0128.98] Log: Primary PhysX scene will be in software.
+[0128.98] Log: Creating Primary PhysX Scene.
+[0128.99] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0128.99] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-15.59.33
+[0129.01] Log: Bringing up level for play took: 0.043529
+[0129.06] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_6:GFxMinimap_6
+	Function UTGame.GFxMinimap:Init:00F2
+[0129.06] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0129.06] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0129.06] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0129.06] Log: PIE: play in editor start time for UEDPIEz1l2 0.856
+[0129.09] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_7:GFxMinimap_7
+	Function UTGame.GFxMinimap:Init:00F2
+[0129.13] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0129.13] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0129.13] Cmd: SETSOUNDMODE Default
+[0129.13] ScriptLog: START MATCH
+[0129.14] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_7:GFxMinimap_7
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0161.65] Cmd: onrelease ShowMenu
+[0161.66] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0451.48] Log: 
+==== Worlds needing PIE Save:
+[0451.48] Log: ==== 0 total
+[0451.48] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0452.04] Log: Finished looking for orphan Actors (0.005 secs)
+[0452.04] Log: Game class is 'dnSinglePlayer'
+[0452.07] Log: Primary PhysX scene will be in software.
+[0452.07] Log: Creating Primary PhysX Scene.
+[0452.07] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0452.07] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-16.04.56
+[0452.10] Log: Bringing up level for play took: 0.043478
+[0452.14] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_8:GFxMinimap_8
+	Function UTGame.GFxMinimap:Init:00F2
+[0452.14] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0452.14] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0452.14] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0452.14] Log: PIE: play in editor start time for UEDPIEz1l2 0.880
+[0452.15] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_9:GFxMinimap_9
+	Function UTGame.GFxMinimap:Init:00F2
+[0452.19] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_8
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0452.19] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_8
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0452.19] Cmd: SETSOUNDMODE Default
+[0452.19] ScriptLog: START MATCH
+[0452.20] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_9:GFxMinimap_9
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0464.89] Cmd: StartFire 
+[0464.89] Cmd: OnRelease StopFire
+[0465.02] Cmd: StopFire
+[0465.20] Cmd: StartFire 
+[0465.20] Cmd: OnRelease StopFire
+[0465.32] Cmd: StopFire
+[0465.71] Cmd: StartFire 
+[0465.71] Cmd: OnRelease StopFire
+[0465.84] Cmd: StopFire
+[0473.56] Cmd: onrelease ShowMenu
+[0473.57] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:Destroyed:0041
+[5839.47] Log: 
+==== Worlds needing PIE Save:
+[5839.47] Log: ==== 0 total
+[5839.47] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[5840.03] Log: Finished looking for orphan Actors (0.005 secs)
+[5840.03] Log: Game class is 'dnSinglePlayer'
+[5840.05] Log: Primary PhysX scene will be in software.
+[5840.05] Log: Creating Primary PhysX Scene.
+[5840.06] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[5840.06] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-17.34.44
+[5840.08] Log: Bringing up level for play took: 0.042781
+[5840.12] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_10:GFxMinimap_10
+	Function UTGame.GFxMinimap:Init:00F2
+[5840.12] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[5840.12] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[5840.12] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[5840.12] Log: PIE: play in editor start time for UEDPIEz1l2 0.851
+[5840.14] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_11:GFxMinimap_11
+	Function UTGame.GFxMinimap:Init:00F2
+[5841.74] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_10
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[5841.74] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_10
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[5841.74] Cmd: SETSOUNDMODE Default
+[5841.74] ScriptLog: START MATCH
+[5841.77] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_11:GFxMinimap_11
+	Function UTGame.GFxMinimap:UpdateData:0015
+[5847.87] Cmd: StartFire 
+[5847.87] Cmd: OnRelease StopFire
+[5848.00] Cmd: StopFire
+[5848.68] Cmd: StartFire 
+[5848.68] Cmd: OnRelease StopFire
+[5848.83] Cmd: StopFire
+[5859.91] Cmd: onrelease ShowMenu
+[5859.92] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:Destroyed:0041
+[5874.95] Exit: Preparing to exit.
+[5875.08] Exit: Editor shut down
+[5875.08] Exit: Transaction tracking system shut down
+[5875.24] Exit: Windows client shut down
+[5875.25] Exit: XAudio2 Device shut down.
+[5875.33] Exit: Object subsystem successfully closed.
+[5875.34] Log: Shutting down FaceFX...
+[5875.34] Log: FaceFX shutdown.
+[5875.37] DevDataBase: Spent 18.710549 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[5875.37] Exit: Exiting.
+[5875.37] Log: Log file closed, 05/22/23 17:35:19

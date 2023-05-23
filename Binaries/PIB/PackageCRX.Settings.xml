@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<PackageCRXOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ChromePath>%LOCALAPPDATA%\Google\Chrome\Application\chrome.exe</ChromePath>
+  <ChromePluginFilesPath>.\GC</ChromePluginFilesPath>
+</PackageCRXOptions>

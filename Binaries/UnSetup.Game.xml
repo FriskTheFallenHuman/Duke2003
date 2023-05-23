@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<GameOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" GameName="MyGameUDK" GameLongName="MyGameUDK">
+  <GameUniqueID>dafde6dd-a77b-46ca-9a24-df65e6818c94</GameUniqueID>
+  <MachineUniqueID>6b81a31d-48a8-4fd5-8d26-b71c0a78b375</MachineUniqueID>
+</GameOptions>

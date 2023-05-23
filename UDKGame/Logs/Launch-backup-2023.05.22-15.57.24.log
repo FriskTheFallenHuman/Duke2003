@@ -1,0 +1,182 @@
+Log: Log file open, 05/22/23 15:53:34
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.56] Init: Computer: JUSTIN-MAINPC
+[0000.56] Init: User: justi
+[0000.56] Init: CPU Page size=4096, Processors=32
+[0000.56] Init: High frequency timer resolution =10.000000 MHz
+[0000.56] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.56] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.62] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.62] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.62] Init: Object subsystem initialized
+[0000.62] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.62] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.62] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.62] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.62] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.62] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.62] DevSave:    Loading value for Extensions from [Core.System]
+[0000.62] DevSave:    Loading value for Suppress from [Core.System]
+[0000.62] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.62] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.62] DevSave:    Loading value for Paths from [Core.System]
+[0000.62] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.62] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.62] DevSave:    Loading value for CachePath from [Core.System]
+[0000.62] DevSave:    Loading value for SavePath from [Core.System]
+[0000.62] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.62] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.62] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.33] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.33] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.33] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.41] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.57] Log: PhysX GPU Support: DISABLED
+[0019.58] Init: Initializing FaceFX...
+[0019.58] Init: FaceFX 1.7.4 initialized.
+[0051.91] Init: Finished loading startup packages in 1.52 seconds
+[0051.92] Log: 76364 objects as part of root set at end of initial load.
+[0051.92] Log: 0 out of 0 bytes used by permanent object pool.
+[0051.93] Log: Supported Consoles:
+[0051.93] Log:   PC
+[0051.93] Log: Initializing Engine...
+[0051.97] Log: Encountered missing default brush - spawning new one
+[0051.98] Init: UEngine initialized
+[0051.98] Log: Primary PhysX scene will be in software.
+[0051.98] Log: Creating Primary PhysX Scene.
+[0051.99] Init: Transaction tracking system initialized
+[0053.06] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0053.10] Log: Working around XDK XAudio2 regression: TRUE
+[0053.12] Init: XAudio2Device initialized.
+[0053.53] Init: Client initialized
+[0053.53] Init: Editor engine initialized
+[0053.62] Log: Initializing Engine Completed
+[0053.62] Log: >>>>>>>>>>>>>> Initial startup: 53.62s <<<<<<<<<<<<<<<
+[0053.72] Cmd: MODE MAPEXT=udk
+[0053.78] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0053.79] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0054.58] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0054.58] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0054.62] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0054.62] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0057.80] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0058.09] Log: Encountered missing default brush - spawning new one
+[0058.66] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0058.78] Log: -- Checking Building LODs
+[0058.79] Log: Primary PhysX scene will be in software.
+[0058.79] Log: Creating Primary PhysX Scene.
+[0058.79] Log: Finished looking for orphan Actors (0.003 secs)
+[0058.80] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0058.83] Log: TIMER ALL OF INIT : [39.227528]
+[0077.51] Cmd: MAP LOAD FILE="D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk"
+[0077.55] Log: Encountered missing default brush - spawning new one
+[0079.09] Log: -- Checking Building LODs
+[0079.10] Log: Primary PhysX scene will be in software.
+[0079.10] Log: Creating Primary PhysX Scene.
+[0079.11] Log: Finished looking for orphan Actors (0.005 secs)
+[0079.16] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0102.82] Log: LIGHTMASS: Quality level is 0
+[0102.86] Log: Deterministic lighting is ENABLED
+[0102.86] Log: 	Lighting will be slower to complete...
+[0118.03] Log: Running Lightmass w/ Deterministic Lighting ENABLED
+[0118.03] Log: Running Lightmass w/ ImmediateImport mode ENABLED
+[0118.03] Log: Running Lightmass w/ ImmediateProcess mode ENABLED
+[0118.03] Log: Running Lightmass w/ Sorting mode ENABLED
+[0118.03] Log: Running Lightmass w/ Mapping paddings ENABLED
+[0118.03] Log: Running Lightmass w/ Mapping debug paddings DISABLED
+[0118.04] Log: Swarm launching: ..\Win64\UnrealLightmass.exe A1A609C04FF0072F70FE0FA7F553C6EC
+[0118.05] Log: LIGHTMASS: Writing scene settings: Quality level 0 (0 in INI)
+[0118.37] Log: Swarm will be allowed to distribute this job
+[0155.81] Log: Job is a success!
+[0160.08] Log: Lightmass on JUSTIN-MAINPC: 41.1 sec total, 136 ms importing, 12 ms setup, 27.3 sec photons, 13.6 sec processing, 0 ms extra exporting [3985/3985 mappings]. Threads: 2:01 min total, 26.7 sec processing.
+[0160.09] PerfEvent: LIGHTING BUILD INFO TIME LoadListCtrl: 0.002612
+[0161.66] Log: Illumination: 58.8 sec (865 ms encoding lightmaps)
+[0161.67] Log: Lightmap texture memory:  5.3 MB (0.0 MB on Xbox 360, 0.0 MB streaming, 5.3 MB non-streaming), 8 textures
+[0161.67] Log: Shadowmap texture memory: 0.0 MB (0.0 MB on Xbox 360, 0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[0161.71] Log: Start RegenerateProcBuildingTextures (0 buildings)
+[0161.72] Log: Finish RegenerateProcBuildingTextures (Took 0.000005 secs)
+[0161.72] Cmd: MAP CHECK DONTCLEARMESSAGES DONTDISPLAYDIALOG
+[0161.95] Log: Build time 59.1 sec
+[0180.26] Log: 
+==== Worlds needing PIE Save:
+[0180.26] Log: z1l2
+[0180.26] Log: ==== 1 total
+[0180.31] Log: Built Phys StaticMesh Cache: 6.984 ms
+[0180.31] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[0180.58] Log: COOKEDPHYSICS: BSP 635.47 KB
+[0181.78] Log: Save=1473.397400
+[0181.79] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk'
+[0181.81] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0182.37] Log: Finished looking for orphan Actors (0.005 secs)
+[0182.37] Log: Game class is 'dnSinglePlayer'
+[0182.40] Log: Primary PhysX scene will be in software.
+[0182.40] Log: Creating Primary PhysX Scene.
+[0182.40] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0182.40] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-15.56.36
+[0182.43] Log: Bringing up level for play took: 0.049689
+[0182.48] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_0:GFxMinimap_0
+	Function UTGame.GFxMinimap:Init:00F2
+[0182.48] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0182.48] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0182.48] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0182.48] Log: PIE: play in editor start time for UEDPIEz1l2 2.423
+[0182.49] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:Init:00F2
+[0182.58] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0182.58] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0182.58] Cmd: SETSOUNDMODE Default
+[0182.58] ScriptLog: START MATCH
+[0182.59] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0186.35] Cmd: StartFire 
+[0186.35] Cmd: OnRelease StopFire
+[0186.45] Cmd: StopFire
+[0189.05] Cmd: onrelease ShowMenu
+[0189.06] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0210.62] Log: Built Phys StaticMesh Cache: 7.642 ms
+[0210.62] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[0211.13] Log: COOKEDPHYSICS: BSP 635.47 KB
+[0212.38] Log: Save=1535.042000
+[0212.38] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[0218.17] Exit: Preparing to exit.
+[0218.29] Exit: Editor shut down
+[0218.29] Exit: Transaction tracking system shut down
+[0218.47] Exit: Windows client shut down
+[0218.47] Exit: XAudio2 Device shut down.
+[0218.55] Exit: Object subsystem successfully closed.
+[0218.57] Log: Shutting down FaceFX...
+[0218.57] Log: FaceFX shutdown.
+[0218.59] DevDataBase: Spent 18.698255 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0218.59] Exit: Exiting.
+[0218.60] Log: Log file closed, 05/22/23 15:57:12

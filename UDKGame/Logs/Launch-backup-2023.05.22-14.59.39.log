@@ -1,0 +1,469 @@
+Log: Log file open, 05/22/23 14:56:34
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line:  
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.58] Init: Computer: JUSTIN-MAINPC
+[0000.58] Init: User: justi
+[0000.58] Init: CPU Page size=4096, Processors=32
+[0000.58] Init: High frequency timer resolution =10.000000 MHz
+[0000.58] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.58] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.63] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.63] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.63] Init: Object subsystem initialized
+[0000.63] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.63] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.63] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.63] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.63] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.63] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.63] DevSave:    Loading value for Extensions from [Core.System]
+[0000.63] DevSave:    Loading value for Suppress from [Core.System]
+[0000.63] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.63] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.63] DevSave:    Loading value for Paths from [Core.System]
+[0000.63] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.63] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.63] DevSave:    Loading value for CachePath from [Core.System]
+[0000.63] DevSave:    Loading value for SavePath from [Core.System]
+[0000.63] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.63] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.63] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.63] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.63] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.34] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.34] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.34] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.35] Init: Skipping CPU performance test in debug build.
+[0019.69] Init: OS stats:
+[0019.69] Init: 	Windows 7 
+[0019.69] Init: 	RemoteDesktop=0
+[0019.69] Init: Memory stats:
+[0019.69] Init: 	Physical: 64662MB
+[0019.69] Init: 	Virtual: 134217727MB
+[0019.69] Init: 	PageFile: 86166MB
+[0019.69] Init: CPU stats:
+[0019.69] Init: 	MeasuredPerformanceTime: -1.000 (measured now)
+[0019.69] Init: GPU stats:
+[0019.69] Init: 	VendorID: 000010DE
+[0019.69] Init: 	DeviceID: 00002684
+[0019.69] Init: 	DriverVersion: 31.0.15.3168
+[0019.69] Init: 	DeviceName: NVIDIA GeForce RTX 4090
+[0019.69] Init: 	DriverName: nvldumdx.dll
+[0019.69] Init: 	PixelShaderVersion: 3
+[0019.69] Init: 	VertexShaderVersion: 3
+[0019.69] Init: 	VRAMQuantity: 3072
+[0019.69] Init: 	DedicatedVRAM: 3072
+[0019.69] Init: 	AdapterCount: 2
+[0019.69] Init: 	SupportsHardwareTnL: 1
+[0019.70] Init: Machine  detected compatibility level: Composite: 4. CPU: 5. GPU: 4.
+[0019.70] Init: Previous detected compatibility level: Composite: 0. CPU: 0. GPU: 0.
+[0019.70] Init: System Settings changed using SetFriendlyGraphicsSettings:
+[0019.70] Init: System Settings:
+[0019.70] Init: 	StaticDecals=true
+[0019.70] Init: 	DynamicDecals=true
+[0019.70] Init: 	UnbatchedDecals=true
+[0019.70] Init: 	DynamicLights=true
+[0019.70] Init: 	DynamicShadows=true
+[0019.70] Init: 	LightEnvironmentShadows=true
+[0019.70] Init: 	CompositeDynamicLights=true
+[0019.70] Init: 	SHSecondaryLighting=true
+[0019.70] Init: 	DirectionalLightmaps=true
+[0019.70] Init: 	MotionBlur=true
+[0019.70] Init: 	MotionBlurPause=true
+[0019.70] Init: 	DepthOfField=true
+[0019.70] Init: 	AmbientOcclusion=true
+[0019.70] Init: 	Bloom=true
+[0019.70] Init: 	bAllowLightShafts=true
+[0019.70] Init: 	Distortion=true
+[0019.70] Init: 	FilteredDistortion=true
+[0019.70] Init: 	DropParticleDistortion=false
+[0019.70] Init: 	bAllowDownsampledTranslucency=false
+[0019.70] Init: 	SpeedTreeLeaves=true
+[0019.70] Init: 	bUseMaxQualityMode=false
+[0019.70] Init: 	SpeedTreeFronds=true
+[0019.70] Init: 	OnlyStreamInTextures=false
+[0019.70] Init: 	LensFlares=true
+[0019.70] Init: 	FogVolumes=true
+[0019.70] Init: 	FloatingPointRenderTargets=true
+[0019.70] Init: 	OneFrameThreadLag=true
+[0019.70] Init: 	UseVsync=false
+[0019.70] Init: 	UpscaleScreenPercentage=true
+[0019.70] Init: 	Fullscreen=false
+[0019.70] Init: 	bAllowD3D9MSAA=false
+[0019.70] Init: 	AllowD3D11=false
+[0019.70] Init: 	AllowOpenGL=false
+[0019.71] Init: 	AllowRadialBlur=true
+[0019.71] Init: 	AllowSubsurfaceScattering=true
+[0019.71] Init: 	AllowImageReflections=true
+[0019.71] Init: 	AllowImageReflectionShadowing=true
+[0019.71] Init: 	bEnableBranchingPCFShadows=false
+[0019.71] Init: 	bAllowHardwareShadowFiltering=false
+[0019.71] Init: 	bAllowBetterModulatedShadows=false
+[0019.71] Init: 	bEnableForegroundShadowsOnWorld=false
+[0019.71] Init: 	bEnableForegroundSelfShadowing=false
+[0019.71] Init: 	bAllowWholeSceneDominantShadows=true
+[0019.71] Init: 	bUseConservativeShadowBounds=false
+[0019.71] Init: 	bAllowFracturedDamage=true
+[0019.71] Init: 	bForceCPUAccessToGPUSkinVerts=false
+[0019.71] Init: 	bDisableSkeletalInstanceWeights=false
+[0019.71] Init: 	HighPrecisionGBuffers=false
+[0019.71] Init: 	bAllowSeparateTranslucency=true
+[0019.71] Init: 	bAllowTemporalAA=false
+[0019.71] Init: 	bEnableParallelApexClothingFetch=false
+[0019.71] Init: 	SkeletalMeshLODBias=0
+[0019.71] Init: 	ParticleLODBias=0
+[0019.71] Init: 	DetailMode=2
+[0019.71] Init: 	ShadowFilterQualityBias=0
+[0019.71] Init: 	MaxAnisotropy=4
+[0019.71] Init: 	MaxMultiSamples=1
+[0019.71] Init: 	MinShadowResolution=64
+[0019.71] Init: 	MinPreShadowResolution=8
+[0019.71] Init: 	MaxShadowResolution=1120
+[0019.71] Init: 	MaxWholeSceneDominantShadowResolution=1344
+[0019.71] Init: 	ResX=1024
+[0019.71] Init: 	ResY=768
+[0019.71] Init: 	UnbuiltNumWholeSceneDynamicShadowCascades=3
+[0019.71] Init: 	WholeSceneShadowUnbuiltInteractionThreshold=50
+[0019.71] Init: 	ShadowFadeResolution=128
+[0019.71] Init: 	PreShadowFadeResolution=16
+[0019.71] Init: 	MotionBlurSkinning=1
+[0019.71] Init: 	ApexDestructionMaxChunkIslandCount=2147483647
+[0019.71] Init: 	MaxDrawDistanceScale=1.000
+[0019.71] Init: 	ScreenPercentage=100.000
+[0019.71] Init: 	SceneCaptureStreamingMultiplier=1.000
+[0019.71] Init: 	ShadowTexelsPerPixel=1.273
+[0019.71] Init: 	PreShadowResolutionFactor=0.500
+[0019.71] Init: 	ShadowFilterRadius=2.000
+[0019.71] Init: 	ShadowDepthBias=0.012
+[0019.71] Init: 	PerObjectShadowTransition=60.000
+[0019.71] Init: 	CSMSplitPenumbraScale=0.500
+[0019.71] Init: 	CSMSplitSoftTransitionDistanceScale=4.000
+[0019.71] Init: 	CSMSplitDepthBiasScale=0.500
+[0019.71] Init: 	CSMMinimumFOV=40.000
+[0019.71] Init: 	CSMFOVRoundFactor=4.000
+[0019.71] Init: 	UnbuiltWholeSceneDynamicShadowRadius=20000.000
+[0019.71] Init: 	ShadowFadeExponent=0.250
+[0019.71] Init: 	NumFracturedPartsScale=1.000
+[0019.71] Init: 	FractureDirectSpawnChanceScale=1.000
+[0019.71] Init: 	FractureRadialSpawnChanceScale=1.000
+[0019.71] Init: 	FractureCullDistanceScale=1.000
+[0019.71] Init: 	DecalCullDistanceScale=1.000
+[0019.71] Init: 	TessellationFactorMultiplier=1.000
+[0019.71] Init: 	TemporalAA_MinDepth=500.000
+[0019.71] Init: 	TemporalAA_StartDepthVelocityScale=100.000
+[0019.71] Init: 	TemporalAA_JitterStartDepthScale=3.000
+[0019.71] Init: 	ApexLODResourceBudget=1000000020040877300000.000
+[0019.71] Init: 	ApexDestructionMaxChunkSeparationLOD=1.000
+[0019.71] Log: 	TEXTUREGROUP_World: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_WorldNormalMap: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_WorldSpecular: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Character: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_CharacterNormalMap: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_CharacterSpecular: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Weapon: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_WeaponNormalMap: (MinLODSize=1024,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_WeaponSpecular: (MinLODSize=512,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Vehicle: (MinLODSize=1024,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_VehicleNormalMap: (MinLODSize=1024,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_VehicleSpecular: (MinLODSize=1024,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Cinematic: (MinLODSize=256,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Effects: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Linear,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_EffectsNotFiltered: (MinLODSize=256,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Skybox: (MinLODSize=512,MaxLODSize=2048,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_UI: (MinLODSize=1024,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Lightmap: (MinLODSize=512,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_RenderTarget: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_MobileFlattened: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_ProcBuilding_Face: (MinLODSize=1,MaxLODSize=1024,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_ProcBuilding_LightMap: (MinLODSize=1,MaxLODSize=256,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Shadowmap: (MinLODSize=512,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,NumStreamedMips=3,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_ColorLookupTable: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Terrain_Heightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_Terrain_Weightmap: (MinLODSize=1,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Point,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Log: 	TEXTUREGROUP_ImageBasedReflection: (MinLODSize=256,MaxLODSize=4096,LODBias=0,MinMagFilter=Aniso,MipFilter=Linear,MipGenSettings=TMGS_Blur5)
+[0019.72] Log: 	TEXTUREGROUP_Bokeh: (MinLODSize=1,MaxLODSize=256,LODBias=0,MinMagFilter=Linear,MipFilter=Linear,MipGenSettings=TMGS_SimpleAverage)
+[0019.72] Init: Friendly System Settings:
+[0019.72] Init: 	TextureDetail=Level5
+[0019.72] Init: 	WorldDetail=Level5
+[0019.72] Init: 	ShadowDetail=Level5
+[0019.72] Init: 	bUseVSync=0
+[0019.72] Init: 	bUseMSAA=0
+[0019.72] Init: 	ScreenPercentage=100
+[0019.72] Init: 	UpscaleScreenPercentage=1
+[0019.72] Init: 	ResX=1024
+[0019.72] Init: 	ResY= 768
+[0019.72] Init: 	Fullscreen=0
+[0019.72] Init: Writing new compatibility level to ini. Composite: 4. CPU: 5. GPU: 4.
+[0019.76] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.83] Error: Error, Manifest doesn't exist: ..\..\UDKGame\Script\Manifest.txt
+[0026.19] Log: PhysX GPU Support: DISABLED
+[0026.20] Init: Initializing FaceFX...
+[0026.20] Init: FaceFX 1.7.4 initialized.
+[0026.25] Init: Version: 8364
+[0026.26] Init: Epic Internal: 0
+[0026.26] Init: Compiled (64-bit): May 21 2023 21:56:09
+[0026.26] Init: Command line:  
+[0026.26] Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+[0026.26] Init: Character set: Unicode
+[0026.26] Log: Executing Class UnrealEd.MakeCommandlet
+[0026.26] Init: UEngine initialized
+[0026.32] Heading: --------------------Core - Release--------------------
+[0026.32] Log: Analyzing...
+[0026.32] Log: Loading global macros for Core
+[0026.39] Log: Exporting native class declarations for Core
+[0026.39] Log: Autogenerating C++ header: 
+[0026.40] Log: Autogenerating C++ header: CoreNames.h
+[0026.40] Log: Success: Compiled 2967 line(s), 482 statement(s).
+
+[0026.40] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\Core.u'
+[0026.43] Log: Save=33.966700
+[0026.43] Log: Moving '..\..\UDKGame\Script\Core_save.tmp' to '..\..\UDKGame\Script\Core.u'
+[0026.43] Heading: --------------------Engine - Release--------------------
+[0026.45] Log: Analyzing...
+[0026.46] Log: Loading global macros for Engine
+[0026.65] Log: Undefining macro 'INCLUDE_GAME_STATS' at line 12
+[0029.44] Log: Exporting native class declarations for Engine
+[0029.45] Log: Autogenerating C++ header: 
+[0030.24] Log: Autogenerating C++ header: Mesh
+[0030.26] Log: Autogenerating C++ header: Light
+[0030.27] Log: Autogenerating C++ header: ForceField
+[0030.28] Log: Autogenerating C++ header: ProcBuilding
+[0030.29] Log: Autogenerating C++ header: Camera
+[0030.29] Log: Autogenerating C++ header: Controller
+[0030.30] Log: Autogenerating C++ header: Prefab
+[0030.31] Log: Autogenerating C++ header: Particle
+[0030.48] Log: Autogenerating C++ header: Fluid
+[0030.49] Log: Autogenerating C++ header: FogVolume
+[0030.49] Log: Autogenerating C++ header: ReplicationInfo
+[0030.49] Log: Autogenerating C++ header: GameEngine
+[0030.50] Log: Autogenerating C++ header: Sound
+[0030.51] Log: Autogenerating C++ header: LensFlare
+[0030.52] Log: Autogenerating C++ header: Pawn
+[0030.52] Log: Autogenerating C++ header: Anim
+[0030.61] Log: Autogenerating C++ header: SpeedTree
+[0030.61] Log: Autogenerating C++ header: Spline
+[0030.61] Log: Autogenerating C++ header: Foliage
+[0030.61] Log: Autogenerating C++ header: AudioDevice
+[0030.61] Log: Autogenerating C++ header: Base
+[0030.62] Log: Autogenerating C++ header: Interpolation
+[0030.65] Log: Autogenerating C++ header: K2
+[0030.66] Log: Autogenerating C++ header: Material
+[0030.73] Log: Autogenerating C++ header: Scene
+[0030.74] Log: Autogenerating C++ header: Sequence
+[0030.87] Log: Autogenerating C++ header: SkeletalMesh
+[0030.87] Log: Autogenerating C++ header: Texture
+[0030.88] Log: Autogenerating C++ header: UserInterface
+[0030.89] Log: Autogenerating C++ header: AI
+[0030.94] Log: Autogenerating C++ header: Decal
+[0030.94] Log: Autogenerating C++ header: Physics
+[0030.97] Log: Autogenerating C++ header: Terrain
+[0030.97] Log: Autogenerating C++ header: UIPrivate
+[0031.03] Log: Autogenerating C++ header: EngineNames.h
+[0031.22] Log: Success: Compiled 163605 line(s), 18065 statement(s).
+
+[0031.22] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\Engine.u'
+[0032.14] Log: Save=917.012000
+[0032.14] Log: Moving '..\..\UDKGame\Script\Engine_save.tmp' to '..\..\UDKGame\Script\Engine.u'
+[0032.14] Heading: --------------------GFxUI - Release--------------------
+[0032.14] Log: Analyzing...
+[0032.14] Log: Loading global macros for GFxUI
+[0032.20] Log: Exporting native class declarations for GFxUI
+[0032.20] Log: Autogenerating C++ header: UIPrivate
+[0032.20] Log: Autogenerating C++ header: 
+[0032.21] Log: Autogenerating C++ header: UISequence
+[0032.21] Log: Autogenerating C++ header: GFxUINames.h
+[0032.21] Log: Success: Compiled 1822 line(s), 318 statement(s).
+
+[0032.21] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\GFxUI.u'
+[0032.25] Log: Save=35.298000
+[0032.25] Log: Moving '..\..\UDKGame\Script\GFxUI_save.tmp' to '..\..\UDKGame\Script\GFxUI.u'
+[0032.25] Heading: --------------------GameFramework - Release--------------------
+[0032.25] Log: Analyzing...
+[0032.25] Log: Loading global macros for GameFramework
+[0032.76] Log: Exporting native class declarations for GameFramework
+[0032.76] Log: Autogenerating C++ header: 
+[0032.80] Log: Autogenerating C++ header: Camera
+[0032.80] Log: Autogenerating C++ header: Anim
+[0032.80] Log: Autogenerating C++ header: SpecialMoves
+[0032.81] Log: Autogenerating C++ header: GameStats
+[0032.81] Log: Autogenerating C++ header: GameFrameworkNames.h
+[0032.92] Log: Success: Compiled 19415 line(s), 2142 statement(s).
+
+[0032.92] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\GameFramework.u'
+[0033.06] Log: Save=142.800700
+[0033.07] Log: Moving '..\..\UDKGame\Script\GameFramework_save.tmp' to '..\..\UDKGame\Script\GameFramework.u'
+[0033.07] Heading: --------------------UnrealEd - Release--------------------
+[0033.07] Log: Analyzing...
+[0033.07] Log: Loading global macros for UnrealEd
+[0033.29] Log: Exporting native class declarations for UnrealEd
+[0033.29] Log: Autogenerating C++ header: 
+[0033.43] Log: Autogenerating C++ header: Cascade
+[0033.44] Log: Autogenerating C++ header: Private
+[0033.44] Log: Autogenerating C++ header: GameStats
+[0033.44] Log: Autogenerating C++ header: UnrealEdNames.h
+[0033.69] Log: Success: Compiled 10093 line(s), 1059 statement(s).
+
+[0033.69] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UnrealEd.u'
+[0033.93] Log: Save=240.175600
+[0033.93] Log: Moving '..\..\UDKGame\Script\UnrealEd_save.tmp' to '..\..\UDKGame\Script\UnrealEd.u'
+[0033.93] Heading: --------------------GFxUIEditor - Release--------------------
+[0033.93] Log: Analyzing...
+[0033.93] Log: Loading global macros for GFxUIEditor
+[0033.94] Log: Exporting native class declarations for GFxUIEditor
+[0033.94] Log: Autogenerating C++ header: 
+[0033.94] Log: Autogenerating C++ header: GFxUIEditorNames.h
+[0033.94] Log: Success: Compiled 236 line(s), 11 statement(s).
+
+[0033.94] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\GFxUIEditor.u'
+[0033.97] Log: Save=23.286800
+[0033.97] Log: Moving '..\..\UDKGame\Script\GFxUIEditor_save.tmp' to '..\..\UDKGame\Script\GFxUIEditor.u'
+[0033.97] Heading: --------------------IpDrv - Release--------------------
+[0033.97] Log: Analyzing...
+[0033.97] Log: Loading global macros for IpDrv
+[0034.14] Log: Exporting native class declarations for IpDrv
+[0034.14] Log: Autogenerating C++ header: 
+[0034.15] Log: Autogenerating C++ header: UIPrivate
+[0034.16] Log: Autogenerating C++ header: IpDrvNames.h
+[0034.16] Log: Success: Compiled 7302 line(s), 736 statement(s).
+
+[0034.16] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\IpDrv.u'
+[0034.22] Log: Save=65.013000
+[0034.22] Log: Moving '..\..\UDKGame\Script\IpDrv_save.tmp' to '..\..\UDKGame\Script\IpDrv.u'
+[0034.22] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0034.22] Log: Analyzing...
+[0034.23] Log: Loading global macros for OnlineSubsystemPC
+[0034.27] Log: Exporting native class declarations for OnlineSubsystemPC
+[0034.27] Log: Autogenerating C++ header: 
+[0034.27] Log: Autogenerating C++ header: OnlineSubsystemPCNames.h
+[0034.27] Log: Success: Compiled 2012 line(s), 228 statement(s).
+
+[0034.27] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\OnlineSubsystemPC.u'
+[0034.30] Log: Save=29.034900
+[0034.30] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemPC_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemPC.u'
+[0034.30] Heading: --------------------OnlineSubsystemGameSpy - Release--------------------
+[0034.31] Log: Analyzing...
+[0034.31] Log: Loading global macros for OnlineSubsystemGameSpy
+[0034.38] Log: Exporting native class declarations for OnlineSubsystemGameSpy
+[0034.38] Log: Autogenerating C++ header: 
+[0034.38] Log: Autogenerating C++ header: OnlineSubsystemGameSpyNames.h
+[0034.38] Log: Success: Compiled 3404 line(s), 436 statement(s).
+
+[0034.38] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\OnlineSubsystemGameSpy.u'
+[0034.42] Log: Save=38.058600
+[0034.42] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemGameSpy_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemGameSpy.u'
+[0034.42] Heading: --------------------OnlineSubsystemLive - Release--------------------
+[0034.42] Log: Analyzing...
+[0034.43] Log: Loading global macros for OnlineSubsystemLive
+[0034.57] Log: Exporting native class declarations for OnlineSubsystemLive
+[0034.57] Log: Autogenerating C++ header: 
+[0034.58] Log: Autogenerating C++ header: OnlineSubsystemLiveNames.h
+[0034.58] Log: Success: Compiled 5986 line(s), 632 statement(s).
+
+[0034.58] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\OnlineSubsystemLive.u'
+[0034.63] Log: Save=49.341500
+[0034.63] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemLive_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemLive.u'
+[0034.63] Heading: --------------------OnlineSubsystemSteamworks - Release--------------------
+[0034.63] Log: Analyzing...
+[0034.64] Log: Loading global macros for OnlineSubsystemSteamworks
+[0034.73] Log: Exporting native class declarations for OnlineSubsystemSteamworks
+[0034.73] Log: Autogenerating C++ header: 
+[0034.73] Log: Autogenerating C++ header: OnlineSubsystemSteamworksNames.h
+[0034.74] Log: Success: Compiled 4302 line(s), 493 statement(s).
+
+[0034.74] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\OnlineSubsystemSteamworks.u'
+[0034.78] Log: Save=43.493300
+[0034.78] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemSteamworks_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemSteamworks.u'
+[0034.78] Heading: --------------------UDKBase - Release--------------------
+[0034.78] Log: Analyzing...
+[0034.78] Log: Loading global macros for UDKBase
+[0034.95] Log: Exporting native class declarations for UDKBase
+[0034.95] Log: Autogenerating C++ header: 
+[0035.00] Log: Autogenerating C++ header: Animation
+[0035.01] Log: Autogenerating C++ header: UDKBaseNames.h
+[0035.01] Log: Success: Compiled 7773 line(s), 1279 statement(s).
+
+[0035.01] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UDKBase.u'
+[0035.19] Log: Save=174.075400
+[0035.19] Log: Moving '..\..\UDKGame\Script\UDKBase_save.tmp' to '..\..\UDKGame\Script\UDKBase.u'
+[0035.19] Heading: --------------------UTEditor - Release--------------------
+[0035.19] Log: Analyzing...
+[0035.19] Log: Loading global macros for UTEditor
+[0035.19] Log: Exporting native class declarations for UTEditor
+[0035.19] Log: Autogenerating C++ header: 
+[0035.19] Log: Autogenerating C++ header: UTEditorNames.h
+[0035.20] Log: Success: Compiled 28 line(s), 2 statement(s).
+
+[0035.20] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UTEditor.u'
+[0035.22] Log: Save=19.536400
+[0035.22] Log: Moving '..\..\UDKGame\Script\UTEditor_save.tmp' to '..\..\UDKGame\Script\UTEditor.u'
+[0035.22] Heading: --------------------UTGame - Release--------------------
+[0035.22] Log: Analyzing...
+[0035.22] Log: Loading global macros for UTGame
+[0039.57] Log: Exporting native class declarations for UTGame
+[0039.57] Log: Autogenerating C++ header: 
+[0039.58] Log: Autogenerating C++ header: UTGameNames.h
+[0040.01] Log: Success: Compiled 129629 line(s), 12652 statement(s).
+
+[0040.01] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UTGame.u'
+[0040.66] Log: Save=649.716100
+[0040.66] Log: Moving '..\..\UDKGame\Script\UTGame_save.tmp' to '..\..\UDKGame\Script\UTGame.u'
+[0040.67] Heading: --------------------UTGameContent - Release--------------------
+[0040.67] Log: Analyzing...
+[0040.67] Log: Loading global macros for UTGameContent
+[0040.93] Log: Success: Compiled 4380 line(s), 539 statement(s).
+
+[0040.93] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UTGameContent.u'
+[0041.11] Log: Save=174.642100
+[0041.11] Log: Moving '..\..\UDKGame\Script\UTGameContent_save.tmp' to '..\..\UDKGame\Script\UTGameContent.u'
+[0041.11] Heading: --------------------dnGame - Release--------------------
+[0041.11] Log: Analyzing...
+[0041.11] Log: Loading global macros for dnGame
+[0041.13] Log: Exporting native class declarations for dnGame
+[0041.13] Log: Autogenerating C++ header: 
+[0041.13] Log: Autogenerating C++ header: dnGameNames.h
+[0041.13] Warning: d:\projects\Duke2003\Development\Src\dnGame\Classes\Pistol.uc(39) : Warning, Unknown property in defaults: 	MomentumTransfer=50000.0 (looked in Pistol)
+[0041.13] Warning: d:\projects\Duke2003\Development\Src\dnGame\Classes\Pistol.uc(40) : Warning, Unknown property in defaults: 	BeamAmmoUsePerSecond=8.5 (looked in Pistol)
+[0041.13] Warning: d:\projects\Duke2003\Development\Src\dnGame\Classes\Pistol.uc(41) : Warning, Unknown property in defaults: 	MinimumDamage=5.0 (looked in Pistol)
+[0041.13] Log: Success: Compiled 179 line(s), 11 statement(s).
+
+[0041.13] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\dnGame.u'
+[0041.22] Log: Save=80.274600
+[0041.22] Log: Moving '..\..\UDKGame\Script\dnGame_save.tmp' to '..\..\UDKGame\Script\dnGame.u'
+[0041.22] Heading: --------------------UDKUltimate - Release--------------------
+[0041.22] Log: Analyzing...
+[0041.22] Log: Loading global macros for UDKUltimate
+[0041.31] Log: Success: Compiled 1075 line(s), 179 statement(s).
+
+[0041.31] Log: Scripts successfully compiled - saving package 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Script\UDKUltimate.u'
+[0041.41] Log: Save=99.948900
+[0041.41] Log: Moving '..\..\UDKGame\Script\UDKUltimate_save.tmp' to '..\..\UDKGame\Script\UDKUltimate.u'
+[0042.01] Log: 
+[0042.01] Log: Warning/Error Summary
+[0042.01] Log: ---------------------
+[0042.01] Log: d:\projects\Duke2003\Development\Src\dnGame\Classes\Pistol.uc(39) : Warning, Unknown property in defaults: 	MomentumTransfer=50000.0 (looked in Pistol)
+[0042.01] Log: d:\projects\Duke2003\Development\Src\dnGame\Classes\Pistol.uc(40) : Warning, Unknown property in defaults: 	BeamAmmoUsePerSecond=8.5 (looked in Pistol)
+[0042.01] Log: d:\projects\Duke2003\Development\Src\dnGame\Classes\Pistol.uc(41) : Warning, Unknown property in defaults: 	MinimumDamage=5.0 (looked in Pistol)
+[0042.01] Log: 
+[0042.01] Log: Success - 0 error(s), 3 warning(s)
+[0042.01] Log: 
+Execution of commandlet took:  15.75 seconds
+[0042.02] Exit: Preparing to exit.
+[0042.09] Exit: Object subsystem successfully closed.
+[0042.09] Log: Shutting down FaceFX...
+[0042.09] Log: FaceFX shutdown.
+[0042.09] DevDataBase: Spent 18.697267 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0042.09] Exit: Exiting.
+[0042.10] Log: Log file closed, 05/22/23 14:57:16

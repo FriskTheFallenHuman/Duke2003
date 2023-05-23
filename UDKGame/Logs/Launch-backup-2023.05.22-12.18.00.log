@@ -1,0 +1,636 @@
+Log: Log file open, 05/22/23 12:11:21
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.55] Init: Computer: JUSTIN-MAINPC
+[0000.55] Init: User: justi
+[0000.55] Init: CPU Page size=4096, Processors=32
+[0000.55] Init: High frequency timer resolution =10.000000 MHz
+[0000.55] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.55] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.60] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.60] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.60] Init: Object subsystem initialized
+[0000.60] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.60] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.60] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.60] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.60] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.60] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.60] DevSave:    Loading value for Extensions from [Core.System]
+[0000.60] DevSave:    Loading value for Suppress from [Core.System]
+[0000.60] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.60] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.60] DevSave:    Loading value for Paths from [Core.System]
+[0000.60] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.60] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.60] DevSave:    Loading value for CachePath from [Core.System]
+[0000.60] DevSave:    Loading value for SavePath from [Core.System]
+[0000.60] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.60] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.60] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.60] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.60] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.33] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.33] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.33] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.40] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.55] Log: PhysX GPU Support: DISABLED
+[0019.55] Init: Initializing FaceFX...
+[0019.55] Init: FaceFX 1.7.4 initialized.
+[0021.51] Init: Finished loading startup packages in 1.81 seconds
+[0021.52] Log: 76303 objects as part of root set at end of initial load.
+[0021.52] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.53] Log: Supported Consoles:
+[0021.53] Log:   PC
+[0021.53] Log: Initializing Engine...
+[0021.57] Log: Missing cached shader map for material Duke_Hand_Material, compiling.
+[0022.08] Log: Missing cached shader map for material Master_Weapon_Shader, compiling.
+[0022.23] Log: Encountered missing default brush - spawning new one
+[0022.23] Init: UEngine initialized
+[0022.23] Log: Primary PhysX scene will be in software.
+[0022.23] Log: Creating Primary PhysX Scene.
+[0022.24] Init: Transaction tracking system initialized
+[0022.68] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0022.69] Log: Working around XDK XAudio2 regression: TRUE
+[0022.70] Init: XAudio2Device initialized.
+[0023.14] Init: Client initialized
+[0023.14] Init: Editor engine initialized
+[0023.22] Log: Initializing Engine Completed
+[0023.22] Log: >>>>>>>>>>>>>> Initial startup: 23.22s <<<<<<<<<<<<<<<
+[0023.29] Cmd: MODE MAPEXT=udk
+[0023.34] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0023.35] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0024.14] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0024.14] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0024.18] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0024.18] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0026.83] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0027.03] Log: Encountered missing default brush - spawning new one
+[0027.43] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0027.50] Log: -- Checking Building LODs
+[0027.50] Log: Primary PhysX scene will be in software.
+[0027.50] Log: Creating Primary PhysX Scene.
+[0027.51] Log: Finished looking for orphan Actors (0.003 secs)
+[0027.51] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0027.57] Log: TIMER ALL OF INIT : [8.000771]
+[0053.15] Cmd: nxvis PHYSX_CLEAR_ALL
+[0053.15] Log: Clearing all PhysX Debug Flags.
+[0053.15] Cmd: apexvis APEX_CLEAR_ALL
+[0053.15] DevPhysics: ApexSDK              : VISUALIZE_LOD_BENEFITS
+[0053.15] DevPhysics: ApexSDK              : LOD_DISTANCE_SCALE
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKINNED_POSITIONS
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SPHERE_COLLISION
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_MAX_DISTANCE_OUT
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_MAX_DISTANCE_IN
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_ALL_SKIN_MAP
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BAD_SKIN_MAP
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKIN_MAP
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_RENDER_NORMALS
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_RENDER_TANGENTS
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICS_MESH_WIRE
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICS_MESH_SOLID
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKELETON
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BONE_FRAMES
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BONE_NAMES
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_VELOCITIES
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_GRAPHICAL_VERTEX_BONES
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICAL_VERTEX_BONES
+[0053.15] DevPhysics: Clothing             : VISUALIZE_CLOTHING_ACOLLISION_UMBRELLAS
+[0053.15] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_BOUNDS
+[0053.16] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_SUPPORT
+[0053.16] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_ACTOR_POSE
+[0053.16] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_ACTOR_POSE
+[0053.16] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_ACTOR_NAME
+[0053.16] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_ACTOR_NAME
+[0053.16] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_FRAGMENT_POSE
+[0053.16] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_FRAGMENT_POSE
+[0053.16] DevPhysics: Apex Debug (Scene 0): apexvis APEX_CLEAR_ALL FALSE
+[0053.19] Log: Primary PhysX scene will be in software.
+[0053.19] Log: Creating Primary PhysX Scene.
+[0053.33] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0053.33] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0053.33] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0071.48] Cmd: nxvis PHYSX_CLEAR_ALL
+[0071.48] Log: Clearing all PhysX Debug Flags.
+[0071.48] Cmd: apexvis APEX_CLEAR_ALL
+[0071.48] DevPhysics: ApexSDK              : VISUALIZE_LOD_BENEFITS
+[0071.48] DevPhysics: ApexSDK              : LOD_DISTANCE_SCALE
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKINNED_POSITIONS
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SPHERE_COLLISION
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_MAX_DISTANCE_OUT
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_MAX_DISTANCE_IN
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_ALL_SKIN_MAP
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BAD_SKIN_MAP
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKIN_MAP
+[0071.48] DevPhysics: Clothing             : VISUALIZE_CLOTHING_RENDER_NORMALS
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_RENDER_TANGENTS
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICS_MESH_WIRE
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICS_MESH_SOLID
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKELETON
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BONE_FRAMES
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BONE_NAMES
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_VELOCITIES
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_GRAPHICAL_VERTEX_BONES
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICAL_VERTEX_BONES
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_ACOLLISION_UMBRELLAS
+[0071.49] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_BOUNDS
+[0071.49] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_SUPPORT
+[0071.49] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_ACTOR_POSE
+[0071.49] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_ACTOR_POSE
+[0071.49] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_ACTOR_NAME
+[0071.49] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_ACTOR_NAME
+[0071.49] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_FRAGMENT_POSE
+[0071.49] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_FRAGMENT_POSE
+[0071.49] DevPhysics: Apex Debug (Scene 0): apexvis APEX_CLEAR_ALL FALSE
+[0071.49] DevPhysics: ApexSDK              : VISUALIZE_LOD_BENEFITS
+[0071.49] DevPhysics: ApexSDK              : LOD_DISTANCE_SCALE
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKINNED_POSITIONS
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SPHERE_COLLISION
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_MAX_DISTANCE_OUT
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_MAX_DISTANCE_IN
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_ALL_SKIN_MAP
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BAD_SKIN_MAP
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKIN_MAP
+[0071.49] DevPhysics: Clothing             : VISUALIZE_CLOTHING_RENDER_NORMALS
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_RENDER_TANGENTS
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICS_MESH_WIRE
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICS_MESH_SOLID
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_SKELETON
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BONE_FRAMES
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_BONE_NAMES
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_VELOCITIES
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_GRAPHICAL_VERTEX_BONES
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_PHYSICAL_VERTEX_BONES
+[0071.50] DevPhysics: Clothing             : VISUALIZE_CLOTHING_ACOLLISION_UMBRELLAS
+[0071.50] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_BOUNDS
+[0071.50] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_SUPPORT
+[0071.50] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_ACTOR_POSE
+[0071.50] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_ACTOR_POSE
+[0071.50] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_ACTOR_NAME
+[0071.50] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_ACTOR_NAME
+[0071.50] DevPhysics: Destructible         : VISUALIZE_DESTRUCTIBLE_FRAGMENT_POSE
+[0071.50] DevPhysics: Destructible         : THRESHOLD_DISTANCE_DESTRUCTIBLE_FRAGMENT_POSE
+[0071.50] DevPhysics: Apex Debug (Scene 1): apexvis APEX_CLEAR_ALL FALSE
+[0071.54] Log: Primary PhysX scene will be in software.
+[0071.54] Log: Creating Primary PhysX Scene.
+[0071.67] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (SK_WP_Linkgun_1P) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0071.68] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (SK_WP_Linkgun_1P) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0071.68] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (SK_WP_Linkgun_1P) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0093.14] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0093.14] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0093.17] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0093.17] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0093.63] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0093.63] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.51] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.51] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.53] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.53] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.55] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.55] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.57] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0094.57] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.42] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.42] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.44] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.44] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.46] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.46] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.47] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0095.47] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0102.60] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0102.60] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0104.68] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0104.68] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0115.01] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0115.01] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0124.97] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0124.97] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0130.18] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0130.18] Log: MorphTargetSet (VH_Manta_MorphTargets) is added to the mesh (WP_PistolMesh) that's not compatible. BaseSkelMesh has to be (SK_VH_Manta)
+[0140.48] Log: saving as ..\..\UDKGame\Content\Weapons2\wp_pistol.upk
+[0140.49] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [wp_pistol] ([10] browsable assets)...
+[0140.50] Log: OBJ SavePackage: Finished generating thumbnails for package [wp_pistol]
+[0140.50] Cmd: OBJ SAVEPACKAGE PACKAGE="wp_pistol" FILE="..\..\UDKGame\Content\Weapons2\wp_pistol.upk"
+[0141.50] Log: Save=950.244400
+[0141.50] Log: Moving '..\..\UDKGame\Content\Weapons2\wp_pistol_save.tmp' to '..\..\UDKGame\Content\Weapons2\wp_pistol.upk'
+[0145.20] Log: 
+==== Worlds needing PIE Save:
+[0145.20] Log: Untitled_2
+[0145.20] Log: ==== 1 total
+[0145.23] Log: Built Phys StaticMesh Cache: 1.762 ms
+[0145.23] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0145.30] Log: Save=68.693500
+[0145.30] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0145.32] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0145.32] Log: Finished looking for orphan Actors (0.003 secs)
+[0145.33] Log: Game class is 'dnSinglePlayer'
+[0145.34] Log: Primary PhysX scene will be in software.
+[0145.34] Log: Creating Primary PhysX Scene.
+[0145.34] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0145.34] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.13.46
+[0145.35] Log: Bringing up level for play took: 0.015978
+[0145.60] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_0:GFxMinimap_0
+	Function UTGame.GFxMinimap:Init:00F2
+[0145.60] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0145.60] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0145.60] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0145.60] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.578
+[0145.60] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:Init:00F2
+[0145.63] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0145.63] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0145.63] Cmd: SETSOUNDMODE Default
+[0145.63] ScriptLog: START MATCH
+[0145.64] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0149.09] Cmd: onrelease ShowMenu
+[0149.10] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0149.10] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_0
+	Function Engine.GameInfo:RestartPlayer:025E
+[0150.44] Log: 
+==== Worlds needing PIE Save:
+[0150.44] Log: Untitled_2
+[0150.44] Log: ==== 1 total
+[0150.47] Log: Built Phys StaticMesh Cache: 2.390 ms
+[0150.47] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0150.54] Log: Save=69.171500
+[0150.54] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0150.56] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0150.57] Log: Finished looking for orphan Actors (0.003 secs)
+[0150.57] Log: Game class is 'dnSinglePlayer'
+[0150.58] Log: Primary PhysX scene will be in software.
+[0150.58] Log: Creating Primary PhysX Scene.
+[0150.58] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0150.58] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.13.51
+[0150.59] Log: Bringing up level for play took: 0.015105
+[0150.63] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_2:GFxMinimap_2
+	Function UTGame.GFxMinimap:Init:00F2
+[0150.63] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0150.63] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0150.63] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0150.63] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.368
+[0150.64] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_3:GFxMinimap_3
+	Function UTGame.GFxMinimap:Init:00F2
+[0150.67] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_1
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0150.67] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_1
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0150.67] Cmd: SETSOUNDMODE Default
+[0150.67] ScriptLog: START MATCH
+[0150.67] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_3:GFxMinimap_3
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0178.59] Cmd: onrelease ShowMenu
+[0178.59] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0178.60] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_1
+	Function Engine.GameInfo:RestartPlayer:025E
+[0253.96] Log: 
+==== Worlds needing PIE Save:
+[0253.96] Log: Untitled_2
+[0253.96] Log: ==== 1 total
+[0253.99] Log: Built Phys StaticMesh Cache: 1.860 ms
+[0253.99] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0254.06] Log: Save=71.843400
+[0254.06] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0254.08] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0254.09] Log: Finished looking for orphan Actors (0.003 secs)
+[0254.09] Log: Game class is 'dnSinglePlayer'
+[0254.10] Log: Primary PhysX scene will be in software.
+[0254.10] Log: Creating Primary PhysX Scene.
+[0254.10] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0254.10] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.15.35
+[0254.11] Log: Bringing up level for play took: 0.015940
+[0254.15] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_4:GFxMinimap_4
+	Function UTGame.GFxMinimap:Init:00F2
+[0254.15] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0254.15] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0254.15] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0254.15] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.378
+[0254.16] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_5:GFxMinimap_5
+	Function UTGame.GFxMinimap:Init:00F2
+[0254.19] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_2
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0254.19] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_2
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0254.19] Cmd: SETSOUNDMODE Default
+[0254.19] ScriptLog: START MATCH
+[0254.19] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_5:GFxMinimap_5
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0256.88] Cmd: onrelease ShowMenu
+[0256.89] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0256.89] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_2
+	Function Engine.GameInfo:RestartPlayer:025E
+[0263.91] Log: 
+==== Worlds needing PIE Save:
+[0263.91] Log: Untitled_2
+[0263.91] Log: ==== 1 total
+[0263.94] Log: Built Phys StaticMesh Cache: 2.081 ms
+[0263.94] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0263.96] Warning: PATHING NEEDS TO BE REBUILT FOR Untitled_2.TheWorld:PersistentLevel
+[0264.02] Log: Save=78.966700
+[0264.02] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0264.04] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0264.05] Log: Finished looking for orphan Actors (0.003 secs)
+[0264.05] Log: Game class is 'dnSinglePlayer'
+[0264.06] Log: Primary PhysX scene will be in software.
+[0264.06] Log: Creating Primary PhysX Scene.
+[0264.06] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0264.06] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.15.45
+[0264.07] Log: Bringing up level for play took: 0.016667
+[0264.11] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_6:GFxMinimap_6
+	Function UTGame.GFxMinimap:Init:00F2
+[0264.11] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0264.11] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0264.11] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0264.11] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.383
+[0264.12] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_7:GFxMinimap_7
+	Function UTGame.GFxMinimap:Init:00F2
+[0264.15] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_3
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0264.15] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_3
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0264.15] Cmd: SETSOUNDMODE Default
+[0264.15] ScriptLog: START MATCH
+[0264.15] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_7:GFxMinimap_7
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0266.10] Cmd: onrelease ShowMenu
+[0266.11] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0266.11] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_3
+	Function UTGame.UTPawn:SetHandIKEnabled:00BB
+[0266.11] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_3
+	Function UTGame.UTPawn:SetHandIKEnabled:00E4
+[0266.11] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_3
+	Function Engine.GameInfo:RestartPlayer:025E
+[0275.26] Log: 
+==== Worlds needing PIE Save:
+[0275.26] Log: Untitled_2
+[0275.26] Log: ==== 1 total
+[0275.28] Log: Built Phys StaticMesh Cache: 1.986 ms
+[0275.29] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0275.30] Warning: PATHING NEEDS TO BE REBUILT FOR Untitled_2.TheWorld:PersistentLevel
+[0275.36] Log: Save=72.457300
+[0275.36] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0275.37] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0275.38] Log: Finished looking for orphan Actors (0.003 secs)
+[0275.38] Log: Game class is 'dnSinglePlayer'
+[0275.40] Log: Primary PhysX scene will be in software.
+[0275.40] Log: Creating Primary PhysX Scene.
+[0275.40] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0275.40] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.15.56
+[0275.41] Log: Bringing up level for play took: 0.015760
+[0275.45] Error: (Function UTGame.UTGame:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0275.45] ScriptLog: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[0275.45] Error: (Function UTGame.UTHUDBase:PostBeginPlay:00C3) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0275.45] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_8:GFxMinimap_8
+	Function UTGame.GFxMinimap:Init:00F2
+[0275.45] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0275.45] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0275.46] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0275.46] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.375
+[0275.46] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_9:GFxMinimap_9
+	Function UTGame.GFxMinimap:Init:00F2
+[0275.55] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0275.55] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0275.55] Cmd: SETSOUNDMODE Default
+[0275.55] ScriptLog: START MATCH
+[0275.55] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_9:GFxMinimap_9
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0277.84] Cmd: onrelease ShowMenu
+[0277.85] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0277.85] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:00BB
+[0277.85] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:00E4
+[0277.85] Error: (Function UTGame.UTPlayerController:Dead.BeginState:008B) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0277.85] Error: (Function UTGame.UTPlayerController:Dead.BeginState:00E1) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0277.85] Error: (Function UTGame.UTGame:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0277.85] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_4
+	Function Engine.GameInfo:RestartPlayer:025E
+[0279.09] Log: 
+==== Worlds needing PIE Save:
+[0279.09] Log: Untitled_2
+[0279.09] Log: ==== 1 total
+[0279.12] Log: Built Phys StaticMesh Cache: 2.316 ms
+[0279.12] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0279.14] Warning: PATHING NEEDS TO BE REBUILT FOR Untitled_2.TheWorld:PersistentLevel
+[0279.19] Log: Save=71.945500
+[0279.19] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0279.21] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0279.22] Log: Finished looking for orphan Actors (0.003 secs)
+[0279.22] Log: Game class is 'dnSinglePlayer'
+[0279.23] Log: Primary PhysX scene will be in software.
+[0279.23] Log: Creating Primary PhysX Scene.
+[0279.24] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0279.24] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.16.00
+[0279.25] Log: Bringing up level for play took: 0.015488
+[0279.28] Error: (Function UTGame.UTGame:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0279.28] ScriptLog: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[0279.28] Error: (Function UTGame.UTHUDBase:PostBeginPlay:00C3) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0279.29] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_10:GFxMinimap_10
+	Function UTGame.GFxMinimap:Init:00F2
+[0279.29] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0279.29] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0279.29] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0279.29] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.371
+[0279.29] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_11:GFxMinimap_11
+	Function UTGame.GFxMinimap:Init:00F2
+[0279.34] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_5
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0279.34] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_5
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0279.34] Cmd: SETSOUNDMODE Default
+[0279.34] ScriptLog: START MATCH
+[0279.34] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_11:GFxMinimap_11
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0280.67] Cmd: onrelease ShowMenu
+[0280.68] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0280.68] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_5
+	Function UTGame.UTPawn:SetHandIKEnabled:00BB
+[0280.68] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_5
+	Function UTGame.UTPawn:SetHandIKEnabled:00E4
+[0280.68] Error: (Function UTGame.UTPlayerController:Dead.BeginState:008B) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0280.68] Error: (Function UTGame.UTPlayerController:Dead.BeginState:00E1) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0280.68] Error: (Function UTGame.UTGame:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0280.68] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_5
+	Function Engine.GameInfo:RestartPlayer:025E
+[0281.75] Log: 
+==== Worlds needing PIE Save:
+[0281.75] Log: Untitled_2
+[0281.75] Log: ==== 1 total
+[0281.77] Log: Built Phys StaticMesh Cache: 1.855 ms
+[0281.78] Log: COOKEDPHYSICS: 1 TriMeshes (0.597656 KB), 1 Convex Hulls (1.082031 KB) - Total 1.679688 KB
+[0281.79] Warning: PATHING NEEDS TO BE REBUILT FOR Untitled_2.TheWorld:PersistentLevel
+[0281.85] Log: Save=71.883000
+[0281.85] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0281.87] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0281.87] Log: Finished looking for orphan Actors (0.003 secs)
+[0281.88] Log: Game class is 'dnSinglePlayer'
+[0281.89] Log: Primary PhysX scene will be in software.
+[0281.89] Log: Creating Primary PhysX Scene.
+[0281.89] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0281.89] Log: Bringing World UEDPIEUntitled_2.TheWorld up for play (0) at 2023.05.22-12.16.03
+[0281.90] Log: Bringing up level for play took: 0.015382
+[0281.94] Error: (Function UTGame.UTGame:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0281.94] ScriptLog: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[0281.94] Error: (Function UTGame.UTHUDBase:PostBeginPlay:00C3) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0281.95] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_12:GFxMinimap_12
+	Function UTGame.GFxMinimap:Init:00F2
+[0281.95] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0281.95] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0281.95] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0281.95] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.376
+[0281.95] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_13:GFxMinimap_13
+	Function UTGame.GFxMinimap:Init:00F2
+[0282.00] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0282.00] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0282.00] Cmd: SETSOUNDMODE Default
+[0282.00] ScriptLog: START MATCH
+[0282.00] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_13:GFxMinimap_13
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0284.44] Cmd: onrelease ShowMenu
+[0284.45] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEUntitled_2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0284.45] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:00BB
+[0284.45] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEUntitled_2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:00E4
+[0284.45] Error: (Function UTGame.UTPlayerController:Dead.BeginState:008B) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0284.45] Error: (Function UTGame.UTPlayerController:Dead.BeginState:00E1) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0284.45] Error: (Function UTGame.UTGame:ChoosePlayerStart:0102) Cannot use AllNavigationPoints() here - NavigationPointList not set up yet
+[0284.45] ScriptWarning: Player start not found, failed to restart player
+	dnSinglePlayer UEDPIEUntitled_2.TheWorld:PersistentLevel.dnSinglePlayer_6
+	Function Engine.GameInfo:RestartPlayer:025E
+[0299.78] Exit: Preparing to exit.
+[0299.88] Exit: Editor shut down
+[0299.88] Exit: Transaction tracking system shut down
+[0300.05] Exit: Windows client shut down
+[0300.05] Exit: XAudio2 Device shut down.
+[0300.14] Exit: Object subsystem successfully closed.
+[0300.15] Log: Shutting down FaceFX...
+[0300.15] Log: FaceFX shutdown.
+[0300.18] DevDataBase: Spent 18.712656 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0300.18] Exit: Exiting.
+[0300.19] Log: Log file closed, 05/22/23 12:16:21

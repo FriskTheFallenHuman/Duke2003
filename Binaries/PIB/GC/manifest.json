@@ -1,0 +1,11 @@
+{
+  "name": "UnrealEngine3 Plugin",
+  "version": "1.0.8364.0",
+  "description": "A plugin to run UnrealEngine3.",
+  "browser_action": {
+    "default_icon": "logo2.png"
+  },
+  "plugins": [
+    { "path": "npue3.dll", "public": true }
+  ]
+}

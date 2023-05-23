@@ -1,0 +1,66 @@
+Log: Log file open, 05/21/23 23:43:01
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:59:00
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+[0000.54] Init: Computer: JUSTIN-MAINPC
+[0000.54] Init: User: justi
+[0000.54] Init: CPU Page size=4096, Processors=32
+[0000.54] Init: High frequency timer resolution =10.000000 MHz
+[0000.54] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.59] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.59] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.59] Init: Object subsystem initialized
+[0019.31] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.31] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.32] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.38] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.50] Log: PhysX GPU Support: DISABLED
+[0019.51] Init: Initializing FaceFX...
+[0019.51] Init: FaceFX 1.7.4 initialized.
+[0022.17] Init: Finished loading startup packages in 0.81 seconds
+[0022.18] Log: 76299 objects as part of root set at end of initial load.
+[0022.18] Log: 0 out of 0 bytes used by permanent object pool.
+[0022.18] Log: Supported Consoles:
+[0022.18] Log:   PC
+[0022.18] Log: Initializing Engine...
+[0022.19] Log: Missing cached shader map for material Duke_Hand_Material, compiling.
+[0022.70] Log: Missing cached shader map for material Master_Weapon_Shader, compiling.
+[0022.83] Log: Encountered missing default brush - spawning new one
+[0022.83] Init: UEngine initialized
+[0022.83] Log: Primary PhysX scene will be in software.
+[0022.83] Log: Creating Primary PhysX Scene.
+[0022.84] Init: Transaction tracking system initialized
+[0023.08] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0023.09] Log: Working around XDK XAudio2 regression: TRUE
+[0023.10] Init: XAudio2Device initialized.
+[0023.53] Init: Client initialized
+[0023.54] Init: Editor engine initialized
+[0023.57] Log: Initializing Engine Completed
+[0023.57] Log: >>>>>>>>>>>>>> Initial startup: 23.57s <<<<<<<<<<<<<<<
+[0023.68] Cmd: MODE MAPEXT=udk
+[0023.74] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0023.76] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0024.58] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0024.58] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0024.62] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0024.62] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0027.77] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0028.05] Log: Encountered missing default brush - spawning new one
+[0028.53] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0028.62] Log: -- Checking Building LODs
+[0028.62] Log: Primary PhysX scene will be in software.
+[0028.62] Log: Creating Primary PhysX Scene.
+[0028.63] Log: Finished looking for orphan Actors (0.002 secs)
+[0028.63] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0028.68] Log: TIMER ALL OF INIT : [9.153077]
+[0035.96] Log: 
+==== Worlds needing PIE Save:
+[0035.96] Log: Untitled_2
+[0035.96] Log: ==== 1 total
+[0036.00] Log: Built Phys StaticMesh Cache: 2.846 ms
+[0036.00] Log: COOK

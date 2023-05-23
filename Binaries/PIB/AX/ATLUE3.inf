@@ -1,0 +1,12 @@
+[version] 
+signature="$CHICAGO$"
+AdvancedINF=2.0  
+
+[Add.Code]
+ATLUE3.dll=ATLUE3.dll
+
+[ATLUE3.dll]
+file-win32-x86=thiscab
+clsid={8AF65954-58E5-4DC5-8DD0-A28B13E77AC7} 
+FileVersion=1,0,8364,0
+RegisterServer=yes  

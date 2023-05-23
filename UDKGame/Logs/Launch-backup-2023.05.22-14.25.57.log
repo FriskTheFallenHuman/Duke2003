@@ -1,0 +1,1501 @@
+Log: Log file open, 05/22/23 13:46:10
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 21:56:09
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.56] Init: Computer: JUSTIN-MAINPC
+[0000.56] Init: User: justi
+[0000.56] Init: CPU Page size=4096, Processors=32
+[0000.56] Init: High frequency timer resolution =10.000000 MHz
+[0000.56] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.56] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.61] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.61] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.61] Init: Object subsystem initialized
+[0000.61] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.61] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.61] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.61] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.61] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.61] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.61] DevSave:    Loading value for Extensions from [Core.System]
+[0000.61] DevSave:    Loading value for Suppress from [Core.System]
+[0000.61] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.61] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.61] DevSave:    Loading value for Paths from [Core.System]
+[0000.62] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.62] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.62] DevSave:    Loading value for CachePath from [Core.System]
+[0000.62] DevSave:    Loading value for SavePath from [Core.System]
+[0000.62] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.62] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.62] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.62] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.30] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.30] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.30] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.38] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.53] Log: PhysX GPU Support: DISABLED
+[0019.54] Init: Initializing FaceFX...
+[0019.54] Init: FaceFX 1.7.4 initialized.
+[0021.56] Init: Finished loading startup packages in 1.86 seconds
+[0021.57] Log: 76303 objects as part of root set at end of initial load.
+[0021.57] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.58] Log: Supported Consoles:
+[0021.58] Log:   PC
+[0021.58] Log: Initializing Engine...
+[0021.61] Log: Missing cached shader map for material Duke_Hand_Material, compiling.
+[0022.15] Log: Missing cached shader map for material Master_Weapon_Shader, compiling.
+[0022.30] Log: Encountered missing default brush - spawning new one
+[0022.31] Init: UEngine initialized
+[0022.31] Log: Primary PhysX scene will be in software.
+[0022.31] Log: Creating Primary PhysX Scene.
+[0022.32] Init: Transaction tracking system initialized
+[0022.77] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0022.78] Log: Working around XDK XAudio2 regression: TRUE
+[0022.79] Init: XAudio2Device initialized.
+[0023.25] Init: Client initialized
+[0023.25] Init: Editor engine initialized
+[0023.34] Log: Initializing Engine Completed
+[0023.34] Log: >>>>>>>>>>>>>> Initial startup: 23.34s <<<<<<<<<<<<<<<
+[0023.45] Cmd: MODE MAPEXT=udk
+[0023.51] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0023.52] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0024.36] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0024.36] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0024.40] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0024.40] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0027.17] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0027.41] Log: Encountered missing default brush - spawning new one
+[0027.86] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0027.95] Log: -- Checking Building LODs
+[0027.95] Log: Primary PhysX scene will be in software.
+[0027.95] Log: Creating Primary PhysX Scene.
+[0027.96] Log: Finished looking for orphan Actors (0.003 secs)
+[0027.96] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0028.02] Log: TIMER ALL OF INIT : [8.459308]
+[0064.79] Cmd: MAP LOAD FILE="D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk"
+[0064.84] Log: Encountered missing default brush - spawning new one
+[0065.62] Log: Missing cached shader map for material dcasino_logos_dcaslogo1RC_Mat, compiling.
+[0065.71] Log: Missing cached shader map for material dcasino_doors_dcasdoors1RC_Mat, compiling.
+[0065.79] Log: Missing cached shader map for material dcasino_walls_dcaswallbotm6RC_Mat, compiling.
+[0065.88] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild22R_Mat, compiling.
+[0066.01] Log: Missing cached shader map for material Penthouse_library_pentlibwall2RC_Mat, compiling.
+[0066.09] Log: Missing cached shader map for material Penthouse_marble_pentmarstair1aR_Mat, compiling.
+[0066.17] Log: Missing cached shader map for material Penthouse_Pool_pentpool1aRC_Mat, compiling.
+[0066.25] Log: Missing cached shader map for material Penthouse_Pool_pentpool1fRC_Mat, compiling.
+[0066.33] Log: Missing cached shader map for material Penthouse_trim_penttrim8RC_Mat, compiling.
+[0066.40] Log: Missing cached shader map for material stratosfear_walls_strwall4RC_Mat, compiling.
+[0066.48] Log: Missing cached shader map for material vegas_casino1_cieling1FBC_Mat, compiling.
+[0066.56] Log: Missing cached shader map for material vegas_casino1_dukesym3BC_Mat, compiling.
+[0066.64] Log: Missing cached shader map for material vegas_casino1_genericgold1BC_Mat, compiling.
+[0066.71] Log: Missing cached shader map for material vegas_furniture_vegblackj1aRC_Mat, compiling.
+[0066.79] Log: Missing cached shader map for material vegas_plants_bush2aRC_Mat, compiling.
+[0067.35] Log: -- Checking Building LODs
+[0067.36] Log: Primary PhysX scene will be in software.
+[0067.36] Log: Creating Primary PhysX Scene.
+[0067.37] Log: Finished looking for orphan Actors (0.006 secs)
+[0067.41] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0200.64] Log: FactoryCreateBinary: TextureMovie with TextureMovieFactory (0 0 D:\projects\Duke2003\UDKGame\Movies\Starbsrt.bik)
+[0200.68] Log: MGameAssetJournalClient::QueryBranchName: A branch name was not specified in the configuration file.  A globally unique name for this branch must be configured in order for the journaling system to function correctly.  This should usually be configured by the administrator of the development branch that you're working with.
+[0200.68] Log: MGameAssetJournalClient::QueryBranchName: A branch name was not specified in the configuration file.  A globally unique name for this branch must be configured in order for the journaling system to function correctly.  This should usually be configured by the administrator of the development branch that you're working with.
+[0220.49] Log: NO_EXISTING: , DnMovies.upk, ..\..\UDKGame\Content\
+[0226.35] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[0226.36] Log: OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [DnMovies] ([1] browsable assets)...
+[0226.39] Log: OBJ SavePackage:     Rendered thumbnail for [TextureMovie DnMovies.Starbsrt]
+[0226.39] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[0226.40] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[0226.49] Log: Save=83.231500
+[0226.49] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[0237.80] Log: MGameAssetJournalClient::QueryBranchName: A branch name was not specified in the configuration file.  A globally unique name for this branch must be configured in order for the journaling system to function correctly.  This should usually be configured by the administrator of the development branch that you're working with.
+[0237.80] Log: MGameAssetJournalClient::QueryBranchName: A branch name was not specified in the configuration file.  A globally unique name for this branch must be configured in order for the journaling system to function correctly.  This should usually be configured by the administrator of the development branch that you're working with.
+[0243.84] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[0243.84] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [DnMovies] ([2] browsable assets)...
+[0243.85] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[0243.86] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[0243.95] Log: Save=76.838500
+[0243.95] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[0251.48] Log: Missing cached shader map for material PreviewMaterial_0, compiling.
+[0261.62] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0265.47] Log: SetSelectedConnector: MaterialExpressionTextureSample_0(MaterialExpressionTextureSample) 0 0
+[0269.02] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0277.83] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[0277.83] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [DnMovies] ([2] browsable assets)...
+[0277.86] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[0277.86] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[0277.95] Log: Save=80.590800
+[0277.95] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[0329.45] Log: Built Phys StaticMesh Cache: 6.729 ms
+[0329.45] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[0330.02] Log: COOKEDPHYSICS: BSP 635.47 KB
+[0331.27] Log: Save=1604.661000
+[0331.28] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[0331.32] Log: Saving Map: z1l2
+[0333.07] Log: 
+==== Worlds needing PIE Save:
+[0333.07] Log: z1l2
+[0333.07] Log: ==== 1 total
+[0333.12] Log: Built Phys StaticMesh Cache: 7.799 ms
+[0333.12] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[0333.45] Log: COOKEDPHYSICS: BSP 635.47 KB
+[0334.69] Log: Save=1568.100100
+[0334.69] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk'
+[0334.71] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0335.31] Log: Finished looking for orphan Actors (0.006 secs)
+[0335.31] Log: Game class is 'dnSinglePlayer'
+[0335.36] Log: Primary PhysX scene will be in software.
+[0335.36] Log: Creating Primary PhysX Scene.
+[0335.37] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0335.37] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-13.51.45
+[0335.39] Log: Bringing up level for play took: 0.061821
+[0335.66] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_0:GFxMinimap_0
+	Function UTGame.GFxMinimap:Init:00F2
+[0335.66] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0335.66] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0335.66] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0335.66] Log: PIE: play in editor start time for UEDPIEz1l2 2.810
+[0335.68] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:Init:00F2
+[0335.73] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0335.73] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0335.73] Cmd: SETSOUNDMODE Default
+[0335.73] ScriptLog: START MATCH
+[0335.77] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_1:GFxMinimap_1
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0339.27] Cmd: onrelease ShowMenu
+[0339.28] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0399.97] Log: Missing cached shader map for material PreviewMaterial_1, compiling.
+[0404.07] Log: SetSelectedConnector: PreviewMaterial_1(PreviewMaterial) 1 2
+[0406.76] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0413.22] Log: 
+==== Worlds needing PIE Save:
+[0413.22] Log: ==== 0 total
+[0413.22] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0413.77] Log: Finished looking for orphan Actors (0.006 secs)
+[0413.77] Log: Game class is 'dnSinglePlayer'
+[0413.82] Log: Primary PhysX scene will be in software.
+[0413.82] Log: Creating Primary PhysX Scene.
+[0413.83] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0413.83] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-13.53.04
+[0413.85] Log: Bringing up level for play took: 0.062268
+[0413.89] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_2:GFxMinimap_2
+	Function UTGame.GFxMinimap:Init:00F2
+[0413.89] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0413.89] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0413.89] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0413.89] Log: PIE: play in editor start time for UEDPIEz1l2 0.877
+[0413.91] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_3:GFxMinimap_3
+	Function UTGame.GFxMinimap:Init:00F2
+[0413.94] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_2
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0413.94] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_2
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0413.94] Cmd: SETSOUNDMODE Default
+[0413.94] ScriptLog: START MATCH
+[0413.95] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_3:GFxMinimap_3
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0432.04] Cmd: onrelease ShowMenu
+[0432.05] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_1
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0492.43] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[0492.43] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [DnMovies] ([2] browsable assets)...
+[0492.43] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[0492.44] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[0492.57] Log: Save=129.145300
+[0492.58] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[0577.62] Log: FactoryCreateBinary: Texture2D with TextureFactory (0 0 D:\projects\Duke2003\Work\mask1.png)
+[0579.87] Error: Failed to decode.PNG. Only RGB and RGBA .PNG files are supported!
+[0640.45] Log: FactoryCreateBinary: Texture2D with TextureFactory (0 0 D:\projects\Duke2003\Work\mask1.png)
+[0647.96] Error: Failed to decode.PNG. Only RGB and RGBA .PNG files are supported!
+[0675.44] Log: FactoryCreateBinary: Texture2D with TextureFactory (0 0 D:\projects\Duke2003\Work\starbustdot.png)
+[0675.45] Error: Failed to decode.PNG. Only RGB and RGBA .PNG files are supported!
+[0697.68] Log: FactoryCreateBinary: Texture2D with TextureFactory (0 0 D:\projects\Duke2003\Work\starbustdot.png)
+[0698.78] Error: Failed to decode.PNG. Only RGB and RGBA .PNG files are supported!
+[0712.85] Log: FactoryCreateBinary: Texture2D with TextureFactory (0 0 D:\projects\Duke2003\Work\starbustdot2.png)
+[0712.85] Error: Failed to decode.PNG. Only RGB and RGBA .PNG files are supported!
+[0736.97] Log: FactoryCreateBinary: Texture2D with TextureFactory (0 0 D:\projects\Duke2003\Work\mask1.tga)
+[0738.23] Log: MGameAssetJournalClient::QueryBranchName: A branch name was not specified in the configuration file.  A globally unique name for this branch must be configured in order for the journaling system to function correctly.  This should usually be configured by the administrator of the development branch that you're working with.
+[0738.23] Log: MGameAssetJournalClient::QueryBranchName: A branch name was not specified in the configuration file.  A globally unique name for this branch must be configured in order for the journaling system to function correctly.  This should usually be configured by the administrator of the development branch that you're working with.
+[0745.54] Log: Missing cached shader map for material PreviewMaterial_2, compiling.
+[0758.86] Log: SetSelectedConnector: MaterialExpressionTextureSampleParameter2D_0(MaterialExpressionTextureSampleParameter2D) 0 0
+[0760.84] Log: SetSelectedConnector: MaterialExpressionTextureSampleParameter2D_0(MaterialExpressionTextureSampleParameter2D) 0 0
+[0763.02] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0772.18] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0786.09] Log: SetSelectedConnector: MaterialExpressionTextureCoordinate_0(MaterialExpressionTextureCoordinate) 0 0
+[0796.67] Log: Missing cached shader map for material Starbsrt_Mat, compiling.
+[0808.16] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[0808.17] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [DnMovies] ([3] browsable assets)...
+[0808.18] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[0808.18] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[0808.37] Log: Save=175.849800
+[0808.37] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[0822.51] Log: 
+==== Worlds needing PIE Save:
+[0822.51] Log: ==== 0 total
+[0822.51] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[0823.06] Log: Finished looking for orphan Actors (0.006 secs)
+[0823.06] Log: Game class is 'dnSinglePlayer'
+[0823.10] Log: Primary PhysX scene will be in software.
+[0823.10] Log: Creating Primary PhysX Scene.
+[0823.11] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0823.11] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-13.59.53
+[0823.13] Log: Bringing up level for play took: 0.059820
+[0823.17] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_4:GFxMinimap_4
+	Function UTGame.GFxMinimap:Init:00F2
+[0823.17] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0823.17] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0823.17] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0823.17] Log: PIE: play in editor start time for UEDPIEz1l2 0.859
+[0823.19] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_5:GFxMinimap_5
+	Function UTGame.GFxMinimap:Init:00F2
+[0823.22] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0823.22] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_4
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0823.22] Cmd: SETSOUNDMODE Default
+[0823.22] ScriptLog: START MATCH
+[0823.23] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_5:GFxMinimap_5
+	Function UTGame.GFxMinimap:UpdateData:0015
+[0845.82] Cmd: onrelease ShowMenu
+[0845.84] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_2
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0882.79] Log: Missing cached shader map for material Airforcebase2_Elevator_ElButMetal1SAH_Mat, compiling.
+[0882.90] Log: Missing cached shader map for material Airforcebase2_Elevator_ElButUp1_Mat, compiling.
+[0882.97] Log: Missing cached shader map for material Airforcebase2_Masking_ChainFence02_Mat, compiling.
+[0883.05] Log: Missing cached shader map for material Airforcebase2_signs_danger1ja_Mat, compiling.
+[0883.12] Log: Missing cached shader map for material Airforcebase2_signs_restricted1ja_Mat, compiling.
+[0883.19] Log: Missing cached shader map for material Airforcebase2_signs_schedule1ja_Mat, compiling.
+[0883.26] Log: Missing cached shader map for material airforcebase_ceiling_ceiling2RC_Mat, compiling.
+[0883.34] Log: Missing cached shader map for material airforcebase_ceiling_ceiling3RC_Mat, compiling.
+[0883.44] Log: Missing cached shader map for material airforcebase_doors_door10BC_Mat, compiling.
+[0883.52] Log: Missing cached shader map for material airforcebase_doors_door11BC_Mat, compiling.
+[0883.60] Log: Missing cached shader map for material airforcebase_doors_door12BC_Mat, compiling.
+[0883.68] Log: Missing cached shader map for material airforcebase_doors_door9BC_Mat, compiling.
+[0883.76] Log: Missing cached shader map for material airforcebase_equipment_console1BC_Mat, compiling.
+[0883.83] Log: Missing cached shader map for material airforcebase_equipment_controlpanel1RC_Mat, compiling.
+[0883.91] Log: Missing cached shader map for material airforcebase_equipment_controlpanel2RC_Mat, compiling.
+[0884.00] Log: Missing cached shader map for material airforcebase_equipment_pannelbk1RC_Mat, compiling.
+[0884.07] Log: Missing cached shader map for material airforcebase_equipment_pannelbk2RC_Mat, compiling.
+[0884.15] Log: Missing cached shader map for material airforcebase_lights_outsidelight3aR_Mat, compiling.
+[0884.22] Log: Missing cached shader map for material airforcebase_lights_outsidelight3bR_Mat, compiling.
+[0884.29] Log: Missing cached shader map for material airforcebase_Masking_palete1aRC_Mat, compiling.
+[0884.37] Log: Missing cached shader map for material airforcebase_Masking_rail1BBC_Mat, compiling.
+[0884.44] Log: Missing cached shader map for material airforcebase_Masking_smallfence1ABC_Mat, compiling.
+[0884.52] Log: Missing cached shader map for material airforcebase_metal_grate1RC_Mat, compiling.
+[0884.59] Log: Missing cached shader map for material airforcebase_metal_grate2RC_Mat, compiling.
+[0884.66] Log: Missing cached shader map for material airforcebase_metal_plate1RC_Mat, compiling.
+[0884.73] Log: Missing cached shader map for material airforcebase_objects_cabflam1bRC_Mat, compiling.
+[0884.80] Log: Missing cached shader map for material airforcebase_objects_crate4cRC_Mat, compiling.
+[0884.89] Log: Missing cached shader map for material airforcebase_objects_crate4eRC_Mat, compiling.
+[0884.96] Log: Missing cached shader map for material airforcebase_objects_crate5aRC_Mat, compiling.
+[0885.03] Log: Missing cached shader map for material airforcebase_objects_lockers7bRC_Mat, compiling.
+[0885.11] Log: Missing cached shader map for material airforcebase_objects_mtlcabinet1aRC_Mat, compiling.
+[0885.18] Log: Missing cached shader map for material airforcebase_objects_pipe1bRC_Mat, compiling.
+[0885.25] Log: Missing cached shader map for material airforcebase_objects_pipecap1BC_Mat, compiling.
+[0885.33] Log: Missing cached shader map for material airforcebase_objects_whiteboard1CBC_Mat, compiling.
+[0885.42] Log: Missing cached shader map for material airforcebase_pavement_asphault1RC_Mat, compiling.
+[0885.48] Log: Missing cached shader map for material airforcebase_pavement_parklot1dBC_Mat, compiling.
+[0885.55] Log: Missing cached shader map for material airforcebase_pavement_tarmack3aRC_Mat, compiling.
+[0885.62] Log: Missing cached shader map for material airforcebase_roof_metalroof1RC_Mat, compiling.
+[0885.70] Log: Missing cached shader map for material airforcebase_sets_bunkerAfenceRC_Mat, compiling.
+[0885.77] Log: Missing cached shader map for material airforcebase_sets_exbldBac1bRC_Mat, compiling.
+[0885.86] Log: Missing cached shader map for material airforcebase_sets_intgympannelRC_Mat, compiling.
+[0885.93] Log: Missing cached shader map for material airforcebase_wallconcrete_column1_Mat, compiling.
+[0886.01] Log: Missing cached shader map for material airforcebase_wallconcrete_concrete1RC_Mat, compiling.
+[0886.08] Log: Missing cached shader map for material airforcebase_wallconcrete_concretedecor1R_Mat, compiling.
+[0886.15] Log: Missing cached shader map for material airforcebase_wallconcrete_concretewall1AB_Mat, compiling.
+[0886.22] Log: Missing cached shader map for material airforcebase_wallconcrete_dirtyconcrete1A_Mat, compiling.
+[0886.29] Log: Missing cached shader map for material airforcebase_wallconcrete_dirtyconcrete1B_Mat, compiling.
+[0886.36] Log: Missing cached shader map for material airforcebase_wallconcrete_wallconcret3RC_Mat, compiling.
+[0886.43] Log: Missing cached shader map for material airforcebase_walldressing_wallmonitor1RC_Mat, compiling.
+[0886.51] Log: Missing cached shader map for material airforcebase_wallmetal_buildingwall1RC_Mat, compiling.
+[0886.59] Log: Missing cached shader map for material airforcebase_wallmetal_metalwall7BC_Mat, compiling.
+[0886.67] Log: Missing cached shader map for material airforcebase_wallmisc_intwall3ABC_Mat, compiling.
+[0886.74] Log: Missing cached shader map for material airforcebase_wallmisc_intwall3CBC_Mat, compiling.
+[0886.82] Log: Missing cached shader map for material airforcebase_wallmisc_wallinsulatn3aB_Mat, compiling.
+[0886.89] Log: Missing cached shader map for material airforcebase_Windows_window6RC_Mat, compiling.
+[0886.96] Log: Missing cached shader map for material brothel_blackRC_Mat, compiling.
+[0887.05] Log: Missing cached shader map for material brothel_objects_slwobjbox1aRC_Mat, compiling.
+[0887.12] Log: Missing cached shader map for material brothel_objects_slwobjbox1bRC_Mat, compiling.
+[0887.19] Log: Missing cached shader map for material brothel_objects_slwobjbox1cRC_Mat, compiling.
+[0887.27] Log: Missing cached shader map for material computer_mainframe_mnfrmladder1BC_Mat, compiling.
+[0887.33] Log: Missing cached shader map for material Conveyor_tramNegX_tw_Mat, compiling.
+[0887.40] Log: Missing cached shader map for material Conveyor_tramNegY_tw_Mat, compiling.
+[0887.47] Log: Missing cached shader map for material Conveyor_tramPosY_tw_Mat, compiling.
+[0887.54] Log: Missing cached shader map for material Dam_doors_damelvtrdoor2RC_Mat, compiling.
+[0887.61] Log: Missing cached shader map for material Dam_Elevator_damelevtrim1RC_Mat, compiling.
+[0887.69] Log: Missing cached shader map for material Dam_floors_damstairstep1RC_Mat, compiling.
+[0887.77] Log: Missing cached shader map for material Dam_generator_damgenwall2RC_Mat, compiling.
+[0887.85] Log: Missing cached shader map for material Dam_Masking_damtower2RC_Mat, compiling.
+[0887.91] Log: Missing cached shader map for material Dam_rocks_damrock5RC_Mat, compiling.
+[0887.97] Log: Missing cached shader map for material dcasino_lightefx_neonB_alt1BC_Mat, compiling.
+[0888.04] Log: Missing cached shader map for material dcasino_signs_dcassign7aRC_Mat, compiling.
+[0888.11] Log: Missing cached shader map for material dnMaskFX_kojak_rocks_1tw_Mat, compiling.
+[0888.19] Log: Missing cached shader map for material EDF_1_ConcreteBits_crakfa_conk_1tw_Mat, compiling.
+[0888.25] Log: Missing cached shader map for material EDF_1_metal_fer_yelplate_2tw_Mat, compiling.
+[0888.33] Log: Missing cached shader map for material EDF_1_metal_fer_yelplate_5atw_Mat, compiling.
+[0888.40] Log: Missing cached shader map for material EDF_1_metal_fer_yelplate_5btw_Mat, compiling.
+[0888.47] Log: Missing cached shader map for material EDF_1_metal_fer_yelplate_6tw_Mat, compiling.
+[0888.54] Log: Missing cached shader map for material EDF_1_trim_manhole_1tw_Mat, compiling.
+[0888.61] Log: Missing cached shader map for material EDF_2_Buildings_billtface_3tw_Mat, compiling.
+[0888.69] Log: Missing cached shader map for material EDF_2_cielings_gridceile_1atw_Mat, compiling.
+[0888.77] Log: Missing cached shader map for material EDF_2_Sundry_riub_3tw_Mat, compiling.
+[0888.84] Log: Missing cached shader map for material EDF_2_trim_girder_6atw_Mat, compiling.
+[0888.91] Log: Missing cached shader map for material EDF_2_walls_basestripscem_2tw_Mat, compiling.
+[0888.97] Log: Missing cached shader map for material EDF_2_walls_basewall23tw_Mat, compiling.
+[0889.05] Log: Missing cached shader map for material EDF_2_walls_indeconk_1tw_Mat, compiling.
+[0889.13] Log: Missing cached shader map for material grandcanyon_ground_cynground1aRC_Mat, compiling.
+[0889.21] Log: Missing cached shader map for material m_dnWeapon_turret1BC_Mat, compiling.
+[0889.27] Log: Missing cached shader map for material Miningtown_floors_minwoodflr5RC_Mat, compiling.
+[0889.34] Log: Missing cached shader map for material Miningtown_roofs_minshingle4RC_Mat, compiling.
+[0889.41] Log: Missing cached shader map for material Penthouse_bedroom_pentbednuke1bRC_Mat, compiling.
+[0889.48] Log: Missing cached shader map for material Penthouse_ceiling_pentceiling4ARC_Mat, compiling.
+[0889.55] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild13R_Mat, compiling.
+[0889.61] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild14a_Mat, compiling.
+[0889.67] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild14b_Mat, compiling.
+[0889.74] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild20R_Mat, compiling.
+[0889.81] Log: Missing cached shader map for material Penthouse_exterior_pentextbuild9RC_Mat, compiling.
+[0889.88] Log: Missing cached shader map for material Penthouse_exterior_pentroof1RC_Mat, compiling.
+[0889.95] Log: Missing cached shader map for material Penthouse_floors_floor_marble3sa_Mat, compiling.
+[0890.02] Log: Missing cached shader map for material Penthouse_floors_flrMarble1ABC_Mat, compiling.
+[0890.10] Log: Missing cached shader map for material Penthouse_furniture_pentfurdres1bRC_Mat, compiling.
+[0890.17] Log: Missing cached shader map for material Penthouse_marble_bigmarb_7tw_Mat, compiling.
+[0890.24] Log: Missing cached shader map for material Penthouse_sharkroom_pentmtlshelf1RC_Mat, compiling.
+[0890.31] Log: Missing cached shader map for material Penthouse_sharkroom_pentmtlshelf2RC_Mat, compiling.
+[0890.39] Log: Missing cached shader map for material Penthouse_sharkroom_pentshelf2RC_Mat, compiling.
+[0890.46] Log: Missing cached shader map for material Penthouse_trim_penttrim9aRC_Mat, compiling.
+[0890.53] Log: Missing cached shader map for material Penthouse_walls_phousewall1IBC_Mat, compiling.
+[0890.61] Log: Missing cached shader map for material Penthouse_walls_phousewall3ABC_Mat, compiling.
+[0890.69] Log: Missing cached shader map for material Penthouse_wood_pentwood5RC_Mat, compiling.
+[0890.76] Log: Missing cached shader map for material skyboxes_clouds_cloud2RC_Mat, compiling.
+[0890.84] Log: Missing cached shader map for material skyboxes_clouds_cloud3aRC_Mat, compiling.
+[0890.91] Log: Missing cached shader map for material skyboxes_clouds_cloud4RC_Mat, compiling.
+[0890.99] Log: Missing cached shader map for material skyboxes_desert_gendes7RC_Mat, compiling.
+[0891.06] Log: Missing cached shader map for material skyboxes_night_night1RC_Mat, compiling.
+[0891.13] Log: Missing cached shader map for material skyboxes_night_night3RC_Mat, compiling.
+[0891.20] Log: Missing cached shader map for material skyboxes_strIP_Luxorbeam2RC_Mat, compiling.
+[0891.28] Log: Missing cached shader map for material skyboxes_strIP_LuxorglowRC_Mat, compiling.
+[0891.34] Log: Missing cached shader map for material stratosfear_construction_steelsupport1AB_Mat, compiling.
+[0891.42] Log: Missing cached shader map for material stratosfear_construction_strataircond1aR_Mat, compiling.
+[0891.49] Log: Missing cached shader map for material stratosfear_construction_strataircond1bR_Mat, compiling.
+[0891.56] Log: Missing cached shader map for material stratosfear_construction_strataircond1cR_Mat, compiling.
+[0891.63] Log: Missing cached shader map for material stratosfear_construction_stratcpower1aRC_Mat, compiling.
+[0891.70] Log: Missing cached shader map for material stratosfear_construction_stratcpower2RC_Mat, compiling.
+[0891.78] Log: Missing cached shader map for material stratosfear_construction_strconstruc1RC_Mat, compiling.
+[0891.86] Log: Missing cached shader map for material stratosfear_metal_strairduct1RC_Mat, compiling.
+[0891.92] Log: Missing cached shader map for material stratosfear_metal_strairduct2RC_Mat, compiling.
+[0892.00] Log: Missing cached shader map for material stratosfear_neon_stratneon3aRC_Mat, compiling.
+[0892.08] Log: Missing cached shader map for material stratosfear_pavement_sidewalk1ABC_Mat, compiling.
+[0892.15] Log: Missing cached shader map for material stratosfear_pavement_sidewalk1EBC_Mat, compiling.
+[0892.23] Log: Missing cached shader map for material stratosfear_pavement_strbrickroad1RC_Mat, compiling.
+[0892.29] Log: Missing cached shader map for material stratosfear_shops_strshopliq1aRC_Mat, compiling.
+[0892.36] Log: Missing cached shader map for material stratosfear_shops_vegshpdisply40R_Mat, compiling.
+[0892.43] Log: Missing cached shader map for material stratosfear_walls_strwall5RC_Mat, compiling.
+[0892.49] Log: Missing cached shader map for material stratosfear_walls_stuccowall2BBC_Mat, compiling.
+[0892.56] Log: Missing cached shader map for material Streets_City_Street_gen3lane1RC_Mat, compiling.
+[0892.64] Log: Missing cached shader map for material Streets_HighWay_Sign_Clearance2_Mat, compiling.
+[0892.71] Log: Missing cached shader map for material Streets_HighWay_Sign_NoUTurn1_Mat, compiling.
+[0892.78] Log: Missing cached shader map for material t_generic_Desk_DwrBottm1sah_Mat, compiling.
+[0892.86] Log: Missing cached shader map for material t_generic_Desk_DwrFront1sah_Mat, compiling.
+[0892.93] Log: Missing cached shader map for material t_generic_Desk_DwrISide1sah_Mat, compiling.
+[0893.00] Log: Missing cached shader map for material t_generic_Desk_DwrOSide1sah_Mat, compiling.
+[0893.07] Log: Missing cached shader map for material t_generic_EditorGFX_BlackGFX_Mat, compiling.
+[0893.14] Log: Missing cached shader map for material t_generic_EditorGFX_CollisionHull_Mat, compiling.
+[0893.21] Log: Missing cached shader map for material t_generic_EditorGFX_FakeBackgroundGFX_Mat, compiling.
+[0893.29] Log: Missing cached shader map for material t_generic_EditorGFX_ZonePortalGFX_Mat, compiling.
+[0893.36] Log: Missing cached shader map for material t_generic_Glass_genglass3RC_Mat, compiling.
+[0893.43] Log: Missing cached shader map for material t_generic_Glass_genglassblock13_Mat, compiling.
+[0893.50] Log: Missing cached shader map for material t_generic_Glass_glassTVRC_Mat, compiling.
+[0893.58] Log: Missing cached shader map for material t_generic_LensFlares_lensflare5RC_Mat, compiling.
+[0893.65] Log: Missing cached shader map for material t_generic_marks_genmark3RC_Mat, compiling.
+[0893.73] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[0893.80] Log: Missing cached shader map for material vegas_casino1_casinodoor1BC_Mat, compiling.
+[0893.88] Log: Missing cached shader map for material vegas_casino1_casinowall1CBC_Mat, compiling.
+[0893.95] Log: Missing cached shader map for material vegas_casino1_cieling1BBC_Mat, compiling.
+[0894.03] Log: Missing cached shader map for material vegas_casino3_ceasrcrosswRC_Mat, compiling.
+[0894.10] Log: Missing cached shader map for material vegas_casino3_ceasrwall2RC_Mat, compiling.
+[0894.18] Log: Missing cached shader map for material vegas_casino3_ceasrwall3RC_Mat, compiling.
+[0894.25] Log: Missing cached shader map for material vegas_casino3_cesrail1RC_Mat, compiling.
+[0894.33] Log: Missing cached shader map for material vegas_casino3_ceswall1vtw_Mat, compiling.
+[0894.40] Log: Missing cached shader map for material vegas_casino3_pillar1ABC_Mat, compiling.
+[0894.48] Log: Missing cached shader map for material vegas_casino_misc_awning2RC_Mat, compiling.
+[0894.55] Log: Missing cached shader map for material vegas_casinos_ext_Belagio1aRC_Mat, compiling.
+[0894.63] Log: Missing cached shader map for material vegas_casinos_ext_Belagio1eRC_Mat, compiling.
+[0894.71] Log: Missing cached shader map for material vegas_casinos_ext_BuildingAsiaAB_Mat, compiling.
+[0894.77] Log: Missing cached shader map for material vegas_casinos_ext_BuildingBallysAB_Mat, compiling.
+[0894.85] Log: Missing cached shader map for material vegas_casinos_ext_BuildingFlamingoAB_Mat, compiling.
+[0894.92] Log: Missing cached shader map for material vegas_casinos_ext_casino10aRC_Mat, compiling.
+[0894.99] Log: Missing cached shader map for material vegas_casinos_ext_casino10bRC_Mat, compiling.
+[0895.07] Log: Missing cached shader map for material vegas_casinos_ext_casino10cRC_Mat, compiling.
+[0895.14] Log: Missing cached shader map for material vegas_casinos_ext_casino10dRC_Mat, compiling.
+[0895.22] Log: Missing cached shader map for material vegas_casinos_ext_casino13RC_Mat, compiling.
+[0895.29] Log: Missing cached shader map for material vegas_casinos_ext_casino2RC_Mat, compiling.
+[0895.37] Log: Missing cached shader map for material vegas_casinos_ext_casino3aRC_Mat, compiling.
+[0895.44] Log: Missing cached shader map for material vegas_casinos_ext_casino3hRC_Mat, compiling.
+[0895.52] Log: Missing cached shader map for material vegas_casinos_ext_casino6RC_Mat, compiling.
+[0895.60] Log: Missing cached shader map for material vegas_casinos_ext_casino8RC_Mat, compiling.
+[0895.67] Log: Missing cached shader map for material vegas_casinos_ext_casino9bRC_Mat, compiling.
+[0895.74] Log: Missing cached shader map for material vegas_casinos_ext_casino9cRC_Mat, compiling.
+[0895.82] Log: Missing cached shader map for material vegas_casinos_ext_flower1RC_Mat, compiling.
+[0895.89] Log: Missing cached shader map for material vegas_casinos_ext_monte1aRC_Mat, compiling.
+[0895.97] Log: Missing cached shader map for material vegas_casinos_ext_vegbuilding16RC_Mat, compiling.
+[0896.04] Log: Missing cached shader map for material vegas_casinos_ext_vegceasr1bRC_Mat, compiling.
+[0896.12] Log: Missing cached shader map for material vegas_casinos_ext_vegeiffle1bRC_Mat, compiling.
+[0896.18] Log: Missing cached shader map for material vegas_casinos_ext_vegmgm1RC_Mat, compiling.
+[0896.26] Log: Missing cached shader map for material vegas_casinos_ext_vegmirage2RC_Mat, compiling.
+[0896.34] Log: Missing cached shader map for material vegas_casinos_ext_vegosheas1aRC_Mat, compiling.
+[0896.42] Log: Missing cached shader map for material vegas_casinos_ext_vegtres3RC_Mat, compiling.
+[0896.49] Log: Missing cached shader map for material vegas_casinos_ext_vegwallnight1RC_Mat, compiling.
+[0896.58] Log: Missing cached shader map for material vegas_casinos_ext_whitechap1RC_Mat, compiling.
+[0896.66] Log: Missing cached shader map for material vegas_casinosprites_vegcasspr2RC_Mat, compiling.
+[0896.74] Log: Missing cached shader map for material vegas_casinosprites_vegcasspr9RC_Mat, compiling.
+[0896.81] Log: Missing cached shader map for material vegas_casinosprites_veglux1RC_Mat, compiling.
+[0896.88] Log: Missing cached shader map for material vegas_casinosprites_vegnewyork1aRC_Mat, compiling.
+[0896.96] Log: Missing cached shader map for material vegas_floors_peoplemover1bRC_Mat, compiling.
+[0897.03] Log: Missing cached shader map for material vegas_floors_sidewalk1RC_Mat, compiling.
+[0897.11] Log: Missing cached shader map for material vegas_floors_vegfloor17RC_Mat, compiling.
+[0897.18] Log: Missing cached shader map for material vegas_floors_vegfloor32RC_Mat, compiling.
+[0897.26] Log: Missing cached shader map for material vegas_floors_vegfloor4aRC_Mat, compiling.
+[0897.34] Log: Missing cached shader map for material vegas_floors_vegfloor5RC_Mat, compiling.
+[0897.42] Log: Missing cached shader map for material vegas_floors_vegfloor6RC_Mat, compiling.
+[0897.50] Log: Missing cached shader map for material vegas_floors_vegfloor8RC_Mat, compiling.
+[0897.59] Log: Missing cached shader map for material vegas_Masking_rail1RC_Mat, compiling.
+[0897.67] Log: Missing cached shader map for material vegas_neonsigns_caesarsRC_Mat, compiling.
+[0897.73] Log: Missing cached shader map for material vegas_neonsigns_light1bRC_Mat, compiling.
+[0897.80] Log: Missing cached shader map for material vegas_neonsigns_matador_1tw_Mat, compiling.
+[0897.89] Log: Missing cached shader map for material vegas_neonsigns_matador_2tw_Mat, compiling.
+[0897.97] Log: Missing cached shader map for material vegas_neonsigns_newnasc2_tw_Mat, compiling.
+[0898.04] Log: Missing cached shader map for material vegas_neonsigns_newnasc2x_tw_Mat, compiling.
+[0898.12] Log: Missing cached shader map for material vegas_neonsigns_newnasc_tw_Mat, compiling.
+[0898.19] Log: Missing cached shader map for material vegas_neonsigns_plantation1mtw_Mat, compiling.
+[0898.28] Log: Missing cached shader map for material vegas_neonsigns_plantation1tw_Mat, compiling.
+[0898.36] Log: Missing cached shader map for material vegas_neonsigns_sign11bRC_Mat, compiling.
+[0898.44] Log: Missing cached shader map for material vegas_neonsigns_sign15RC_Mat, compiling.
+[0898.51] Log: Missing cached shader map for material vegas_neonsigns_sign1RC_Mat, compiling.
+[0898.59] Log: Missing cached shader map for material vegas_neonsigns_sign23RC_Mat, compiling.
+[0898.67] Log: Missing cached shader map for material vegas_neonsigns_sign31aRC_Mat, compiling.
+[0898.75] Log: Missing cached shader map for material vegas_neonsigns_sign31bRC_Mat, compiling.
+[0898.82] Log: Missing cached shader map for material vegas_neonsigns_sign4RC_Mat, compiling.
+[0898.88] Log: Missing cached shader map for material vegas_neonsigns_sign6_2tw_Mat, compiling.
+[0898.95] Log: Missing cached shader map for material vegas_neonsigns_sign6_3atw_Mat, compiling.
+[0899.02] Log: Missing cached shader map for material vegas_neonsigns_sign6RC_Mat, compiling.
+[0899.11] Log: Missing cached shader map for material vegas_neonsigns_sign6tw_Mat, compiling.
+[0899.18] Log: Missing cached shader map for material vegas_neonsigns_sign8bRC_Mat, compiling.
+[0899.26] Log: Missing cached shader map for material vegas_neonsigns_sinstadt1tw_Mat, compiling.
+[0899.33] Log: Missing cached shader map for material vegas_neonsigns_stars_2tw_Mat, compiling.
+[0899.40] Log: Missing cached shader map for material vegas_objects_vegdrainpipe1dR_Mat, compiling.
+[0899.49] Log: Missing cached shader map for material vegas_objects_vegdrainpipe1eR_Mat, compiling.
+[0899.57] Log: Missing cached shader map for material vegas_pillar1BBC_Mat, compiling.
+[0899.64] Log: Missing cached shader map for material vegas_Plantation_plan_w2tw_Mat, compiling.
+[0899.71] Log: Missing cached shader map for material vegas_Plantation_wwallbr_1tw_Mat, compiling.
+[0899.79] Log: Missing cached shader map for material vegas_plants_bush1bRC_Mat, compiling.
+[0899.86] Log: Missing cached shader map for material vegas_signs_veganisigntmsdR_Mat, compiling.
+[0899.93] Log: Missing cached shader map for material vegas_tram_esc_flat1sah_Mat, compiling.
+[0900.01] Log: Missing cached shader map for material vegas_tram_esc_rail1sah_Mat, compiling.
+[0900.08] Log: Missing cached shader map for material vegas_tram_signs_lk_neon1sah_Mat, compiling.
+[0900.15] Log: Missing cached shader map for material vegas_tram_tramwall01sah_Mat, compiling.
+[0900.22] Log: Missing cached shader map for material vegas_tram_vegtramvent1RC_Mat, compiling.
+[0900.29] Log: Missing cached shader map for material vegas_walls_ledge1RC_Mat, compiling.
+[0900.38] Log: Missing cached shader map for material vehicles_tourbus_busback1RC_Mat, compiling.
+[0900.46] Log: Missing cached shader map for material vehicles_tourbus_busfront1RC_Mat, compiling.
+[0900.54] Log: Missing cached shader map for material vehicles_tourbus_busside1RC_Mat, compiling.
+[0900.63] Log: Missing cached shader map for material vehicles_tourbus_bustop1RC_Mat, compiling.
+[0900.70] Log: Missing cached shader map for material z1l2_1_Screenshot_Mat, compiling.
+[1004.83] Log: Built Phys StaticMesh Cache: 7.749 ms
+[1004.84] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[1005.39] Log: COOKEDPHYSICS: BSP 635.47 KB
+[1006.56] Log: Save=1514.977200
+[1006.56] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[1006.63] Log: Saving Map: z1l2
+[1049.52] Log: Built Phys StaticMesh Cache: 7.381 ms
+[1049.52] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[1050.04] Log: COOKEDPHYSICS: BSP 635.47 KB
+[1051.21] Log: Save=1493.992600
+[1051.21] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[1051.26] Log: Saving Map: z1l2
+[1142.36] Log: Built Phys StaticMesh Cache: 6.689 ms
+[1142.37] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[1142.92] Log: COOKEDPHYSICS: BSP 635.47 KB
+[1144.07] Log: Save=1515.843700
+[1144.07] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[1144.12] Log: Saving Map: z1l2
+[1158.98] Log: Missing cached shader map for material PreviewMaterial_3, compiling.
+[1177.14] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1186.30] Log: SetSelectedConnector: MaterialExpressionTextureSample_160(MaterialExpressionTextureSample) 0 0
+[1187.90] Log: SetSelectedConnector: MaterialExpressionTextureSample_160(MaterialExpressionTextureSample) 0 0
+[1190.20] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1200.84] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1203.92] Log: SetSelectedConnector: PreviewMaterial_3(PreviewMaterial) 1 5
+[1205.15] Log: SetSelectedConnector: PreviewMaterial_3(PreviewMaterial) 1 6
+[1206.59] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1230.01] Log: Missing cached shader map for material PreviewMaterial_4, compiling.
+[1240.66] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1240.67] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1240.77] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1240.81] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1241.55] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1241.60] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1241.60] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1241.60] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1246.09] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1248.94] Log: SetSelectedConnector: MaterialExpressionTextureSample_160(MaterialExpressionTextureSample) 0 0
+[1251.26] Log: SetSelectedConnector: MaterialExpressionTextureSample_160(MaterialExpressionTextureSample) 0 0
+[1252.86] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1265.38] Log: SetSelectedConnector: MaterialExpressionMultiply_0(MaterialExpressionMultiply) 0 0
+[1266.34] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1267.06] Log: SetSelectedConnector: MaterialExpressionMultiply_0(MaterialExpressionMultiply) 0 0
+[1267.97] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1270.15] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1273.12] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1273.13] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1273.75] Log: SetSelectedConnector: MaterialExpressionConstant_0(MaterialExpressionConstant) 0 0
+[1274.49] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1275.13] Log: SetSelectedConnector: MaterialExpressionTextureSample_160(MaterialExpressionTextureSample) 0 0
+[1278.31] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1299.35] Log: SetSelectedConnector: MaterialExpressionAdd_0(MaterialExpressionAdd) 0 0
+[1300.46] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1303.52] Log: SetSelectedConnector: MaterialExpressionAdd_0(MaterialExpressionAdd) 0 0
+[1304.75] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1308.48] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1311.47] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1311.47] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1313.21] Log: SetSelectedConnector: MaterialExpressionConstant_1(MaterialExpressionConstant) 0 0
+[1313.96] Warning: Failed to compile Material Transient.PreviewMaterial_4 for platform PC-D3D-SM3, Default Material will be used in game.
+[1314.35] Log: SetSelectedConnector: MaterialExpressionAdd_0(MaterialExpressionAdd) 1 0
+[1316.74] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1324.53] Log: Missing cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1381.46] Log: Built Phys StaticMesh Cache: 6.566 ms
+[1381.46] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[1382.01] Log: COOKEDPHYSICS: BSP 635.47 KB
+[1383.20] Log: Save=1525.731300
+[1383.20] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[1383.26] Log: Saving Map: z1l2
+[1386.06] Log: saving as ..\..\UDKGame\Content\Textures\z1l2_data.upk
+[1386.08] Log: OBJ SavePackage: Generating thumbnails for [416] asset(s) in package [z1l2_data] ([514] browsable assets)...
+[1386.10] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_plants_bush2aRC]
+[1386.11] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_furniture_vegblackj1aRC]
+[1386.11] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino1_dukesym3BC]
+[1386.11] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino1_genericgold1BC]
+[1386.11] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_trim_penttrim8RC]
+[1386.12] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino1_cieling1FBC]
+[1386.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino1_genericgold1BC_Mat]
+[1386.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_plants_bush2aRC_Mat]
+[1386.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_trim_penttrim8RC_Mat]
+[1386.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_furniture_vegblackj1aRC_Mat]
+[1386.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino1_dukesym3BC_Mat]
+[1386.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino1_cieling1FBC_Mat]
+[1386.13] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.z1l2_1_Screenshot]
+[1386.15] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vehicles_tourbus_bustop1RC]
+[1386.15] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vehicles_tourbus_busside1RC]
+[1386.16] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vehicles_tourbus_busfront1RC]
+[1386.16] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vehicles_tourbus_busback1RC]
+[1386.17] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_walls_ledge1RC]
+[1386.18] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_tram_vegtramvent1RC]
+[1386.19] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_tram_tramwall01sah]
+[1386.20] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_tram_signs_lk_neon1sah]
+[1386.21] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_tram_esc_rail1sah]
+[1386.22] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_tram_esc_flat1sah]
+[1386.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_signs_veganisigntmsdR]
+[1386.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_plants_bush1bRC]
+[1386.25] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_Plantation_wwallbr_1tw]
+[1386.26] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_Plantation_plan_w2tw]
+[1386.27] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_pillar1BBC]
+[1386.28] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_objects_vegdrainpipe1eR]
+[1386.30] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_objects_vegdrainpipe1dR]
+[1386.31] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_stars_2tw]
+[1386.32] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sinstadt1tw]
+[1386.33] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign8bRC]
+[1386.33] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign6tw]
+[1386.35] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign6RC]
+[1386.37] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign6_3atw]
+[1386.38] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign6_2tw]
+[1386.39] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign4RC]
+[1386.40] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign31bRC]
+[1386.40] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign31aRC]
+[1386.42] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign23RC]
+[1386.43] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign1RC]
+[1386.44] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign15RC]
+[1386.45] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_sign11bRC]
+[1386.46] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_plantation1tw]
+[1386.48] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_plantation1mtw]
+[1386.49] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_newnasc_tw]
+[1386.50] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_newnasc2x_tw]
+[1386.51] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_newnasc2_tw]
+[1386.53] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_matador_2tw]
+[1386.54] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_matador_1tw]
+[1386.55] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_light1bRC]
+[1386.56] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_neonsigns_caesarsRC]
+[1386.57] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_Masking_rail1RC]
+[1386.58] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_vegfloor8RC]
+[1386.60] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_vegfloor6RC]
+[1386.61] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_vegfloor5RC]
+[1386.62] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_vegfloor4aRC]
+[1386.63] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_vegfloor32RC]
+[1386.64] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_vegfloor17RC]
+[1386.65] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_sidewalk1RC]
+[1386.67] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_floors_peoplemover1bRC]
+[1386.68] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinosprites_vegnewyork1aRC]
+[1386.69] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinosprites_veglux1RC]
+[1386.70] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinosprites_vegcasspr9RC]
+[1386.71] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinosprites_vegcasspr2RC]
+[1386.72] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_whitechap1RC]
+[1386.73] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegtres3RC]
+[1386.74] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegosheas1aRC]
+[1386.75] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegmirage2RC]
+[1386.76] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegmgm1RC]
+[1386.78] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegeiffle1bRC]
+[1386.79] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegceasr1bRC]
+[1386.80] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_vegbuilding16RC]
+[1386.81] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_monte1aRC]
+[1386.82] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_flower1RC]
+[1386.84] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino9cRC]
+[1386.85] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino9bRC]
+[1386.86] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino8RC]
+[1386.86] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino6RC]
+[1386.87] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino3hRC]
+[1386.88] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino3aRC]
+[1386.89] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino2RC]
+[1386.90] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino13RC]
+[1386.90] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino10dRC]
+[1386.91] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino10cRC]
+[1386.92] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino10bRC]
+[1386.93] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_casino10aRC]
+[1386.94] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_BuildingFlamingoAB]
+[1386.96] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_BuildingBallysAB]
+[1386.97] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_BuildingAsiaAB]
+[1386.99] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_Belagio1eRC]
+[1387.00] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casinos_ext_Belagio1aRC]
+[1387.01] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino_misc_awning2RC]
+[1387.03] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino3_pillar1ABC]
+[1387.04] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino3_ceswall1vtw]
+[1387.05] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino3_cesrail1RC]
+[1387.06] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino3_ceasrwall3RC]
+[1387.07] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino3_ceasrwall2RC]
+[1387.09] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino3_ceasrcrosswRC]
+[1387.10] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino1_cieling1BBC]
+[1387.10] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino1_casinowall1CBC]
+[1387.11] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.vegas_casino1_casinodoor1BC]
+[1387.13] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.t_generic_marks_genmark3RC]
+[1387.14] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.t_generic_LensFlares_lensflare5RC]
+[1387.14] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.t_generic_Glass_glassTVRC]
+[1387.15] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.t_generic_Glass_genglassblock13]
+[1387.16] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Streets_HighWay_Sign_NoUTurn1]
+[1387.17] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Streets_HighWay_Sign_Clearance2]
+[1387.19] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_walls_stuccowall2BBC]
+[1387.20] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_walls_strwall5RC]
+[1387.21] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_shops_vegshpdisply40R]
+[1387.22] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_shops_strshopliq1aRC]
+[1387.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_pavement_strbrickroad1RC]
+[1387.25] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_pavement_sidewalk1EBC]
+[1387.26] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_pavement_sidewalk1ABC]
+[1387.27] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_neon_stratneon3aRC]
+[1387.28] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_metal_strairduct2RC]
+[1387.29] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_metal_strairduct1RC]
+[1387.30] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_construction_strconstruc1RC]
+[1387.32] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_construction_stratcpower2RC]
+[1387.33] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_construction_stratcpower1aRC]
+[1387.34] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_construction_strataircond1cR]
+[1387.35] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.stratosfear_construction_strataircond1bR]
+[1387.37] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.skyboxes_night_night3RC]
+[1387.38] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.skyboxes_night_night1RC]
+[1387.39] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.skyboxes_clouds_cloud4RC]
+[1387.40] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.skyboxes_clouds_cloud3aRC]
+[1387.41] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.skyboxes_clouds_cloud2RC]
+[1387.42] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_wood_pentwood5RC]
+[1387.44] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_walls_phousewall3ABC]
+[1387.45] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_walls_phousewall1IBC]
+[1387.46] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_trim_penttrim9aRC]
+[1387.47] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_sharkroom_pentshelf2RC]
+[1387.47] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_sharkroom_pentmtlshelf2RC]
+[1387.50] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_sharkroom_pentmtlshelf1RC]
+[1387.51] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_marble_bigmarb_7tw]
+[1387.52] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_furniture_pentfurdres1bRC]
+[1387.53] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_floors_flrMarble1ABC]
+[1387.55] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_floors_floor_marble3sa]
+[1387.56] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_exterior_pentroof1RC]
+[1387.57] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_exterior_pentextbuild9RC]
+[1387.58] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_exterior_pentextbuild20R]
+[1387.59] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_exterior_pentextbuild14b]
+[1387.60] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_exterior_pentextbuild14a]
+[1387.62] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_exterior_pentextbuild13R]
+[1387.63] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_ceiling_pentceiling4ARC]
+[1387.64] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Penthouse_bedroom_pentbednuke1bRC]
+[1387.66] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Miningtown_roofs_minshingle4RC]
+[1387.68] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Miningtown_floors_minwoodflr5RC]
+[1387.69] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.m_dnWeapon_turret1BC]
+[1387.70] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.grandcanyon_ground_cynground1aRC]
+[1387.72] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_2_walls_indeconk_1tw]
+[1387.73] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_2_walls_basewall23tw]
+[1387.74] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_2_trim_girder_6atw]
+[1387.75] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_2_Sundry_riub_3tw]
+[1387.76] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_2_cielings_gridceile_1atw]
+[1387.78] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_2_Buildings_billtface_3tw]
+[1387.79] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_1_trim_manhole_1tw]
+[1387.80] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_1_metal_fer_yelplate_6tw]
+[1387.81] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_1_metal_fer_yelplate_5btw]
+[1387.82] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_1_metal_fer_yelplate_5atw]
+[1387.84] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_1_metal_fer_yelplate_2tw]
+[1387.85] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.EDF_1_ConcreteBits_crakfa_conk_1tw]
+[1387.86] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.dnMaskFX_kojak_rocks_1tw]
+[1387.87] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.dcasino_signs_dcassign7aRC]
+[1387.88] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.dcasino_lightefx_neonB_alt1BC]
+[1387.90] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Dam_rocks_damrock5RC]
+[1387.91] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Dam_Masking_damtower2RC]
+[1387.92] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Dam_floors_damstairstep1RC]
+[1387.93] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Dam_Elevator_damelevtrim1RC]
+[1387.98] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Dam_doors_damelvtrdoor2RC]
+[1387.99] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Conveyor_tramPosY_tw]
+[1388.00] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Conveyor_tramNegY_tw]
+[1388.01] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Conveyor_tramNegX_tw]
+[1388.03] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.computer_mainframe_mnfrmladder1BC]
+[1388.04] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.brothel_objects_slwobjbox1cRC]
+[1388.05] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.brothel_objects_slwobjbox1bRC]
+[1388.07] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.brothel_objects_slwobjbox1aRC]
+[1388.08] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.brothel_blackRC]
+[1388.08] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_Windows_window6RC]
+[1388.09] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallmisc_wallinsulatn3aB]
+[1388.10] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallmisc_intwall3CBC]
+[1388.12] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallmisc_intwall3ABC]
+[1388.13] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallmetal_metalwall7BC]
+[1388.14] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallmetal_buildingwall1RC]
+[1388.15] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_walldressing_wallmonitor1RC]
+[1388.15] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_wallconcret3RC]
+[1388.17] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_dirtyconcrete1B]
+[1388.18] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_dirtyconcrete1A]
+[1388.19] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_concretewall1AB]
+[1388.21] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_concretedecor1R]
+[1388.22] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_concrete1RC]
+[1388.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_wallconcrete_column1]
+[1388.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_sets_intgympannelRC]
+[1388.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_sets_bunkerAfenceRC]
+[1388.25] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_roof_metalroof1RC]
+[1388.27] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_pavement_parklot1dBC]
+[1388.28] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_pavement_asphault1RC]
+[1388.29] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_objects_whiteboard1CBC]
+[1388.30] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_objects_pipecap1BC]
+[1388.31] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_objects_pipe1bRC]
+[1388.33] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.airforcebase_objects_mtlcabinet1aRC]
+[1388.34] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Airforcebase2_signs_schedule1ja]
+[1388.35] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Airforcebase2_signs_danger1ja]
+[1388.36] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Airforcebase2_Masking_ChainFence02]
+[1388.37] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Airforcebase2_Elevator_ElButUp1]
+[1388.37] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D z1l2_data.Airforcebase2_Elevator_ElButMetal1SAH]
+[1388.38] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.z1l2_1_Screenshot_Mat]
+[1388.38] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vehicles_tourbus_bustop1RC_Mat]
+[1388.38] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vehicles_tourbus_busside1RC_Mat]
+[1388.39] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vehicles_tourbus_busfront1RC_Mat]
+[1388.39] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vehicles_tourbus_busback1RC_Mat]
+[1388.39] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_walls_ledge1RC_Mat]
+[1388.39] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_tram_vegtramvent1RC_Mat]
+[1388.40] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_tram_tramwall01sah_Mat]
+[1388.40] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_tram_signs_lk_neon1sah_Mat]
+[1388.40] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_tram_esc_rail1sah_Mat]
+[1388.41] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_tram_esc_flat1sah_Mat]
+[1388.41] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_signs_veganisigntmsdR_Mat]
+[1388.41] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_plants_bush1bRC_Mat]
+[1388.41] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_Plantation_wwallbr_1tw_Mat]
+[1388.42] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_Plantation_plan_w2tw_Mat]
+[1388.42] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_pillar1BBC_Mat]
+[1388.42] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_objects_vegdrainpipe1eR_Mat]
+[1388.43] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_objects_vegdrainpipe1dR_Mat]
+[1388.43] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_stars_2tw_Mat]
+[1388.43] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sinstadt1tw_Mat]
+[1388.44] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign8bRC_Mat]
+[1388.44] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign6tw_Mat]
+[1388.44] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign6RC_Mat]
+[1388.45] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign6_3atw_Mat]
+[1388.45] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign6_2tw_Mat]
+[1388.45] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign4RC_Mat]
+[1388.46] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign31bRC_Mat]
+[1388.46] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign31aRC_Mat]
+[1388.46] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign23RC_Mat]
+[1388.47] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign1RC_Mat]
+[1388.47] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign15RC_Mat]
+[1388.47] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_sign11bRC_Mat]
+[1388.48] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_plantation1tw_Mat]
+[1388.48] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_plantation1mtw_Mat]
+[1388.48] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_newnasc_tw_Mat]
+[1388.49] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_newnasc2x_tw_Mat]
+[1388.49] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_newnasc2_tw_Mat]
+[1388.50] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_matador_2tw_Mat]
+[1388.50] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_matador_1tw_Mat]
+[1388.50] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_light1bRC_Mat]
+[1388.51] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_neonsigns_caesarsRC_Mat]
+[1388.51] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_Masking_rail1RC_Mat]
+[1388.52] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_vegfloor8RC_Mat]
+[1388.52] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_vegfloor6RC_Mat]
+[1388.53] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_vegfloor5RC_Mat]
+[1388.53] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_vegfloor4aRC_Mat]
+[1388.53] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_vegfloor32RC_Mat]
+[1388.54] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_vegfloor17RC_Mat]
+[1388.54] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_sidewalk1RC_Mat]
+[1388.54] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_floors_peoplemover1bRC_Mat]
+[1388.55] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinosprites_vegnewyork1aRC_Mat]
+[1388.55] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinosprites_veglux1RC_Mat]
+[1388.56] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinosprites_vegcasspr9RC_Mat]
+[1388.56] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinosprites_vegcasspr2RC_Mat]
+[1388.56] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_whitechap1RC_Mat]
+[1388.57] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegtres3RC_Mat]
+[1388.57] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegosheas1aRC_Mat]
+[1388.57] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegmirage2RC_Mat]
+[1388.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegmgm1RC_Mat]
+[1388.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegeiffle1bRC_Mat]
+[1388.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegceasr1bRC_Mat]
+[1388.59] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_vegbuilding16RC_Mat]
+[1388.59] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_monte1aRC_Mat]
+[1388.59] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_flower1RC_Mat]
+[1388.60] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino9cRC_Mat]
+[1388.61] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino9bRC_Mat]
+[1388.61] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino8RC_Mat]
+[1388.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino6RC_Mat]
+[1388.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino3hRC_Mat]
+[1388.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino3aRC_Mat]
+[1388.63] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino2RC_Mat]
+[1388.64] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino13RC_Mat]
+[1388.64] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino10dRC_Mat]
+[1388.64] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino10cRC_Mat]
+[1388.65] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino10bRC_Mat]
+[1388.65] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_casino10aRC_Mat]
+[1388.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_BuildingFlamingoAB_Mat]
+[1388.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_BuildingBallysAB_Mat]
+[1388.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_BuildingAsiaAB_Mat]
+[1388.67] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_Belagio1eRC_Mat]
+[1388.67] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casinos_ext_Belagio1aRC_Mat]
+[1388.68] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino_misc_awning2RC_Mat]
+[1388.69] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino3_pillar1ABC_Mat]
+[1388.69] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino3_ceswall1vtw_Mat]
+[1388.70] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino3_cesrail1RC_Mat]
+[1388.70] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino3_ceasrwall3RC_Mat]
+[1388.71] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino3_ceasrwall2RC_Mat]
+[1388.71] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino3_ceasrcrosswRC_Mat]
+[1388.71] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino1_cieling1BBC_Mat]
+[1388.72] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino1_casinowall1CBC_Mat]
+[1388.72] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.vegas_casino1_casinodoor1BC_Mat]
+[1388.73] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.t_generic_marks_genmark3RC_Mat]
+[1388.73] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.t_generic_LensFlares_lensflare5RC_Mat]
+[1388.74] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.t_generic_Glass_glassTVRC_Mat]
+[1388.74] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.t_generic_Glass_genglassblock13_Mat]
+[1388.75] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Streets_HighWay_Sign_NoUTurn1_Mat]
+[1388.75] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Streets_HighWay_Sign_Clearance2_Mat]
+[1388.76] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_walls_stuccowall2BBC_Mat]
+[1388.77] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_walls_strwall5RC_Mat]
+[1388.77] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_shops_vegshpdisply40R_Mat]
+[1388.78] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_shops_strshopliq1aRC_Mat]
+[1388.78] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_pavement_strbrickroad1RC_Mat]
+[1388.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_pavement_sidewalk1EBC_Mat]
+[1388.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_pavement_sidewalk1ABC_Mat]
+[1388.80] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_neon_stratneon3aRC_Mat]
+[1388.80] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_metal_strairduct2RC_Mat]
+[1388.80] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_metal_strairduct1RC_Mat]
+[1388.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_construction_strconstruc1RC_Mat]
+[1388.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_construction_stratcpower2RC_Mat]
+[1388.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_construction_stratcpower1aRC_Mat]
+[1388.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_construction_strataircond1cR_Mat]
+[1388.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.stratosfear_construction_strataircond1bR_Mat]
+[1388.83] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.skyboxes_night_night3RC_Mat]
+[1388.83] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.skyboxes_night_night1RC_Mat]
+[1388.83] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.skyboxes_clouds_cloud4RC_Mat]
+[1388.84] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.skyboxes_clouds_cloud3aRC_Mat]
+[1388.84] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.skyboxes_clouds_cloud2RC_Mat]
+[1388.85] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_wood_pentwood5RC_Mat]
+[1388.85] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_walls_phousewall3ABC_Mat]
+[1388.86] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_walls_phousewall1IBC_Mat]
+[1388.87] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_trim_penttrim9aRC_Mat]
+[1388.87] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_sharkroom_pentshelf2RC_Mat]
+[1388.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_sharkroom_pentmtlshelf2RC_Mat]
+[1388.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_sharkroom_pentmtlshelf1RC_Mat]
+[1388.89] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_marble_bigmarb_7tw_Mat]
+[1388.89] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_furniture_pentfurdres1bRC_Mat]
+[1388.89] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_floors_flrMarble1ABC_Mat]
+[1388.90] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_floors_floor_marble3sa_Mat]
+[1388.90] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_exterior_pentroof1RC_Mat]
+[1388.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_exterior_pentextbuild9RC_Mat]
+[1388.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_exterior_pentextbuild20R_Mat]
+[1388.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_exterior_pentextbuild14b_Mat]
+[1388.92] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_exterior_pentextbuild14a_Mat]
+[1388.92] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_exterior_pentextbuild13R_Mat]
+[1388.93] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_ceiling_pentceiling4ARC_Mat]
+[1388.93] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Penthouse_bedroom_pentbednuke1bRC_Mat]
+[1388.93] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Miningtown_roofs_minshingle4RC_Mat]
+[1388.93] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Miningtown_floors_minwoodflr5RC_Mat]
+[1388.94] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.m_dnWeapon_turret1BC_Mat]
+[1388.94] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.grandcanyon_ground_cynground1aRC_Mat]
+[1388.94] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_2_walls_indeconk_1tw_Mat]
+[1388.95] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_2_walls_basewall23tw_Mat]
+[1388.95] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_2_trim_girder_6atw_Mat]
+[1388.96] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_2_Sundry_riub_3tw_Mat]
+[1388.96] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_2_cielings_gridceile_1atw_Mat]
+[1388.97] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_2_Buildings_billtface_3tw_Mat]
+[1388.97] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_1_trim_manhole_1tw_Mat]
+[1388.98] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_1_metal_fer_yelplate_6tw_Mat]
+[1388.98] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_1_metal_fer_yelplate_5btw_Mat]
+[1388.98] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_1_metal_fer_yelplate_5atw_Mat]
+[1388.99] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_1_metal_fer_yelplate_2tw_Mat]
+[1388.99] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.EDF_1_ConcreteBits_crakfa_conk_1tw_Mat]
+[1388.99] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.dnMaskFX_kojak_rocks_1tw_Mat]
+[1389.00] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.dcasino_signs_dcassign7aRC_Mat]
+[1389.00] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.dcasino_lightefx_neonB_alt1BC_Mat]
+[1389.00] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Dam_rocks_damrock5RC_Mat]
+[1389.00] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Dam_Masking_damtower2RC_Mat]
+[1389.01] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Dam_floors_damstairstep1RC_Mat]
+[1389.01] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Dam_Elevator_damelevtrim1RC_Mat]
+[1389.01] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Dam_doors_damelvtrdoor2RC_Mat]
+[1389.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Conveyor_tramPosY_tw_Mat]
+[1389.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Conveyor_tramNegY_tw_Mat]
+[1389.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Conveyor_tramNegX_tw_Mat]
+[1389.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.computer_mainframe_mnfrmladder1BC_Mat]
+[1389.03] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.brothel_objects_slwobjbox1cRC_Mat]
+[1389.03] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.brothel_objects_slwobjbox1bRC_Mat]
+[1389.04] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.brothel_objects_slwobjbox1aRC_Mat]
+[1389.04] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.brothel_blackRC_Mat]
+[1389.05] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_Windows_window6RC_Mat]
+[1389.05] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallmisc_wallinsulatn3aB_Mat]
+[1389.06] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallmisc_intwall3CBC_Mat]
+[1389.06] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallmisc_intwall3ABC_Mat]
+[1389.07] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallmetal_metalwall7BC_Mat]
+[1389.07] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallmetal_buildingwall1RC_Mat]
+[1389.07] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_walldressing_wallmonitor1RC_Mat]
+[1389.08] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_wallconcret3RC_Mat]
+[1389.08] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_dirtyconcrete1B_Mat]
+[1389.09] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_dirtyconcrete1A_Mat]
+[1389.09] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_concretewall1AB_Mat]
+[1389.10] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_concretedecor1R_Mat]
+[1389.10] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_concrete1RC_Mat]
+[1389.11] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_wallconcrete_column1_Mat]
+[1389.11] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_sets_intgympannelRC_Mat]
+[1389.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_sets_bunkerAfenceRC_Mat]
+[1389.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_roof_metalroof1RC_Mat]
+[1389.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_pavement_parklot1dBC_Mat]
+[1389.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_pavement_asphault1RC_Mat]
+[1389.14] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_whiteboard1CBC_Mat]
+[1389.14] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_pipecap1BC_Mat]
+[1389.14] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_pipe1bRC_Mat]
+[1389.15] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_mtlcabinet1aRC_Mat]
+[1389.15] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_lockers7bRC_Mat]
+[1389.17] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_crate5aRC_Mat]
+[1389.18] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_crate4eRC_Mat]
+[1389.19] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_crate4cRC_Mat]
+[1389.20] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_objects_cabflam1bRC_Mat]
+[1389.20] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_metal_plate1RC_Mat]
+[1389.21] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_metal_grate2RC_Mat]
+[1389.21] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_metal_grate1RC_Mat]
+[1389.22] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_Masking_smallfence1ABC_Mat]
+[1389.23] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_Masking_rail1BBC_Mat]
+[1389.24] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_Masking_palete1aRC_Mat]
+[1389.26] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.airforcebase_lights_outsidelight3bR_Mat]
+[1389.27] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Airforcebase2_signs_schedule1ja_Mat]
+[1389.27] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Airforcebase2_signs_danger1ja_Mat]
+[1389.27] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Airforcebase2_Masking_ChainFence02_Mat]
+[1389.27] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Airforcebase2_Elevator_ElButUp1_Mat]
+[1389.28] Log: OBJ SavePackage:     Rendered thumbnail for [Material z1l2_data.Airforcebase2_Elevator_ElButMetal1SAH_Mat]
+[1389.28] Log: OBJ SavePackage: Finished generating thumbnails for package [z1l2_data]
+[1389.28] Cmd: OBJ SAVEPACKAGE PACKAGE="z1l2_data" FILE="..\..\UDKGame\Content\Textures\z1l2_data.upk"
+[1423.27] Log: Save=33959.457800
+[1423.27] Log: Moving '..\..\UDKGame\Content\Textures\z1l2_data_save.tmp' to '..\..\UDKGame\Content\Textures\z1l2_data.upk'
+[1503.60] Cmd: DELETE
+[1503.60] Cmd: ACTOR DELETE
+[1503.99] Log: Deleted 67 Actors (0.391 secs)
+[1557.04] Cmd: MODE WIDGETMODECYCLE
+[1640.66] Cmd: DUPLICATE
+[1640.66] Cmd: ACTOR DUPLICATE
+[1655.56] Cmd: DUPLICATE
+[1655.56] Cmd: ACTOR DUPLICATE
+[1667.39] Log: Built Phys StaticMesh Cache: 6.427 ms
+[1667.40] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[1667.93] Log: COOKEDPHYSICS: BSP 635.47 KB
+[1669.10] Log: Save=1510.182300
+[1669.10] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[1669.14] Log: Saving Map: z1l2
+[1682.53] Log: LIGHTMASS: Quality level is 0
+[1682.57] Log: Deterministic lighting is ENABLED
+[1682.57] Log: 	Lighting will be slower to complete...
+[1697.70] Log: Running Lightmass w/ Deterministic Lighting ENABLED
+[1697.70] Log: Running Lightmass w/ ImmediateImport mode ENABLED
+[1697.70] Log: Running Lightmass w/ ImmediateProcess mode ENABLED
+[1697.70] Log: Running Lightmass w/ Sorting mode ENABLED
+[1697.70] Log: Running Lightmass w/ Mapping paddings ENABLED
+[1697.70] Log: Running Lightmass w/ Mapping debug paddings DISABLED
+[1697.71] Log: Swarm launching: ..\Win64\UnrealLightmass.exe D95D6A974E6384832655CEBDAC991EED
+[1697.72] Log: LIGHTMASS: Writing scene settings: Quality level 0 (0 in INI)
+[1700.17] Log: Swarm will be allowed to distribute this job
+[1728.54] Log: Job is a success!
+[1732.02] Log: Lightmass on JUSTIN-MAINPC: 31.2 sec total, 188 ms importing, 19 ms setup, 17.4 sec photons, 13.6 sec processing, 0 ms extra exporting [3985/3985 mappings]. Threads: 2:01 min total, 27.4 sec processing.
+[1732.03] PerfEvent: LIGHTING BUILD INFO TIME LoadListCtrl: 0.002619
+[1733.23] Log: Illumination: 50.6 sec (798 ms encoding lightmaps)
+[1733.23] Log: Lightmap texture memory:  5.3 MB (0.0 MB on Xbox 360, 0.0 MB streaming, 5.3 MB non-streaming), 8 textures
+[1733.23] Log: Shadowmap texture memory: 0.0 MB (0.0 MB on Xbox 360, 0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[1733.27] Log: Incomplete cached shader map for material stratosfear_walls_strwall4RC_Mat, compiling.
+[1733.38] Warning: Material z1l2_data.stratosfear_walls_strwall4RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.38] Log: Incomplete cached shader map for material airforcebase_pavement_tarmack3aRC_Mat, compiling.
+[1733.46] Warning: Material z1l2_data.airforcebase_pavement_tarmack3aRC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.47] Warning: Material DnMovies.Starbsrt_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.47] Log: Incomplete cached shader map for material vegas_casino1_dukesym3BC_Mat, compiling.
+[1733.55] Warning: Material z1l2_data.vegas_casino1_dukesym3BC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.55] Log: Incomplete cached shader map for material vegas_casinos_ext_vegwallnight1RC_Mat, compiling.
+[1733.64] Warning: Material z1l2_data.vegas_casinos_ext_vegwallnight1RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.64] Log: Incomplete cached shader map for material t_generic_Water_genwater2RC_Mat, compiling.
+[1733.81] Warning: Material z1l2_data.t_generic_Water_genwater2RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.81] Log: Incomplete cached shader map for material Penthouse_Pool_pentpool1aRC_Mat, compiling.
+[1733.90] Warning: Material z1l2_data.Penthouse_Pool_pentpool1aRC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.90] Log: Incomplete cached shader map for material vegas_casino1_cieling1FBC_Mat, compiling.
+[1733.99] Warning: Material z1l2_data.vegas_casino1_cieling1FBC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1733.99] Log: Incomplete cached shader map for material airforcebase_sets_exbldBac1bRC_Mat, compiling.
+[1734.07] Warning: Material z1l2_data.airforcebase_sets_exbldBac1bRC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.07] Log: Incomplete cached shader map for material Penthouse_trim_penttrim8RC_Mat, compiling.
+[1734.16] Warning: Material z1l2_data.Penthouse_trim_penttrim8RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.16] Log: Incomplete cached shader map for material vegas_furniture_vegblackj1aRC_Mat, compiling.
+[1734.25] Warning: Material z1l2_data.vegas_furniture_vegblackj1aRC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.25] Log: Incomplete cached shader map for material Penthouse_marble_pentmarstair1aR_Mat, compiling.
+[1734.34] Warning: Material z1l2_data.Penthouse_marble_pentmarstair1aR_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.34] Log: Incomplete cached shader map for material Penthouse_library_pentlibwall2RC_Mat, compiling.
+[1734.42] Warning: Material z1l2_data.Penthouse_library_pentlibwall2RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.42] Log: Incomplete cached shader map for material vegas_plants_bush2aRC_Mat, compiling.
+[1734.50] Warning: Material z1l2_data.vegas_plants_bush2aRC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.51] Log: Incomplete cached shader map for material Penthouse_Pool_pentpool1fRC_Mat, compiling.
+[1734.59] Warning: Material z1l2_data.Penthouse_Pool_pentpool1fRC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.59] Log: Incomplete cached shader map for material dcasino_walls_dcaswallbotm6RC_Mat, compiling.
+[1734.68] Warning: Material z1l2_data.dcasino_walls_dcaswallbotm6RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.68] Log: Incomplete cached shader map for material vegas_casino1_genericgold1BC_Mat, compiling.
+[1734.76] Warning: Material z1l2_data.vegas_casino1_genericgold1BC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.76] Log: Incomplete cached shader map for material dcasino_doors_dcasdoors1RC_Mat, compiling.
+[1734.84] Warning: Material z1l2_data.dcasino_doors_dcasdoors1RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.85] Log: Incomplete cached shader map for material Streets_City_Street_gen3lane1RC_Mat, compiling.
+[1734.93] Warning: Material z1l2_data.Streets_City_Street_gen3lane1RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1734.93] Log: Incomplete cached shader map for material dcasino_logos_dcaslogo1RC_Mat, compiling.
+[1735.02] Warning: Material z1l2_data.dcasino_logos_dcaslogo1RC_Mat needed to have new flag set bUsedWithStaticLighting !
+[1735.03] Log: Start RegenerateProcBuildingTextures (0 buildings)
+[1735.03] Log: Finish RegenerateProcBuildingTextures (Took 0.000004 secs)
+[1735.03] Cmd: MAP CHECK DONTCLEARMESSAGES DONTDISPLAYDIALOG
+[1735.29] Log: Build time 52.7 sec
+[1747.57] Log: 
+==== Worlds needing PIE Save:
+[1747.57] Log: z1l2
+[1747.57] Log: ==== 1 total
+[1747.64] Log: Built Phys StaticMesh Cache: 7.253 ms
+[1747.65] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[1747.91] Log: COOKEDPHYSICS: BSP 635.47 KB
+[1749.12] Log: Save=1471.058300
+[1749.12] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk'
+[1749.16] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[1749.77] Log: Finished looking for orphan Actors (0.006 secs)
+[1749.77] Log: Game class is 'dnSinglePlayer'
+[1749.79] Log: Primary PhysX scene will be in software.
+[1749.79] Log: Creating Primary PhysX Scene.
+[1749.80] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1749.80] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-14.15.20
+[1749.82] Log: Bringing up level for play took: 0.043940
+[1749.86] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_6:GFxMinimap_6
+	Function UTGame.GFxMinimap:Init:00F2
+[1749.86] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[1749.86] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[1749.86] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[1749.86] Log: PIE: play in editor start time for UEDPIEz1l2 2.505
+[1749.88] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_7:GFxMinimap_7
+	Function UTGame.GFxMinimap:Init:00F2
+[1749.95] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[1749.95] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_6
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[1749.95] Cmd: SETSOUNDMODE Default
+[1749.95] ScriptLog: START MATCH
+[1749.96] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_7:GFxMinimap_7
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1752.28] Cmd: StartFire 
+[1752.28] Cmd: OnRelease StopFire
+[1752.41] Cmd: StopFire
+[1785.20] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_8:GFxMinimap_8
+	Function UTGame.GFxMinimap:Init:00F2
+[1785.20] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_8:GFxMinimap_8
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1790.40] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_9:GFxMinimap_9
+	Function UTGame.GFxMinimap:Init:00F2
+[1790.41] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_9:GFxMinimap_9
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1797.42] Cmd: onrelease ShowMenu
+[1797.43] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_3
+	Function UTGame.UTPlayerController:Destroyed:0041
+[1799.60] Log: 
+==== Worlds needing PIE Save:
+[1799.61] Log: ==== 0 total
+[1799.61] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[1800.19] Log: Finished looking for orphan Actors (0.006 secs)
+[1800.19] Log: Game class is 'dnSinglePlayer'
+[1800.22] Log: Primary PhysX scene will be in software.
+[1800.22] Log: Creating Primary PhysX Scene.
+[1800.22] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1800.23] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-14.16.10
+[1800.25] Log: Bringing up level for play took: 0.043198
+[1800.29] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_10:GFxMinimap_10
+	Function UTGame.GFxMinimap:Init:00F2
+[1800.29] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[1800.29] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[1800.29] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[1800.29] Log: PIE: play in editor start time for UEDPIEz1l2 0.899
+[1800.31] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_11:GFxMinimap_11
+	Function UTGame.GFxMinimap:Init:00F2
+[1800.35] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_8
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[1800.35] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_8
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[1800.35] Cmd: SETSOUNDMODE Default
+[1800.35] ScriptLog: START MATCH
+[1800.35] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_11:GFxMinimap_11
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1806.14] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_12:GFxMinimap_12
+	Function UTGame.GFxMinimap:Init:00F2
+[1806.15] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_12:GFxMinimap_12
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1835.95] Cmd: onrelease ShowMenu
+[1835.96] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_4
+	Function UTGame.UTPlayerController:Destroyed:0041
+[1844.20] Log: saving as ..\..\UDKGame\Content\Textures\z1l2_data.upk
+[1844.22] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [z1l2_data] ([514] browsable assets)...
+[1844.25] Log: OBJ SavePackage: Finished generating thumbnails for package [z1l2_data]
+[1844.25] Cmd: OBJ SAVEPACKAGE PACKAGE="z1l2_data" FILE="..\..\UDKGame\Content\Textures\z1l2_data.upk"
+[1844.90] Log: Save=606.746200
+[1844.90] Log: Moving '..\..\UDKGame\Content\Textures\z1l2_data_save.tmp' to '..\..\UDKGame\Content\Textures\z1l2_data.upk'
+[1847.87] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[1847.88] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [DnMovies] ([3] browsable assets)...
+[1847.89] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[1847.89] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[1848.00] Log: Save=87.819200
+[1848.00] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[1854.00] Log: Missing cached shader map for material PreviewMaterial_5, compiling.
+[1891.85] Log: saving as D:\projects\Duke2003\UDKGame\Content\DnMovies.upk
+[1891.85] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [DnMovies] ([3] browsable assets)...
+[1891.86] Log: OBJ SavePackage: Finished generating thumbnails for package [DnMovies]
+[1891.86] Cmd: OBJ SAVEPACKAGE PACKAGE="DnMovies" FILE="D:\projects\Duke2003\UDKGame\Content\DnMovies.upk"
+[1892.02] Log: Save=133.714600
+[1892.02] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\DnMovies_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\DnMovies.upk'
+[1903.44] Log: 
+==== Worlds needing PIE Save:
+[1903.45] Log: ==== 0 total
+[1903.45] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[1904.05] Log: Finished looking for orphan Actors (0.006 secs)
+[1904.05] Log: Game class is 'dnSinglePlayer'
+[1904.08] Log: Primary PhysX scene will be in software.
+[1904.08] Log: Creating Primary PhysX Scene.
+[1904.09] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1904.09] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-14.17.54
+[1904.11] Log: Bringing up level for play took: 0.043976
+[1904.15] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_13:GFxMinimap_13
+	Function UTGame.GFxMinimap:Init:00F2
+[1904.15] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[1904.15] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[1904.15] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[1904.15] Log: PIE: play in editor start time for UEDPIEz1l2 0.916
+[1904.17] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_14:GFxMinimap_14
+	Function UTGame.GFxMinimap:Init:00F2
+[1904.22] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_10
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[1904.22] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_10
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[1904.22] Cmd: SETSOUNDMODE Default
+[1904.22] ScriptLog: START MATCH
+[1904.22] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_14:GFxMinimap_14
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1906.85] Cmd: StartFire 
+[1906.85] Cmd: OnRelease StopFire
+[1906.99] Cmd: StopFire
+[1907.60] Cmd: StartFire 
+[1907.60] Cmd: OnRelease StopFire
+[1907.76] Cmd: StopFire
+[1910.63] Cmd: onrelease ShowMenu
+[1910.64] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_5
+	Function UTGame.UTPlayerController:Destroyed:0041
+[1924.56] Log: 
+==== Worlds needing PIE Save:
+[1924.56] Log: ==== 0 total
+[1924.56] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[1925.13] Log: Finished looking for orphan Actors (0.006 secs)
+[1925.13] Log: Game class is 'dnSinglePlayer'
+[1925.15] Log: Primary PhysX scene will be in software.
+[1925.16] Log: Creating Primary PhysX Scene.
+[1925.16] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[1925.16] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-14.18.15
+[1925.18] Log: Bringing up level for play took: 0.043434
+[1925.22] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_15:GFxMinimap_15
+	Function UTGame.GFxMinimap:Init:00F2
+[1925.22] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[1925.22] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[1925.22] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[1925.22] Log: PIE: play in editor start time for UEDPIEz1l2 0.877
+[1925.24] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_16:GFxMinimap_16
+	Function UTGame.GFxMinimap:Init:00F2
+[1925.29] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_12
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[1925.29] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_12
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[1925.29] Cmd: SETSOUNDMODE Default
+[1925.29] ScriptLog: START MATCH
+[1925.29] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_16:GFxMinimap_16
+	Function UTGame.GFxMinimap:UpdateData:0015
+[1974.96] Cmd: onrelease ShowMenu
+[1974.97] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_6
+	Function UTGame.UTPlayerController:Destroyed:0041
+[2035.10] Log: 
+==== Worlds needing PIE Save:
+[2035.10] Log: z1l2
+[2035.11] Log: ==== 1 total
+[2035.16] Log: Built Phys StaticMesh Cache: 11.556 ms
+[2035.16] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[2035.44] Log: COOKEDPHYSICS: BSP 635.47 KB
+[2036.70] Log: Save=1543.382200
+[2036.71] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk'
+[2036.73] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[2037.30] Log: Finished looking for orphan Actors (0.006 secs)
+[2037.30] Log: Game class is 'dnSinglePlayer'
+[2037.33] Log: Primary PhysX scene will be in software.
+[2037.33] Log: Creating Primary PhysX Scene.
+[2037.34] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[2037.34] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-14.20.07
+[2037.36] Log: Bringing up level for play took: 0.045199
+[2037.40] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_17:GFxMinimap_17
+	Function UTGame.GFxMinimap:Init:00F2
+[2037.40] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_7
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[2037.40] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_7
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[2037.40] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_7
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[2037.40] Log: PIE: play in editor start time for UEDPIEz1l2 2.506
+[2037.42] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_18:GFxMinimap_18
+	Function UTGame.GFxMinimap:Init:00F2
+[2037.50] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_14
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[2037.50] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_14
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[2037.50] Cmd: SETSOUNDMODE Default
+[2037.50] ScriptLog: START MATCH
+[2037.50] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_18:GFxMinimap_18
+	Function UTGame.GFxMinimap:UpdateData:0015
+[2040.22] Cmd: onrelease ShowMenu
+[2040.23] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_7
+	Function UTGame.UTPlayerController:Destroyed:0041
+[2044.20] Log: Built Phys StaticMesh Cache: 7.036 ms
+[2044.20] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[2044.71] Log: COOKEDPHYSICS: BSP 635.47 KB
+[2045.88] Log: Save=1437.502100
+[2045.88] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[2045.96] Log: Saving Map: z1l2
+[2061.94] Cmd: DUPLICATE
+[2061.94] Cmd: ACTOR DUPLICATE
+[2083.65] Cmd: DUPLICATE
+[2083.65] Cmd: ACTOR DUPLICATE
+[2085.97] Cmd: DUPLICATE
+[2085.97] Cmd: ACTOR DUPLICATE
+[2088.02] Cmd: DUPLICATE
+[2088.02] Cmd: ACTOR DUPLICATE
+[2095.49] Cmd: DUPLICATE
+[2095.49] Cmd: ACTOR DUPLICATE
+[2097.44] Cmd: DUPLICATE
+[2097.44] Cmd: ACTOR DUPLICATE
+[2099.10] Cmd: DUPLICATE
+[2099.10] Cmd: ACTOR DUPLICATE
+[2115.92] Log: Built Phys StaticMesh Cache: 8.405 ms
+[2115.92] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[2116.48] Log: COOKEDPHYSICS: BSP 635.47 KB
+[2117.73] Log: Save=1588.554000
+[2117.73] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[2117.79] Log: Saving Map: z1l2
+[2135.71] Log: LIGHTMASS: Quality level is 0
+[2135.75] Log: Deterministic lighting is ENABLED
+[2135.75] Log: 	Lighting will be slower to complete...
+[2143.38] Log: Running Lightmass w/ Deterministic Lighting ENABLED
+[2143.38] Log: Running Lightmass w/ ImmediateImport mode ENABLED
+[2143.38] Log: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2143.38] Log: Running Lightmass w/ Sorting mode ENABLED
+[2143.38] Log: Running Lightmass w/ Mapping paddings ENABLED
+[2143.39] Log: Running Lightmass w/ Mapping debug paddings DISABLED
+[2143.39] Log: Swarm launching: ..\Win64\UnrealLightmass.exe 6AC49E994E19931CC9C8C78E767F9725
+[2143.40] Log: LIGHTMASS: Writing scene settings: Quality level 0 (0 in INI)
+[2143.87] Log: Swarm will be allowed to distribute this job
+[2184.23] Log: Job is a success!
+[2188.24] Log: Lightmass on JUSTIN-MAINPC: 43.8 sec total, 135 ms importing, 11 ms setup, 29.7 sec photons, 13.8 sec processing, 0 ms extra exporting [3985/3985 mappings]. Threads: 2:04 min total, 26.4 sec processing.
+[2188.24] PerfEvent: LIGHTING BUILD INFO TIME LoadListCtrl: 0.002019
+[2189.49] Log: Illumination: 53.7 sec (884 ms encoding lightmaps)
+[2189.50] Log: Lightmap texture memory:  5.3 MB (0.0 MB on Xbox 360, 0.0 MB streaming, 5.3 MB non-streaming), 8 textures
+[2189.50] Log: Shadowmap texture memory: 0.0 MB (0.0 MB on Xbox 360, 0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2189.55] Log: Start RegenerateProcBuildingTextures (0 buildings)
+[2189.55] Log: Finish RegenerateProcBuildingTextures (Took 0.000000 secs)
+[2189.57] Cmd: MAP CHECK DONTCLEARMESSAGES DONTDISPLAYDIALOG
+[2189.80] Log: Build time 54.0 sec
+[2207.08] Log: 
+==== Worlds needing PIE Save:
+[2207.08] Log: z1l2
+[2207.08] Log: ==== 1 total
+[2207.13] Log: Built Phys StaticMesh Cache: 8.862 ms
+[2207.13] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[2207.41] Log: COOKEDPHYSICS: BSP 635.47 KB
+[2208.64] Log: Save=1503.656300
+[2208.64] Log: Moving 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2_save.tmp' to 'd:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk'
+[2208.68] Cmd: MAP LOAD PLAYWORLD=1 FILE="d:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEz1l2.udk"
+[2209.25] Log: Finished looking for orphan Actors (0.006 secs)
+[2209.25] Log: Game class is 'dnSinglePlayer'
+[2209.28] Log: Primary PhysX scene will be in software.
+[2209.28] Log: Creating Primary PhysX Scene.
+[2209.29] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[2209.29] Log: Bringing World UEDPIEz1l2.TheWorld up for play (0) at 2023.05.22-14.22.59
+[2209.31] Log: Bringing up level for play took: 0.044387
+[2209.35] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_19:GFxMinimap_19
+	Function UTGame.GFxMinimap:Init:00F2
+[2209.35] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_8
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[2209.35] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_8
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[2209.35] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_8
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[2209.35] Log: PIE: play in editor start time for UEDPIEz1l2 2.477
+[2209.37] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_20:GFxMinimap_20
+	Function UTGame.GFxMinimap:Init:00F2
+[2209.44] ScriptWarning: Accessed None 'LeftHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_16
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[2209.44] ScriptWarning: Accessed None 'RightHandIK'
+	PlayerPawn UEDPIEz1l2.TheWorld:PersistentLevel.PlayerPawn_16
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[2209.44] Cmd: SETSOUNDMODE Default
+[2209.44] ScriptLog: START MATCH
+[2209.45] ScriptWarning: Accessed None 'MapInfo'
+	GFxMinimap Transient.GFxMinimapHud_20:GFxMinimap_20
+	Function UTGame.GFxMinimap:UpdateData:0015
+[2305.97] Cmd: onrelease ShowMenu
+[2305.98] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEz1l2.TheWorld:PersistentLevel.dnPlayerController_8
+	Function UTGame.UTPlayerController:Destroyed:0041
+[2356.65] Log: Built Phys StaticMesh Cache: 49.236 ms
+[2356.66] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (5.746094 KB) - Total 5.746094 KB
+[2357.13] Log: COOKEDPHYSICS: BSP 635.47 KB
+[2358.34] Log: Save=1481.324200
+[2358.34] Log: Moving 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2_save.tmp' to 'D:\projects\Duke2003\UDKGame\Content\Maps\DukeForever\z1l2.udk'
+[2358.39] Log: Saving Map: z1l2
+[2361.87] Exit: Preparing to exit.
+[2362.01] Exit: Editor shut down
+[2362.01] Exit: Transaction tracking system shut down
+[2362.17] Exit: Windows client shut down
+[2362.18] Exit: XAudio2 Device shut down.
+[2362.35] Exit: Object subsystem successfully closed.
+[2362.37] Log: Shutting down FaceFX...
+[2362.37] Log: FaceFX shutdown.
+[2362.40] DevDataBase: Spent 18.671343 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[2362.40] Exit: Exiting.
+[2362.41] Log: Log file closed, 05/22/23 14:25:32

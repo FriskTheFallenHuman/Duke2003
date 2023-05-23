@@ -1,0 +1,10 @@
+
+.OPTION EXPLICIT
+ 
+.Set CabinetNameTemplate=..\ATLUE3.CAB 
+ 
+.Set Cabinet=on
+.Set Compress=on
+ 
+AX\ATLUE3.inf
+AX\ATLUE3.dll

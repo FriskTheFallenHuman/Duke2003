@@ -1,0 +1,13 @@
+
+Warning: Can't find substitution image for 'bloodparticle_medium_png'.
+ 
+Warning: Can't find substitution image for 'bloodparticle_large_png'.
+ 
+Warning: Can't find substitution image for 'blood_bg2_game_over_png'.
+ 
+Warning: Can't find substitution image for 'blood_bg_game_over_png'.
+ 
+Warning: Can't find substitution image for 'bloodparticle_small_png'.
+ 
+Warning: Can't find substitution image for 'cursor_png'.
+ 

@@ -1,0 +1,98 @@
+Log: Log file open, 05/21/23 17:04:32
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: Version: 8364
+Init: Epic Internal: 0
+Init: Compiled (64-bit): May 21 2023 13:02:35
+Init: Changelist: 871961
+Init: Command line: editor 
+Init: Base directory: d:\projects\Duke2003\Binaries\Win64\
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditor.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEditorUserSettings.ini
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\UDKCompat.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKLightmass.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
+DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
+[0000.55] Init: Computer: JUSTIN-MAINPC
+[0000.55] Init: User: justi
+[0000.55] Init: CPU Page size=4096, Processors=32
+[0000.55] Init: High frequency timer resolution =10.000000 MHz
+[0000.55] Init: Memory total: Physical=63.1GB Pagefile=84.1GB Virtual=131072.0GB
+[0000.55] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.60] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.60] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.60] Init: Object subsystem initialized
+[0000.60] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.60] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.60] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.60] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.60] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.60] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.60] DevSave:    Loading value for Extensions from [Core.System]
+[0000.60] DevSave:    Loading value for Suppress from [Core.System]
+[0000.60] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.60] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.60] DevSave:    Loading value for Paths from [Core.System]
+[0000.60] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.60] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.60] DevSave:    Loading value for CachePath from [Core.System]
+[0000.60] DevSave:    Loading value for SavePath from [Core.System]
+[0000.60] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.60] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.60] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.60] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.60] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.38] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.38] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.38] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.44] Log: Shader platform (RHI): PC-D3D-SM3
+[0019.50] Log: PhysX GPU Support: DISABLED
+[0019.51] Init: Initializing FaceFX...
+[0019.51] Init: FaceFX 1.7.4 initialized.
+[0021.52] Init: Finished loading startup packages in 1.86 seconds
+[0021.53] Log: 76294 objects as part of root set at end of initial load.
+[0021.53] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.62] Log: Supported Consoles:
+[0021.62] Log:   PC
+[0021.62] Log:   Xbox360
+[0021.62] Log: Initializing Engine...
+[0021.66] Log: Encountered missing default brush - spawning new one
+[0021.67] Init: UEngine initialized
+[0021.67] Log: Primary PhysX scene will be in software.
+[0021.67] Log: Creating Primary PhysX Scene.
+[0021.69] Init: Transaction tracking system initialized
+[0022.68] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0022.72] Log: Working around XDK XAudio2 regression: TRUE
+[0022.74] Init: XAudio2Device initialized.
+[0023.11] Init: Client initialized
+[0023.11] Init: Editor engine initialized
+[0023.19] Log: Initializing Engine Completed
+[0023.19] Log: >>>>>>>>>>>>>> Initial startup: 23.19s <<<<<<<<<<<<<<<
+[0023.26] Cmd: MODE MAPEXT=udk
+[0023.34] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0023.35] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0024.22] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0024.22] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0024.26] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0024.26] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0027.04] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\Templates\Template_MidDay.umap"
+[0027.26] Log: Encountered missing default brush - spawning new one
+[0027.70] Log: New File, Existing Package (Package Untitled_2, Package Template_MidDay)
+[0027.77] Log: -- Checking Building LODs
+[0027.78] Log: Primary PhysX scene will be in software.
+[0027.78] Log: Creating Primary PhysX Scene.
+[0027.79] Log: Finished looking for orphan Actors (0.003 secs)
+[0027.79] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0027.83] Log: TIMER ALL OF INIT : [8.307049]
+[0049.57] Exit: Preparing to exit.
+[0049.67] Exit: Editor shut down
+[0049.67] Exit: Transaction tracking system shut down
+[0049.85] Exit: Windows client shut down
+[0049.85] Exit: XAudio2 Device shut down.
+[0049.93] Exit: Object subsystem successfully closed.
+[0049.94] Log: Shutting down FaceFX...
+[0049.94] Log: FaceFX shutdown.
+[0049.98] DevDataBase: Spent 18.765232 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0049.98] Exit: Exiting.
+[0049.98] Log: Log file closed, 05/21/23 17:05:22
