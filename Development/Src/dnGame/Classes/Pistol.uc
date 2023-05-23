@@ -6,7 +6,7 @@ defaultproperties
 	WeaponColor=(R=255,G=255,B=0,A=255)
 	FireInterval(0)=+0.24
 	FireInterval(1)=+0.35
-	PlayerViewOffset=(X=16.0,Y=-18,Z=-18.0)
+	PlayerViewOffset=(X=0,Y=0,Z=0)
 
 	Begin Object class=AnimNodeSequence Name=MeshSequenceA
 		bCauseActorAnimEnd=true

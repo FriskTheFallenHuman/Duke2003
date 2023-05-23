@@ -71,12 +71,52 @@ class ADukeHUD : public AHUD
 {
 public:
     //## BEGIN PROPS DukeHUD
+    FLOAT Opacity;
+    FColor CrosshairColor;
+    FColor TextColor;
+    FColor HUDColor;
     INT CrosshairCount;
     class UTexture* CrosshairTextures[20];
+    FLOAT DesiredIndexTop;
+    FLOAT RootIndexTop;
+    FLOAT IndexTop;
+    FLOAT IndexBottom;
+    FLOAT IndexAdjust;
+    FLOAT BarOffset;
+    FLOAT HUDScale;
+    FLOAT HUDScaleX;
+    FLOAT HUDScaleY;
+    INT MaxIndexItems;
+    INT ItemSpace;
+    FLOAT TextRightAdjust;
+    FLOAT BarPos;
+    FLOAT BarLeft;
+    FLOAT TitleLeft;
+    FLOAT TitleOffset;
+    FLOAT SlideRate;
+    FLOAT IndexTopOffset;
+    FStringNoInit IndexName;
+    class UTexture* GradientTexture;
+    class UTexture* IndexBarLeftTexture;
+    class UTexture* IndexBarRightTexture;
+    class UTexture* IndexBarBottomTexture;
+    class UTexture* InventoryBarTopTexture;
+    class UTexture* InventoryBarBotTexture;
+    class UTexture* InventoryCatHLTexture;
+    class UTexture* InventoryCatHLTexture2;
+    class UTexture* MiscBarTabTexture;
+    class UTexture* MiscBarHLTexture;
+    class UTexture* HUDTemplateTexture;
+    class UTexture* ItemSlantTexture;
+    class UTexture* ItemSlantHLTexture;
+    class UTexture* MiscBarTexture;
+    class UTexture* MiscBarTexture2;
+    class UTexture* NumberCircleTexture;
     //## END PROPS DukeHUD
 
     virtual void HudStartup();
     virtual void RenderHud();
+    virtual void DrawScaledTexture(class UTexture* Icon,FLOAT X,FLOAT Y,FVector Scale);
     DECLARE_FUNCTION(execHudStartup)
     {
         P_FINISH;
@@ -87,7 +127,17 @@ public:
         P_FINISH;
         this->RenderHud();
     }
+    DECLARE_FUNCTION(execDrawScaledTexture)
+    {
+        P_GET_OBJECT(UTexture,Icon);
+        P_GET_FLOAT(X);
+        P_GET_FLOAT(Y);
+        P_GET_STRUCT(FVector,Scale);
+        P_FINISH;
+        this->DrawScaledTexture(Icon,X,Y,Scale);
+    }
     DECLARE_CLASS(ADukeHUD,AHUD,0|CLASS_Transient|CLASS_Config,dnGame)
+	void DrawStatusIndex();
 	void DrawCrosshair();
 };
 
@@ -108,6 +158,7 @@ public:
 #endif // !INCLUDED_DNGAME_CLASSES
 #endif // !NAMES_ONLY
 
+AUTOGENERATE_FUNCTION(ADukeHUD,-1,execDrawScaledTexture);
 AUTOGENERATE_FUNCTION(ADukeHUD,-1,execRenderHud);
 AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 
@@ -132,6 +183,7 @@ AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 #ifdef NATIVES_ONLY
 FNativeFunctionLookup GdnGameADukeHUDNatives[] = 
 { 
+	MAP_NATIVE(ADukeHUD, execDrawScaledTexture)
 	MAP_NATIVE(ADukeHUD, execRenderHud)
 	MAP_NATIVE(ADukeHUD, execHudStartup)
 	{NULL, NULL}
@@ -144,8 +196,8 @@ FNativeFunctionLookup GdnGameADukeHUDNatives[] =
 VERIFY_CLASS_SIZE_NODIE(AdnSinglePlayer)
 VERIFY_CLASS_SIZE_NODIE(AdnWeapon)
 VERIFY_CLASS_SIZE_NODIE(APistol)
-VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,CrosshairCount)
-VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,CrosshairTextures)
+VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,Opacity)
+VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,NumberCircleTexture)
 VERIFY_CLASS_SIZE_NODIE(ADukeHUD)
 VERIFY_CLASS_SIZE_NODIE(APlayerPawn)
 #endif // VERIFY_CLASS_SIZES
