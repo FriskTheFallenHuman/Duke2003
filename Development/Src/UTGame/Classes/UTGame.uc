@@ -3309,7 +3309,6 @@ function WriteOnlineStats()
 
 defaultproperties
 {
-	HUDType=class'UTGame.UTHUD'
 	PlayerControllerClass=class'UTGame.UTPlayerController'
 	ConsolePlayerControllerClass=class'UTGame.UTConsolePlayerController'
 	DefaultPawnClass=class'UTPawn'

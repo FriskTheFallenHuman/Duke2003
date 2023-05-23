@@ -56,6 +56,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Src\DukeHud.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\Src\Pistol.cpp"
 				>
 			</File>
@@ -93,6 +97,10 @@
 			</File>
 			<File
 				RelativePath=".\Classes\dnWeapon.uc"
+				>
+			</File>
+			<File
+				RelativePath=".\Classes\DukeHud.uc"
 				>
 			</File>
 			<File

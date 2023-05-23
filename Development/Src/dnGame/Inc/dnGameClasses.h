@@ -67,6 +67,30 @@ public:
     NO_DEFAULT_CONSTRUCTOR(APistol)
 };
 
+class ADukeHUD : public AHUD
+{
+public:
+    //## BEGIN PROPS DukeHUD
+    INT CrosshairCount;
+    class UTexture* CrosshairTextures[20];
+    //## END PROPS DukeHUD
+
+    virtual void HudStartup();
+    virtual void RenderHud();
+    DECLARE_FUNCTION(execHudStartup)
+    {
+        P_FINISH;
+        this->HudStartup();
+    }
+    DECLARE_FUNCTION(execRenderHud)
+    {
+        P_FINISH;
+        this->RenderHud();
+    }
+    DECLARE_CLASS(ADukeHUD,AHUD,0|CLASS_Transient|CLASS_Config,dnGame)
+	void DrawCrosshair();
+};
+
 class APlayerPawn : public AUTPawn
 {
 public:
@@ -84,6 +108,8 @@ public:
 #endif // !INCLUDED_DNGAME_CLASSES
 #endif // !NAMES_ONLY
 
+AUTOGENERATE_FUNCTION(ADukeHUD,-1,execRenderHud);
+AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 
 #ifndef NAMES_ONLY
 #undef AUTOGENERATE_FUNCTION
@@ -97,11 +123,20 @@ public:
 	AdnSinglePlayer::StaticClass(); \
 	AdnWeapon::StaticClass(); \
 	APistol::StaticClass(); \
+	ADukeHUD::StaticClass(); \
+	GNativeLookupFuncs.Set(FName("DukeHUD"), GdnGameADukeHUDNatives); \
 	APlayerPawn::StaticClass(); \
 
 #endif // DNGAME_NATIVE_DEFS
 
 #ifdef NATIVES_ONLY
+FNativeFunctionLookup GdnGameADukeHUDNatives[] = 
+{ 
+	MAP_NATIVE(ADukeHUD, execRenderHud)
+	MAP_NATIVE(ADukeHUD, execHudStartup)
+	{NULL, NULL}
+};
+
 #endif // NATIVES_ONLY
 #endif // STATIC_LINKING_MOJO
 
@@ -109,6 +144,9 @@ public:
 VERIFY_CLASS_SIZE_NODIE(AdnSinglePlayer)
 VERIFY_CLASS_SIZE_NODIE(AdnWeapon)
 VERIFY_CLASS_SIZE_NODIE(APistol)
+VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,CrosshairCount)
+VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,CrosshairTextures)
+VERIFY_CLASS_SIZE_NODIE(ADukeHUD)
 VERIFY_CLASS_SIZE_NODIE(APlayerPawn)
 #endif // VERIFY_CLASS_SIZES
 #endif // !ENUMS_ONLY

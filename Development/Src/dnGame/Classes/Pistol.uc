@@ -39,4 +39,6 @@ defaultproperties
 	MomentumTransfer=50000.0
 	BeamAmmoUsePerSecond=8.5
 	MinimumDamage=5.0
+
+	BobDamping=1.0
 }

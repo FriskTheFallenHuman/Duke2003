@@ -87,7 +87,7 @@ static event class<GameInfo> SetGameType(string MapName, string Options, string 
 
 defaultproperties
 {
-	HUDType=class'UTGame.UTHUD'
+	HUDType=class'dnGame.DukeHUD'
 	PlayerControllerClass=class'dnGame.dnPlayerController'
 	ConsolePlayerControllerClass=class'UTGame.UTConsolePlayerController'
 	DefaultPawnClass=class'dnGame.PlayerPawn'
@@ -100,4 +100,5 @@ defaultproperties
 	DefaultInventory(0)=class'dnGame.Pistol'
 
 	bMustJoinBeforeStart=false
+	bUseClassicHUD=true
 }
