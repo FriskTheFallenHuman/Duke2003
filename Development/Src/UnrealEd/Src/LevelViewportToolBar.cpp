@@ -568,13 +568,16 @@ void WxLevelViewportToolBar::OnPlayInViewport( wxCommandEvent& In )
 			FRotator* StartRotation = NULL;
 
 			// If this is a perspective viewport, then we'll Play From Here
+// jmarshall - always play in pie from the start location.
+/*
 			if( ViewportClient->ViewportType == LVT_Perspective )
 			{
 				// Start PIE from the camera's location and orientation!
 				StartLocation = &ViewportClient->ViewLocation;
 				StartRotation = &ViewportClient->ViewRotation;
 			}
-
+*/
+// jmarshall end
 			// Figure out which viewport index we are
 			INT MyViewportIndex = -1;
 			for( INT CurViewportIndex = 0; CurViewportIndex < GApp->EditorFrame->ViewportConfigData->GetViewportCount(); ++CurViewportIndex )

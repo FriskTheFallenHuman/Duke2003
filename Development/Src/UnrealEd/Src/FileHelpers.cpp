@@ -2651,9 +2651,13 @@ FString FEditorFileUtils::GetSimpleMapName()
 /** Loads the simple map for UDK */
 void FEditorFileUtils::LoadSimpleMapAtStartup ()
 {
-	bIsLoadingSimpleStartupMap = TRUE;
+// jmarshall
+	// bIsLoadingSimpleStartupMap = TRUE;
+// jmarshall end
 	FEditorFileUtils::LoadMap( GetSimpleMapName() );
-	bIsLoadingSimpleStartupMap = FALSE;
+// jmarshall
+	// bIsLoadingSimpleStartupMap = FALSE;
+// jmarshall end
 }
 
 
