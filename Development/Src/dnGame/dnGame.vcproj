@@ -44,6 +44,14 @@
 			Name="Src"
 			>
 			<File
+				RelativePath=".\Src\AIPawn.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\Src\Decoration.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\src\dnGame.cpp"
 				>
 			</File>
@@ -87,6 +95,14 @@
 		<Filter
 			Name="Classes"
 			>
+			<File
+				RelativePath=".\Classes\AIPawn.uc"
+				>
+			</File>
+			<File
+				RelativePath=".\Classes\Decoration.uc"
+				>
+			</File>
 			<File
 				RelativePath=".\Classes\dnPlayerController.uc"
 				>

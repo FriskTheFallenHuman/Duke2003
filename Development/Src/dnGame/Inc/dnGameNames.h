@@ -21,6 +21,8 @@
 #endif
 
 
+AUTOGENERATE_NAME(NotReachableBy)
+AUTOGENERATE_NAME(SeeFocalPoint)
 
 #ifdef DEFINED_NAME_MACRO
 #undef DEFINED_NAME_MACRO

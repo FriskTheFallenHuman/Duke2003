@@ -18,6 +18,38 @@
 #ifndef INCLUDED_DNGAME_ENUMS
 #define INCLUDED_DNGAME_ENUMS 1
 
+enum EIntelligence
+{
+    BRAINS_NONE             =0,
+    BRAINS_REPTILE          =1,
+    BRAINS_MAMMAL           =2,
+    BRAINS_HUMAN            =3,
+    BRAINS_MAX              =4,
+};
+#define FOREACH_ENUM_EINTELLIGENCE(op) \
+    op(BRAINS_NONE) \
+    op(BRAINS_REPTILE) \
+    op(BRAINS_MAMMAL) \
+    op(BRAINS_HUMAN) 
+enum EAttitude
+{
+    ATTITUDE_Fear           =0,
+    ATTITUDE_Hate           =1,
+    ATTITUDE_Frenzy         =2,
+    ATTITUDE_Threaten       =3,
+    ATTITUDE_Ignore         =4,
+    ATTITUDE_Friendly       =5,
+    ATTITUDE_Follow         =6,
+    ATTITUDE_MAX            =7,
+};
+#define FOREACH_ENUM_EATTITUDE(op) \
+    op(ATTITUDE_Fear) \
+    op(ATTITUDE_Hate) \
+    op(ATTITUDE_Frenzy) \
+    op(ATTITUDE_Threaten) \
+    op(ATTITUDE_Ignore) \
+    op(ATTITUDE_Friendly) \
+    op(ATTITUDE_Follow) 
 
 #endif // !INCLUDED_DNGAME_ENUMS
 #endif // !NO_ENUMS
@@ -36,6 +68,177 @@
 #define ENABLE_DECLARECLASS_MACRO 1
 #include "UnObjBas.h"
 #undef ENABLE_DECLARECLASS_MACRO
+
+struct FSNPCAnimEvent
+{
+    BITFIELD bEnabled:1;
+    FName TriggerEvent;
+    FLOAT SoundVolume;
+
+    /** Constructors */
+    FSNPCAnimEvent() {}
+    FSNPCAnimEvent(EEventParm)
+    {
+        appMemzero(this, sizeof(FSNPCAnimEvent));
+    }
+};
+
+struct AIPawn_eventSeeFocalPoint_Parms
+{
+    class AActor* PointSeen;
+    AIPawn_eventSeeFocalPoint_Parms(EEventParm)
+    {
+    }
+};
+class AAIPawn : public APawn
+{
+public:
+    //## BEGIN PROPS AIPawn
+    FLOAT Skill;
+    BITFIELD bSnatched:1;
+    BITFIELD bFixedEnemy:1;
+    BITFIELD bRotateToEnemy:1;
+    BITFIELD bFromWall:1;
+    BITFIELD bHunting:1;
+    BITFIELD bJumpOffPawn:1;
+    BITFIELD bShootSpecial:1;
+    BITFIELD bAdvancedTactics:1;
+    BITFIELD bPlayerCanSeeMe:1;
+    BITFIELD bMuffledHearing:1;
+    BITFIELD bNoHeightMod:1;
+    BITFIELD bNoRotConstraint:1;
+    BITFIELD bCanStrafe:1;
+    BITFIELD bCanJump:1;
+    BITFIELD bCanWalk:1;
+    BITFIELD bCanSwim:1;
+    BITFIELD bCanFly:1;
+    BITFIELD bCanOpenDoors:1;
+    BITFIELD bCanDoSpecial:1;
+    BITFIELD bPanicking:1;
+    BITFIELD bWeaponNoAnimSound:1;
+    BITFIELD bFlyingVehicle:1;
+    BITFIELD bAlwaysUseTentacles:1;
+    BITFIELD bCanHaveCash:1;
+    BITFIELD bAggressiveToPlayer:1;
+    BITFIELD bVisiblySnatched:1;
+    BITFIELD bPatrolled:1;
+    BITFIELD bFollowEventOnceOnly:1;
+    BITFIELD bHateWhenSnatched:1;
+    BITFIELD bFire:1;
+    BITFIELD bForcedAttack:1;
+    BITFIELD bShielded:1;
+    BITFIELD bCamping:1;
+    BITFIELD bFocusOnPlayer:1;
+    BITFIELD bCanBeUsed:1;
+    BITFIELD bDisableUseTrigEvent:1;
+    BITFIELD bFollowEventDisabled:1;
+    BITFIELD bSnatchedAtStartup:1;
+    BITFIELD bSleeping:1;
+    BITFIELD bEyeless:1;
+    BITFIELD bLegless:1;
+    BITFIELD bCanHeadTrack:1;
+    BITFIELD bCanTorsoTrack:1;
+    BITFIELD bReadyToAttack:1;
+    BITFIELD bSawEnemy:1;
+    BITFIELD bEMPed:1;
+    class AActor* Enemy;
+    FLOAT MeleeRange;
+    FVector LastSeenPos;
+    FVector LastSeeingPos;
+    FLOAT LastSeenTime;
+    FLOAT CombatStyle;
+    FLOAT Alertness;
+    FName NextState;
+    FName NextLabel;
+    FLOAT HearThroughWallDist;
+    BYTE AttitudeToPlayer;
+    BYTE Intelligence;
+    BYTE Visibility;
+    FLOAT HearingThreshold;
+    FVector noise1spot;
+    FLOAT noise1time;
+    FLOAT noise1loudness;
+    FVector noise2spot;
+    FLOAT noise2time;
+    FLOAT noise2loudness;
+    FLOAT SightRadius;
+    FLOAT PeripheralVision;
+    FLOAT SightCounter;
+    INT EgoKillValue;
+    FStringNoInit CharacterName;
+    FName InitialIdlingAnim;
+    FName InitialTopIdlingAnim;
+    FLOAT RunSpeed;
+    FName HateTag;
+    FLOAT AggroSnatchDistance;
+    FName PatrolTag;
+    FName FollowEvent;
+    FLOAT AIMeleeRange;
+    FName ControlTag;
+    FName CoverTag;
+    FName PendingTopAnimation;
+    FName PendingBottomAnimation;
+    FName PendingAllAnimation;
+    FName PendingFocusTag;
+    class AActor* MyGiveItem;
+    class AActor* AEDestination;
+    class AActor* PendingTriggerActor;
+    class AActor* Obstruction;
+    FLOAT WalkingSpeed;
+    class AActor* PendingDoor;
+    class AActor* OrderObject;
+    struct FSNPCAnimEvent NPCAnimEvent[15];
+    class AActor* SuspiciousActor;
+    FVector WanderDir;
+    //## END PROPS AIPawn
+
+    void eventSeeFocalPoint(class AActor* PointSeen)
+    {
+        AIPawn_eventSeeFocalPoint_Parms Parms(EC_EventParm);
+        Parms.PointSeen=PointSeen;
+        ProcessEvent(FindFunctionChecked(DNGAME_SeeFocalPoint),&Parms);
+    }
+    DECLARE_ABSTRACT_CLASS(AAIPawn,APawn,0|CLASS_Config,dnGame)
+    NO_DEFAULT_CONSTRUCTOR(AAIPawn)
+};
+
+struct Decoration_eventNotReachableBy_Parms
+{
+    class APawn* P;
+    Decoration_eventNotReachableBy_Parms(EEventParm)
+    {
+    }
+};
+class ADecoration : public APawn
+{
+public:
+    //## BEGIN PROPS Decoration
+    class UClass* EffectWhenDestroyed;
+    BITFIELD bPushable:1;
+    BITFIELD bDamageable:1;
+    BITFIELD bPushSoundPlaying:1;
+    BITFIELD bSplash:1;
+    class USoundCue* PushSound;
+    class USoundCue* EndPushSound;
+    INT numLandings;
+    class UClass* contents;
+    INT NumFrags;
+    class UTexture* FragSkin;
+    FVector FragMomentum;
+    INT Health;
+    FLOAT SplashTime;
+    FLOAT LastValidAnchorTime;
+    //## END PROPS Decoration
+
+    void eventNotReachableBy(class APawn* P)
+    {
+        Decoration_eventNotReachableBy_Parms Parms(EC_EventParm);
+        Parms.P=P;
+        ProcessEvent(FindFunctionChecked(DNGAME_NotReachableBy),&Parms);
+    }
+    DECLARE_ABSTRACT_CLASS(ADecoration,APawn,0|CLASS_Config,dnGame)
+    NO_DEFAULT_CONSTRUCTOR(ADecoration)
+};
 
 class AdnSinglePlayer : public AUTGame
 {
@@ -171,6 +374,8 @@ AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 #define DNGAME_NATIVE_DEFS
 
 #define AUTO_INITIALIZE_REGISTRANTS_DNGAME \
+	AAIPawn::StaticClass(); \
+	ADecoration::StaticClass(); \
 	AdnSinglePlayer::StaticClass(); \
 	AdnWeapon::StaticClass(); \
 	APistol::StaticClass(); \
@@ -193,6 +398,12 @@ FNativeFunctionLookup GdnGameADukeHUDNatives[] =
 #endif // STATIC_LINKING_MOJO
 
 #ifdef VERIFY_CLASS_SIZES
+VERIFY_CLASS_OFFSET_NODIE(AAIPawn,AIPawn,Skill)
+VERIFY_CLASS_OFFSET_NODIE(AAIPawn,AIPawn,WanderDir)
+VERIFY_CLASS_SIZE_NODIE(AAIPawn)
+VERIFY_CLASS_OFFSET_NODIE(ADecoration,Decoration,EffectWhenDestroyed)
+VERIFY_CLASS_OFFSET_NODIE(ADecoration,Decoration,LastValidAnchorTime)
+VERIFY_CLASS_SIZE_NODIE(ADecoration)
 VERIFY_CLASS_SIZE_NODIE(AdnSinglePlayer)
 VERIFY_CLASS_SIZE_NODIE(AdnWeapon)
 VERIFY_CLASS_SIZE_NODIE(APistol)
