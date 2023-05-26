@@ -80,3 +80,5 @@ void AutoGenerateNamesDnGame()
 	#undef AUTOGENERATE_FUNCTION
 	#undef NAMES_ONLY
 }
+
+IMPLEMENT_CLASS(UCrushed)

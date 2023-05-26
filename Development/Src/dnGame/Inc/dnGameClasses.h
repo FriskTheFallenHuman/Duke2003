@@ -202,6 +202,16 @@ public:
     NO_DEFAULT_CONSTRUCTOR(AAIPawn)
 };
 
+class UCrushed : public UDamageType
+{
+public:
+    //## BEGIN PROPS Crushed
+    //## END PROPS Crushed
+
+    DECLARE_ABSTRACT_CLASS(UCrushed,UDamageType,0,dnGame)
+    NO_DEFAULT_CONSTRUCTOR(UCrushed)
+};
+
 struct Decoration_eventNotReachableBy_Parms
 {
     class APawn* P;
@@ -230,6 +240,54 @@ public:
     FLOAT LastValidAnchorTime;
     //## END PROPS Decoration
 
+    virtual UBOOL CanSplash();
+    virtual void Landed(FVector HitNormal,class AActor* FloorActor);
+    virtual void TakeDamage(INT DamageAmount,class AController* EventInstigator,FVector HitLocation,FVector Momentum,class UClass* DamageType,struct FTraceHitInfo HitInfo=FTraceHitInfo(EC_EventParm),class AActor* DamageCauser=NULL);
+    virtual void PhysicsVolumeChange(class APhysicsVolume* NewVolume);
+    virtual void Trigger(class AActor* Other,class APawn* EventInstigator);
+    virtual void BaseChangeImp();
+    DECLARE_FUNCTION(execCanSplash)
+    {
+        P_FINISH;
+        *(UBOOL*)Result=this->CanSplash();
+    }
+    DECLARE_FUNCTION(execLanded)
+    {
+        P_GET_STRUCT(FVector,HitNormal);
+        P_GET_OBJECT(AActor,FloorActor);
+        P_FINISH;
+        this->Landed(HitNormal,FloorActor);
+    }
+    DECLARE_FUNCTION(execTakeDamage)
+    {
+        P_GET_INT(DamageAmount);
+        P_GET_OBJECT(AController,EventInstigator);
+        P_GET_STRUCT(FVector,HitLocation);
+        P_GET_STRUCT(FVector,Momentum);
+        P_GET_OBJECT(UClass,DamageType);
+        P_GET_STRUCT_OPTX(struct FTraceHitInfo,HitInfo,FTraceHitInfo(EC_EventParm));
+        P_GET_OBJECT_OPTX(AActor,DamageCauser,NULL);
+        P_FINISH;
+        this->TakeDamage(DamageAmount,EventInstigator,HitLocation,Momentum,DamageType,HitInfo,DamageCauser);
+    }
+    DECLARE_FUNCTION(execPhysicsVolumeChange)
+    {
+        P_GET_OBJECT(APhysicsVolume,NewVolume);
+        P_FINISH;
+        this->PhysicsVolumeChange(NewVolume);
+    }
+    DECLARE_FUNCTION(execTrigger)
+    {
+        P_GET_OBJECT(AActor,Other);
+        P_GET_OBJECT(APawn,EventInstigator);
+        P_FINISH;
+        this->Trigger(Other,EventInstigator);
+    }
+    DECLARE_FUNCTION(execBaseChangeImp)
+    {
+        P_FINISH;
+        this->BaseChangeImp();
+    }
     void eventNotReachableBy(class APawn* P)
     {
         Decoration_eventNotReachableBy_Parms Parms(EC_EventParm);
@@ -361,6 +419,12 @@ public:
 #endif // !INCLUDED_DNGAME_CLASSES
 #endif // !NAMES_ONLY
 
+AUTOGENERATE_FUNCTION(ADecoration,-1,execBaseChangeImp);
+AUTOGENERATE_FUNCTION(ADecoration,-1,execTrigger);
+AUTOGENERATE_FUNCTION(ADecoration,-1,execPhysicsVolumeChange);
+AUTOGENERATE_FUNCTION(ADecoration,-1,execTakeDamage);
+AUTOGENERATE_FUNCTION(ADecoration,-1,execLanded);
+AUTOGENERATE_FUNCTION(ADecoration,-1,execCanSplash);
 AUTOGENERATE_FUNCTION(ADukeHUD,-1,execDrawScaledTexture);
 AUTOGENERATE_FUNCTION(ADukeHUD,-1,execRenderHud);
 AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
@@ -375,7 +439,9 @@ AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 
 #define AUTO_INITIALIZE_REGISTRANTS_DNGAME \
 	AAIPawn::StaticClass(); \
+	UCrushed::StaticClass(); \
 	ADecoration::StaticClass(); \
+	GNativeLookupFuncs.Set(FName("Decoration"), GdnGameADecorationNatives); \
 	AdnSinglePlayer::StaticClass(); \
 	AdnWeapon::StaticClass(); \
 	APistol::StaticClass(); \
@@ -386,6 +452,17 @@ AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 #endif // DNGAME_NATIVE_DEFS
 
 #ifdef NATIVES_ONLY
+FNativeFunctionLookup GdnGameADecorationNatives[] = 
+{ 
+	MAP_NATIVE(ADecoration, execBaseChangeImp)
+	MAP_NATIVE(ADecoration, execTrigger)
+	MAP_NATIVE(ADecoration, execPhysicsVolumeChange)
+	MAP_NATIVE(ADecoration, execTakeDamage)
+	MAP_NATIVE(ADecoration, execLanded)
+	MAP_NATIVE(ADecoration, execCanSplash)
+	{NULL, NULL}
+};
+
 FNativeFunctionLookup GdnGameADukeHUDNatives[] = 
 { 
 	MAP_NATIVE(ADukeHUD, execDrawScaledTexture)
@@ -401,6 +478,7 @@ FNativeFunctionLookup GdnGameADukeHUDNatives[] =
 VERIFY_CLASS_OFFSET_NODIE(AAIPawn,AIPawn,Skill)
 VERIFY_CLASS_OFFSET_NODIE(AAIPawn,AIPawn,WanderDir)
 VERIFY_CLASS_SIZE_NODIE(AAIPawn)
+VERIFY_CLASS_SIZE_NODIE(UCrushed)
 VERIFY_CLASS_OFFSET_NODIE(ADecoration,Decoration,EffectWhenDestroyed)
 VERIFY_CLASS_OFFSET_NODIE(ADecoration,Decoration,LastValidAnchorTime)
 VERIFY_CLASS_SIZE_NODIE(ADecoration)
