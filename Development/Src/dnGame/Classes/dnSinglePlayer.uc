@@ -90,7 +90,7 @@ defaultproperties
 	HUDType=class'dnGame.DukeHUD'
 	PlayerControllerClass=class'dnGame.dnPlayerController'
 	ConsolePlayerControllerClass=class'UTGame.UTConsolePlayerController'
-	DefaultPawnClass=class'dnGame.PlayerPawn'
+	DefaultPawnClass=class'dnGame.DukePawn'
 	PlayerReplicationInfoClass=class'UTGame.UTPlayerReplicationInfo'
 	GameReplicationInfoClass=class'UTGame.UTGameReplicationInfo'
 	DeathMessageClass=class'UTDeathMessage'

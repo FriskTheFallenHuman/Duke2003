@@ -68,11 +68,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Src\Pistol.cpp"
+				RelativePath=".\Src\DukePawn.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\src\PlayerPawn.cpp"
+				RelativePath=".\Src\Pistol.cpp"
 				>
 			</File>
 		</Filter>
@@ -124,11 +124,11 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Classes\Pistol.uc"
+				RelativePath=".\Classes\DukePawn.uc"
 				>
 			</File>
 			<File
-				RelativePath=".\Classes\PlayerPawn.uc"
+				RelativePath=".\Classes\Pistol.uc"
 				>
 			</File>
 		</Filter>

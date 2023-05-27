@@ -3,4 +3,4 @@
 
 #include "dnGame.h"
 
-IMPLEMENT_CLASS(APlayerPawn)
+IMPLEMENT_CLASS(ADukePawn)

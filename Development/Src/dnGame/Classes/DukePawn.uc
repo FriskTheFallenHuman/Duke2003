@@ -1,7 +1,7 @@
-// PlayerPawn.uc
+// DukePawn.uc
 //
 
-class PlayerPawn extends UTPawn
+class DukePawn extends UTPawn
 	nativereplication
 	native;
 

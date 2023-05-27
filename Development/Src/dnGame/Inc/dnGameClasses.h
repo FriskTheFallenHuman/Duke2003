@@ -402,14 +402,14 @@ public:
 	void DrawCrosshair();
 };
 
-class APlayerPawn : public AUTPawn
+class ADukePawn : public AUTPawn
 {
 public:
-    //## BEGIN PROPS PlayerPawn
-    //## END PROPS PlayerPawn
+    //## BEGIN PROPS DukePawn
+    //## END PROPS DukePawn
 
-    DECLARE_CLASS(APlayerPawn,AUTPawn,0|CLASS_Config|CLASS_NativeReplication,dnGame)
-    NO_DEFAULT_CONSTRUCTOR(APlayerPawn)
+    DECLARE_CLASS(ADukePawn,AUTPawn,0|CLASS_Config|CLASS_NativeReplication,dnGame)
+    NO_DEFAULT_CONSTRUCTOR(ADukePawn)
 };
 
 #undef DECLARE_CLASS
@@ -447,7 +447,7 @@ AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 	APistol::StaticClass(); \
 	ADukeHUD::StaticClass(); \
 	GNativeLookupFuncs.Set(FName("DukeHUD"), GdnGameADukeHUDNatives); \
-	APlayerPawn::StaticClass(); \
+	ADukePawn::StaticClass(); \
 
 #endif // DNGAME_NATIVE_DEFS
 
@@ -488,7 +488,7 @@ VERIFY_CLASS_SIZE_NODIE(APistol)
 VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,Opacity)
 VERIFY_CLASS_OFFSET_NODIE(ADukeHUD,DukeHUD,NumberCircleTexture)
 VERIFY_CLASS_SIZE_NODIE(ADukeHUD)
-VERIFY_CLASS_SIZE_NODIE(APlayerPawn)
+VERIFY_CLASS_SIZE_NODIE(ADukePawn)
 #endif // VERIFY_CLASS_SIZES
 #endif // !ENUMS_ONLY
 
