@@ -513,7 +513,7 @@ namespace UnrealBuildTool
 			}
 
 			// Construct the output path based on configuration, platform, game if not specified.
-			if( OutputPath == null )
+			//if( OutputPath == null )
 			{
 				OutputPath = "..\\..\\";
 

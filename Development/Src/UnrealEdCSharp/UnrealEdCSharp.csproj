@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
   <PropertyGroup>
     <AssemblyName>UnrealEdCSharp</AssemblyName>
     <TargetType>library</TargetType>
@@ -208,6 +208,7 @@
     </Compile>
     <Page Include="ContentBrowser\AssetCanvas.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Compile Include="ContentBrowser\AssetFilter.cs" />
     <Compile Include="ContentBrowser\BackendInterface.cs" />
@@ -270,6 +271,7 @@
     </Page>
     <None Include="..\..\..\Engine\EditorResources\WPF\Localized\UnrealEdCSharp.INT.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </None>
     <Resource Include="Images\DefaultThumbnail.png" />
   </ItemGroup>
