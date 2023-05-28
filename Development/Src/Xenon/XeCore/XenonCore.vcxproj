@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="BuiltWithUnrealBuildTool|Win32">
+      <Configuration>BuiltWithUnrealBuildTool</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>XeCore</ProjectName>
+    <ProjectGuid>{24C2F8FD-4937-4BBC-A6A8-A4D0C7F1F264}</ProjectGuid>
+    <RootNamespace>XenonShared</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'">
+    <OutDir>..\..\Intermediate\Unused\</OutDir>
+    <IntDir>..\..\Intermediate\Unused\</IntDir>
+    <NMakeBuildCommandLine />
+    <NMakeReBuildCommandLine />
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\FFileManagerXenon.h" />
+    <ClInclude Include="Inc\FileWriterAsyncXe.h" />
+    <ClInclude Include="Inc\FMallocXenon.h" />
+    <ClInclude Include="Inc\FMallocXenonPooled.h" />
+    <ClInclude Include="Inc\UnMathXe.h" />
+    <ClInclude Include="Inc\UnStatsNotifyProvidersXe.h" />
+    <ClInclude Include="Inc\UnXenon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\XeMisc\Src\UnXenonSplash.cpp" />
+    <ClCompile Include="Src\FFileManagerXenon.cpp" />
+    <ClCompile Include="Src\FMallocXenonPooled.cpp" />
+    <ClCompile Include="Src\UnAsyncLoadingXenon.cpp" />
+    <ClCompile Include="Src\UnXenon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Src\UnMallocDLXe.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

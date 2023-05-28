@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="BuiltWithUnrealBuildTool|Win32">
+      <Configuration>BuiltWithUnrealBuildTool</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>PS3Shared</ProjectName>
+    <ProjectGuid>{2D3FED11-3A4F-4A8B-ACA9-04C7FB0F60E4}</ProjectGuid>
+    <RootNamespace>PS3Shared</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'">
+    <OutDir>..\..\Intermediate\Unused\</OutDir>
+    <IntDir>..\..\Intermediate\Unused\</IntDir>
+    <NMakeBuildCommandLine />
+    <NMakeReBuildCommandLine />
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Rhi\Src\PS3Gcm.cpp" />
+    <ClCompile Include="Rhi\Src\PS3GcmMalloc.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHI.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHICommands.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHIQuery.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHIResources.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHIShaders.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHISurface.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHIUtil.cpp" />
+    <ClCompile Include="Rhi\Src\PS3RHIViewport.cpp" />
+    <ClCompile Include="RHI\Src\PS3TexturePool.cpp" />
+    <ClCompile Include="Src\EdgeZlibWrapper.cpp" />
+    <ClCompile Include="Src\FFileManagerPS3.cpp" />
+    <ClCompile Include="Src\FIOSStack.cpp" />
+    <ClCompile Include="Src\FMallocPS3.cpp" />
+    <ClCompile Include="Src\FMallocPS3DL.cpp" />
+    <ClCompile Include="Src\FMallocPS3Pooled.cpp" />
+    <ClCompile Include="Src\MoveKit.cpp" />
+    <ClCompile Include="Src\PS3AudioDevice.cpp" />
+    <ClCompile Include="Src\PS3AudioEffects.cpp" />
+    <ClCompile Include="Src\PS3Client.cpp" />
+    <ClCompile Include="Src\PS3Controller.cpp" />
+    <ClCompile Include="Src\PS3DownloadableContent.cpp" />
+    <ClCompile Include="Src\PS3Launch.cpp" />
+    <ClCompile Include="Src\PS3NetworkPlatform.cpp" />
+    <ClCompile Include="Src\PS3Threading.cpp" />
+    <ClCompile Include="Src\PS3Viewport.cpp" />
+    <ClCompile Include="Src\SpursPrintfService.cpp" />
+    <ClCompile Include="Src\UnAsyncLoadingPS3.cpp" />
+    <ClCompile Include="Src\UnPS3.cpp" />
+    <ClCompile Include="Src\UnSocketPS3.cpp" />
+    <ClCompile Include="TLS\PS3Tls.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\EdgeZlibWrapper.h" />
+    <ClInclude Include="Inc\FFileManagerPS3.h" />
+    <ClInclude Include="Inc\FMallocPS3.h" />
+    <ClInclude Include="Inc\FMallocPS3DL.h" />
+    <ClInclude Include="Inc\FMallocPS3Pooled.h" />
+    <ClInclude Include="Inc\LaunchPrivate.h" />
+    <ClInclude Include="Inc\MoveKit.h" />
+    <ClInclude Include="Inc\PS3AudioDevice.h" />
+    <ClInclude Include="Inc\PS3Client.h" />
+    <ClInclude Include="Inc\PS3Controller.h" />
+    <ClInclude Include="Inc\PS3CoreThreading.h" />
+    <ClInclude Include="Inc\PS3DownloadableContent.h" />
+    <ClInclude Include="Inc\PS3Drv.h" />
+    <ClInclude Include="Inc\PS3IDs.h" />
+    <ClInclude Include="Inc\PS3KeyMap.h" />
+    <ClInclude Include="Inc\PS3Landscape.h" />
+    <ClInclude Include="Inc\PS3NetworkPlatform.h" />
+    <ClInclude Include="Inc\PS3PixelShaderPatching.h" />
+    <ClInclude Include="Inc\PS3Threading.h" />
+    <ClInclude Include="Inc\PS3Viewport.h" />
+    <ClInclude Include="Inc\SpursUtilSPUPrintfService.h" />
+    <ClInclude Include="Inc\SPUUtils.h" />
+    <ClInclude Include="Inc\UnAsyncLoadingPS3.h" />
+    <ClInclude Include="Inc\UnMathPS3.h" />
+    <ClInclude Include="Inc\UnPS3.h" />
+    <ClInclude Include="Inc\UnSocketPS3.h" />
+    <ClInclude Include="Rhi\Inc\PS3Gcm.h" />
+    <ClInclude Include="Rhi\Inc\PS3GcmMalloc.h" />
+    <ClInclude Include="Rhi\Inc\PS3ResourceArray.h" />
+    <ClInclude Include="Rhi\Inc\PS3RHI.h" />
+    <ClInclude Include="Rhi\Inc\PS3RHIPrivate.h" />
+    <ClInclude Include="Rhi\Inc\PS3RHIResources.h" />
+    <ClInclude Include="Rhi\Inc\PS3RHISurface.h" />
+    <ClInclude Include="Rhi\Inc\PS3RHIUtil.h" />
+    <ClInclude Include="Rhi\Inc\PS3RHIViewport.h" />
+    <ClInclude Include="RHI\Inc\PS3TexturePool.h" />
+    <ClInclude Include="Spu\Inc\PU_SPU.h" />
+    <ClInclude Include="Tls\PS3Tls.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Engine\Config\PS3\PS3Engine.ini" />
+    <None Include="..\..\..\Engine\Config\PS3\PS3Game.ini" />
+    <None Include="..\..\..\Engine\Config\PS3\PS3Input.ini" />
+    <None Include="..\..\..\Engine\Config\PS3\PS3UI.ini" />
+    <None Include="Src\UnMallocDL.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

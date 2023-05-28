@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="BuiltWithUnrealBuildTool|Win32">
+      <Configuration>BuiltWithUnrealBuildTool</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>XeShared</ProjectName>
+    <ProjectGuid>{AFB0B542-01A8-4765-8797-4099D7294A10}</ProjectGuid>
+    <RootNamespace>XenonShared</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'">
+    <OutDir>..\..\Intermediate\Unused\</OutDir>
+    <IntDir>..\..\Intermediate\Unused\</IntDir>
+    <NMakeBuildCommandLine />
+    <NMakeReBuildCommandLine />
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_1.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_1k.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_1l.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_1o.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_9x.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d1.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d2.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d3.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4s.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a00.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a01.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a02.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a03.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a04.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a05.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a06.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_d4_a07.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo1x_o.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo_crc.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo_init.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo_ptr.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo_str.c" />
+    <ClCompile Include="..\..\External\lzopro\src\lzo_util.c" />
+    <ClCompile Include="..\..\External\lzopro\src\pinit.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1f.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1g.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1h.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1i.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1j.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1k.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1l.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1m.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1n.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1o.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_1p.c" />
+    <ClCompile Include="..\..\External\lzopro\src\plzo1x_99.c" />
+    <ClCompile Include="..\..\External\zlib\Src\adler32.c" />
+    <ClCompile Include="..\..\External\zlib\Src\compress.c" />
+    <ClCompile Include="..\..\External\zlib\Src\crc32.c" />
+    <ClCompile Include="..\..\External\zlib\Src\deflate.c" />
+    <ClCompile Include="..\..\External\zlib\Src\gzio.c" />
+    <ClCompile Include="..\..\External\zlib\Src\infback.c" />
+    <ClCompile Include="..\..\External\zlib\Src\inffast.c" />
+    <ClCompile Include="..\..\External\zlib\Src\inflate.c" />
+    <ClCompile Include="..\..\External\zlib\Src\inftrees.c" />
+    <ClCompile Include="..\..\External\zlib\Src\trees.c" />
+    <ClCompile Include="..\..\External\zlib\Src\uncompr.c" />
+    <ClCompile Include="..\..\External\zlib\Src\zutil.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

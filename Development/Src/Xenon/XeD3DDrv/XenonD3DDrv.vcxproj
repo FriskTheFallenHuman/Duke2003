@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="BuiltWithUnrealBuildTool|Win32">
+      <Configuration>BuiltWithUnrealBuildTool</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectName>XeD3DDrv</ProjectName>
+    <ProjectGuid>{712B93D3-A14B-440B-AE7A-70A378625912}</ProjectGuid>
+    <RootNamespace>XenonShared</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'">
+    <OutDir>..\..\Intermediate\Unused\</OutDir>
+    <IntDir>..\..\Intermediate\Unused\</IntDir>
+    <NMakeBuildCommandLine />
+    <NMakeReBuildCommandLine />
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\XeD3DCommandList.h" />
+    <ClInclude Include="Inc\XeD3DDrv.h" />
+    <ClInclude Include="Inc\XeD3DIndexBuffer.h" />
+    <ClInclude Include="Inc\XeD3DOcclusionQuery.h" />
+    <ClInclude Include="Inc\XeD3DRenderTarget.h" />
+    <ClInclude Include="Inc\XeD3DResourceArray.h" />
+    <ClInclude Include="Inc\XeD3DResources.h" />
+    <ClInclude Include="Inc\XeD3DShaders.h" />
+    <ClInclude Include="Inc\XeD3DState.h" />
+    <ClInclude Include="Inc\XeD3DTexture.h" />
+    <ClInclude Include="Inc\XeD3DTextureAllocator.h" />
+    <ClInclude Include="Inc\XeD3DUtil.h" />
+    <ClInclude Include="Inc\XeD3DVertexBuffer.h" />
+    <ClInclude Include="Inc\XeD3DVertexDeclaration.h" />
+    <ClInclude Include="Inc\XeD3DViewport.h" />
+    <ClInclude Include="Src\XeD3DDrvPrivate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\XeD3DCommands.cpp" />
+    <ClCompile Include="Src\XeD3DDevice.cpp" />
+    <ClCompile Include="Src\XeD3DDrv.cpp" />
+    <ClCompile Include="Src\XeD3DIndexBuffer.cpp" />
+    <ClCompile Include="Src\XeD3DOcclusionQuery.cpp" />
+    <ClCompile Include="Src\XeD3DRenderTarget.cpp" />
+    <ClCompile Include="Src\XeD3DResources.cpp" />
+    <ClCompile Include="Src\XeD3DShaders.cpp" />
+    <ClCompile Include="Src\XeD3DState.cpp" />
+    <ClCompile Include="Src\XeD3DTexture.cpp" />
+    <ClCompile Include="Src\XeD3DTextureAllocator.cpp" />
+    <ClCompile Include="Src\XeD3DUtil.cpp" />
+    <ClCompile Include="Src\XeD3DVertexBuffer.cpp" />
+    <ClCompile Include="Src\XeD3DVertexDeclaration.cpp" />
+    <ClCompile Include="Src\XeD3DViewport.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

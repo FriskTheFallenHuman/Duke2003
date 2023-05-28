@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="BuiltWithUnrealBuildTool|Win32">
+      <Configuration>BuiltWithUnrealBuildTool</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{ECF69490-6FEA-4832-A163-63A71F43139F}</ProjectGuid>
+    <RootNamespace>UnrealEdCLR</RootNamespace>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.33516.290</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='BuiltWithUnrealBuildTool|Win32'">
+    <OutDir>..\..\Intermediate\Unused\</OutDir>
+    <IntDir>..\..\Intermediate\Unused\</IntDir>
+    <NMakeBuildCommandLine />
+    <NMakeReBuildCommandLine />
+    <NMakeCleanCommandLine />
+    <NMakeOutput />
+    <NMakeIncludeSearchPath>$(ProjectDir)Inc;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <NMakeAssemblySearchPath>$(VSInstallDir)..\Reference Assemblies\Microsoft\Framework\v3.0;$(VSInstallDir)..\Reference Assemblies\Microsoft\Framework\v3.5;..\..\..\..\UnrealEngine3\Binaries\Editor\Release;$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>PresentationCore.dll;PresentationFramework.dll;PresentationFramework.Classic.dll;UnrealEdCSharp.dll;$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\BuildAndSubmitWindowCLR.cpp" />
+    <ClCompile Include="Src\ColorPickerCLR.cpp" />
+    <ClCompile Include="Src\ConsolidateWindowCLR.cpp" />
+    <ClCompile Include="Src\ContentBrowserCLR.cpp" />
+    <ClCompile Include="Src\ExportLocalizationWindowCLR.cpp" />
+    <ClCompile Include="Src\FileSystemNotificationCLR.cpp" />
+    <ClCompile Include="Src\GameAssetDatabaseCLR.cpp" />
+    <ClCompile Include="Src\HardwareSurveyCLR.cpp" />
+    <ClCompile Include="Src\InteropCLR.cpp" />
+    <ClCompile Include="Src\K2_AITreeEditorCLR.cpp" />
+    <ClCompile Include="Src\K2_EditorCLR.cpp" />
+    <ClCompile Include="Src\LandscapeEditWindowCLR.cpp" />
+    <ClCompile Include="Src\LightingToolsWindowCLR.cpp" />
+    <ClCompile Include="Src\LightmapResRatioWindowCLR.cpp" />
+    <ClCompile Include="Src\ManagedCodeSupportCLR.cpp" />
+    <ClCompile Include="Src\MatineeDirectorWindowCLR.cpp" />
+    <ClCompile Include="Src\MatineeRecordWindowCLR.cpp" />
+    <ClCompile Include="Src\MeshPaintWindowCLR.cpp" />
+    <ClCompile Include="Src\MK2PanelBase.cpp" />
+    <ClCompile Include="Src\PerforceSourceControlProviderCLR.cpp" />
+    <ClCompile Include="Src\SourceControlWindowsCLR.cpp" />
+    <ClCompile Include="Src\StartPageCLR.cpp" />
+    <ClCompile Include="Src\UnrealEdAssemblyInfoCLR.cpp" />
+    <ClCompile Include="Src\WelcomeScreenCLR.cpp" />
+    <ClCompile Include="Src\WPFFrameCLR.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\BuildAndSubmitWindowShared.h" />
+    <ClInclude Include="Inc\ColorPickerShared.h" />
+    <ClInclude Include="Inc\ConsolidateWindowShared.h" />
+    <ClInclude Include="Inc\ContentBrowserShared.h" />
+    <ClInclude Include="Inc\ConvertersCLR.h" />
+    <ClInclude Include="Inc\ExportLocalizationWindowShared.h" />
+    <ClInclude Include="Inc\FileSystemNotificationShared.h" />
+    <ClInclude Include="Inc\GameAssetDatabaseShared.h" />
+    <ClInclude Include="Inc\HardwareSurveyShared.h" />
+    <ClInclude Include="Inc\InteropShared.h" />
+    <ClInclude Include="Inc\K2_AITreeEditorShared.h" />
+    <ClInclude Include="Inc\K2_EditorShared.h" />
+    <ClInclude Include="Inc\LandscapeEditWindowShared.h" />
+    <ClInclude Include="Inc\LevelViewportHostWindowCLR.h" />
+    <ClInclude Include="Inc\LightingToolsWindowShared.h" />
+    <ClInclude Include="Inc\LightmapResRatioWindowShared.h" />
+    <ClInclude Include="Inc\ManagedCodeSupportCLR.h" />
+    <ClInclude Include="Inc\MatineeDirectorWindowShared.h" />
+    <ClInclude Include="Inc\MatineeRecordWindowShared.h" />
+    <ClInclude Include="Inc\MeshPaintWindowShared.h" />
+    <ClInclude Include="Inc\MK2PanelBase.h" />
+    <ClInclude Include="Inc\PerforceSourceControlProviderShared.h" />
+    <ClInclude Include="Inc\SourceControlWindowsShared.h" />
+    <ClInclude Include="Inc\StartPageShared.h" />
+    <ClInclude Include="Inc\UnrealEdCLR.h" />
+    <ClInclude Include="Inc\WelcomeScreenShared.h" />
+    <ClInclude Include="Inc\WPFFrameCLR.h" />
+    <ClInclude Include="Inc\WPFFrameShared.h" />
+    <ClInclude Include="Inc\WPFWindowWrapperCLR.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Engine\EditorResources\WPF\Controls\LandscapeEditWindow.xaml" />
+    <None Include="..\..\..\Engine\EditorResources\WPF\Controls\MeshPaintWindow.xaml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
