@@ -1,4 +1,4 @@
-Log: Log file open, 05/27/23 11:20:06
+Log: Log file open, 05/27/23 22:47:34
 Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 Init: Version: 8364
 Init: Epic Internal: 0
@@ -14,372 +14,421 @@ DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKEngine.in
 DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKGame.ini
 DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKInput.ini
 DevConfig: GConfig::LoadFile has loaded file:  ..\..\UDKGame\Config\UDKUI.ini
-[0000.63] Init: Computer: JUSTIN-MAINPC
-[0000.63] Init: User: justi
-[0000.63] Init: CPU Page size=4096, Processors=32
-[0000.63] Init: High frequency timer resolution =10.000000 MHz
-[0000.63] Init: Memory total: Physical=63.1GB Pagefile=75.6GB Virtual=131072.0GB
-[0000.63] DevStats: GSecondsPerCycle 1.000000e-007
-[0000.67] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
-[0000.67] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[0000.67] Init: Object subsystem initialized
-[0000.67] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
-[0000.67] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
-[0000.67] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
-[0000.67] DevSave:    Loading value for CutdownPaths from [Core.System]
-[0000.67] DevSave:    Loading value for LocalizationPaths from [Core.System]
-[0000.67] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
-[0000.67] DevSave:    Loading value for Extensions from [Core.System]
-[0000.67] DevSave:    Loading value for Suppress from [Core.System]
-[0000.67] DevSave:    Loading value for FRScriptPaths from [Core.System]
-[0000.67] DevSave:    Loading value for ScriptPaths from [Core.System]
-[0000.67] DevSave:    Loading value for Paths from [Core.System]
-[0000.67] DevSave:    Loading value for ScreenShotPath from [Core.System]
-[0000.67] DevSave:    Loading value for CacheExt from [Core.System]
-[0000.67] DevSave:    Loading value for CachePath from [Core.System]
-[0000.67] DevSave:    Loading value for SavePath from [Core.System]
-[0000.67] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
-[0000.67] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
-[0000.67] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
-[0000.67] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
-[0000.67] DevSave:    Loading value for StaleCacheDays from [Core.System]
-[0019.42] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
-[0019.42] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
-[0019.42] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
-[0019.43] Log: Shader platform (RHI): PC-D3D-SM5
-[0019.53] Log: PhysX GPU Support: DISABLED
-[0019.54] Init: Initializing FaceFX...
-[0019.54] Init: FaceFX 1.7.4 initialized.
-[0020.48] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
-[0020.48] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
-[0020.49] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
-[0020.49] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
-[0020.49] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
-[0020.49] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
-[0020.49] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
-[0020.49] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
-[0020.50] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Weapons\WP_ShockRifle.upk
-[0020.50] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Weapons\WP_ShockRifle.upk
-[0020.50] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Weapons\WP_ShockRifle.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
-[0020.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
-[0020.51] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.51] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.51] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.51] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.51] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.52] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
-[0020.53] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'UN_Terrain': Can't find file for package 'UN_Terrain' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'UN_Terrain': Can't find file for package 'UN_Terrain' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'UN_Terrain': Can't find file for package 'UN_Terrain' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
-[0020.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
-[0020.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
-[0020.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
-[0020.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
-[0020.54] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Weapons\WP_SniperRifle.upk
-[0020.54] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Weapons\WP_SniperRifle.upk
-[0020.54] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Weapons\WP_SniperRifle.upk
-[0020.56] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
-[0020.57] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
-[0020.58] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
-[0020.58] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
-[0020.58] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
-[0020.58] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
-[0020.58] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
-[0020.58] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
-[0020.58] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
-[0020.74] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay' ('---').
-[0020.74] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.74] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay' ('---').
-[0020.74] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.74] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red' ('---').
-[0020.74] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.74] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red' ('---').
-[0020.74] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.74] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue' ('---').
-[0020.74] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.74] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue' ('---').
-[0020.74] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.76] Warning: Failed to load 'LT_Deco.SM.Materials.T_LT_Deco_SM_HoloScreen_Pan01'! Referenced by 'UI_HUD.Materials.CharPortrait' ('---').
-[0020.76] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading NULL
-[0020.87] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.87] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.87] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.87] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.87] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.87] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.87] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.87] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.87] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.87] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.88] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.88] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.88] Warning: Failed to load 'LT_Deco.SM.Materials.T_LT_Deco_SM_HoloScreen_Pan01'! Referenced by 'UI_HUD.Materials.CharPortrait:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.88] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading NULL
-[0020.92] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_Enforcers.Materials.M_WP_Enforcers_01' ('Engine.Material:PhysMaterial').
-[0020.92] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0020.92] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Small.Materials.M_Pickups_Health_Small' ('---').
-[0020.92] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.92] Warning: Failed to load 'HU_Deco.SM.Materials.T_HU_Deco_SM_Glass01_Cube'! Referenced by 'Pickups.jump_pad.M_Pickups_Jump_Pad' ('---').
-[0020.92] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading NULL
-[0020.92] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Ammo_Shock.Materials.M_Ammo_ShockRifle' ('Engine.Material:PhysMaterial').
-[0020.92] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0020.92] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle2_N'! Referenced by 'Pickups.Ammo_Rockets.Materials.M_Ammo_RocketLauncher' ('Engine.MaterialInstanceConstant:TextureParameterValue.ParameterValue').
-[0020.92] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0020.92] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Ammo_Rockets.Materials.M_Ammo_RocketLauncher' ('Engine.MaterialInstance:PhysMaterial').
-[0020.92] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0020.92] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Ammo_Link.Materials.M_Ammo_LinkGun' ('Engine.Material:PhysMaterial').
-[0020.92] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0020.92] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.Ammo_Link.Materials.M_Ammo_LinkGun' ('---').
-[0020.92] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
-[0020.93] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase' ('Engine.Material:PhysMaterial').
-[0020.93] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0020.93] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase' ('---').
-[0020.93] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
-[0020.94] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_All.Materials.MI_WP_ALL_Master' ('Engine.Material:PhysMaterial').
-[0020.94] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0020.97] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.Ammo_Link.Materials.M_Ammo_LinkGun:MaterialExpressionTextureSample_23' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.97] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
-[0020.97] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Small.Materials.M_Pickups_Health_Small:MaterialExpressionTextureSample_7' ('Engine.MaterialExpressionTextureSample:Texture').
+[0000.61] Init: Computer: JUSTIN-MAINPC
+[0000.61] Init: User: justi
+[0000.61] Init: CPU Page size=4096, Processors=32
+[0000.61] Init: High frequency timer resolution =10.000000 MHz
+[0000.61] Init: Memory total: Physical=63.1GB Pagefile=75.6GB Virtual=131072.0GB
+[0000.61] DevStats: GSecondsPerCycle 1.000000e-007
+[0000.65] Init: WinSock: I am justin-mainpc (192.168.1.4:0)
+[0000.65] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.65] Init: Object subsystem initialized
+[0000.65] DevSave: (System) 'Default__System' loading configuration from ..\..\UDKGame\Config\UDKEngine.ini
+[0000.65] DevSave:    Loading value for SeekFreePCPaths from [Core.System]
+[0000.65] DevSave:    Loading value for SeekFreePCExtensions from [Core.System]
+[0000.65] DevSave:    Loading value for CutdownPaths from [Core.System]
+[0000.65] DevSave:    Loading value for LocalizationPaths from [Core.System]
+[0000.65] DevSave:    Loading value for TextureFileCacheExtension from [Core.System]
+[0000.65] DevSave:    Loading value for Extensions from [Core.System]
+[0000.65] DevSave:    Loading value for Suppress from [Core.System]
+[0000.65] DevSave:    Loading value for FRScriptPaths from [Core.System]
+[0000.65] DevSave:    Loading value for ScriptPaths from [Core.System]
+[0000.65] DevSave:    Loading value for Paths from [Core.System]
+[0000.65] DevSave:    Loading value for ScreenShotPath from [Core.System]
+[0000.65] DevSave:    Loading value for CacheExt from [Core.System]
+[0000.65] DevSave:    Loading value for CachePath from [Core.System]
+[0000.65] DevSave:    Loading value for SavePath from [Core.System]
+[0000.65] DevSave:    Loading value for AsyncIOBandwidthLimit from [Core.System]
+[0000.65] DevSave:    Loading value for PackageSizeSoftLimit from [Core.System]
+[0000.65] DevSave:    Loading value for MaxOverallCacheSize from [Core.System]
+[0000.65] DevSave:    Loading value for MaxStaleCacheSize from [Core.System]
+[0000.65] DevSave:    Loading value for StaleCacheDays from [Core.System]
+[0019.43] DevDataBase: Failure trying to open connection [Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2] [Invalid connection string attribute]
+[0019.43] DevDataBase: Connection to "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20" failed
+[0019.43] DevDataBase: Failure closing connection [Operation is not allowed when the object is closed.]
+[0019.44] Log: Shader platform (RHI): PC-D3D-SM5
+[0019.55] Log: PhysX GPU Support: DISABLED
+[0019.55] Init: Initializing FaceFX...
+[0019.55] Init: FaceFX 1.7.4 initialized.
+[0020.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
+[0020.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
+[0020.55] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
+[0020.55] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_All.upk
+[0020.55] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
+[0020.55] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
+[0020.55] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
+[0020.55] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_All.upk
+[0020.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Weapons\WP_ShockRifle.upk
+[0020.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Weapons\WP_ShockRifle.upk
+[0020.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Weapons\WP_ShockRifle.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_RocketLauncher.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Scorpion.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
+[0020.57] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Vehicles\VH_Cicada.upk
+[0020.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.58] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading ..\..\UDKGame\Content\Effects\Envy_Effects.upk
+[0020.60] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'UN_Terrain': Can't find file for package 'UN_Terrain' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'UN_Terrain': Can't find file for package 'UN_Terrain' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'UN_Terrain': Can't find file for package 'UN_Terrain' while loading ..\..\UDKGame\Content\Effects\Envy_Effects_UT3_Original.upk
+[0020.60] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
+[0020.61] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
+[0020.61] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
+[0020.61] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Weapons\WP_Enforcers.upk
+[0020.61] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Weapons\WP_SniperRifle.upk
+[0020.61] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Weapons\WP_SniperRifle.upk
+[0020.61] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Weapons\WP_SniperRifle.upk
+[0020.63] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.64] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.65] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading ..\..\UDKGame\Content\Pickups\Pickups.upk
+[0020.65] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
+[0020.65] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
+[0020.65] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
+[0020.65] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading ..\..\UDKGame\Content\UI\UI_HUD.upk
+[0020.65] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
+[0020.65] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
+[0020.65] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
+[0020.65] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading ..\..\UDKGame\Content\Characters\CH_Gibs.upk
+[0020.82] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay' ('---').
+[0020.82] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.82] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay' ('---').
+[0020.82] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.82] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red' ('---').
+[0020.82] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.82] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red' ('---').
+[0020.82] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.82] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue' ('---').
+[0020.82] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.82] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue' ('---').
+[0020.82] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.84] Warning: Failed to load 'LT_Deco.SM.Materials.T_LT_Deco_SM_HoloScreen_Pan01'! Referenced by 'UI_HUD.Materials.CharPortrait' ('---').
+[0020.84] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading NULL
+[0020.96] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
+[0020.96] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.96] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
+[0020.96] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.96] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
+[0020.96] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.96] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Red:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
+[0020.96] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.96] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
+[0020.96] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0020.97] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
 [0020.97] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0020.97] Warning: Failed to load 'HU_Deco.SM.Materials.T_HU_Deco_SM_Glass01_Cube'! Referenced by 'Pickups.jump_pad.M_Pickups_Jump_Pad:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.97] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading NULL
-[0020.97] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase:MaterialExpressionTextureSample_3' ('Engine.MaterialExpressionTextureSample:Texture').
-[0020.97] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
-[0020.98] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Far:ParticleModuleRequired_310' ('Engine.ParticleModuleRequired:Material').
-[0020.98] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0020.98] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Near:ParticleModuleRequired_310' ('Engine.ParticleModuleRequired:Material').
-[0020.98] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0020.98] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Far:ParticleModuleTypeDataMesh_145' ('Engine.ParticleModuleTypeDataMesh:Mesh').
-[0020.98] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0020.98] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Near:ParticleModuleTypeDataMesh_145' ('Engine.ParticleModuleTypeDataMesh:Mesh').
-[0020.98] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0021.02] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
+[0020.97] Warning: Failed to load 'LT_Deco.SM.Materials.T_LT_Deco_SM_HoloScreen_Pan01'! Referenced by 'UI_HUD.Materials.CharPortrait:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
+[0020.97] Log: Failed to load 'LT_Deco': Can't find file for package 'LT_Deco' while loading NULL
+[0021.02] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_Enforcers.Materials.M_WP_Enforcers_01' ('Engine.Material:PhysMaterial').
+[0021.02] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.02] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Small.Materials.M_Pickups_Health_Small' ('---').
+[0021.02] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.02] Warning: Failed to load 'HU_Deco.SM.Materials.T_HU_Deco_SM_Glass01_Cube'! Referenced by 'Pickups.jump_pad.M_Pickups_Jump_Pad' ('---').
+[0021.02] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading NULL
+[0021.02] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Ammo_Shock.Materials.M_Ammo_ShockRifle' ('Engine.Material:PhysMaterial').
+[0021.02] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.02] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle2_N'! Referenced by 'Pickups.Ammo_Rockets.Materials.M_Ammo_RocketLauncher' ('Engine.MaterialInstanceConstant:TextureParameterValue.ParameterValue').
 [0021.02] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0021.02] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
-[0021.02] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.02] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
-[0021.02] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.02] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
-[0021.02] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.02] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
-[0021.02] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0021.02] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
-[0021.02] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.02] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
-[0021.02] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.02] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
-[0021.02] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.05] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_10' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.05] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.05] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_11' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.05] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.05] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.05] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0021.05] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_13' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.05] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.05] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_10' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.05] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.05] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_11' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.05] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.06] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.06] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0021.06] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_13' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.06] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
-[0021.10] Log: Missing cached shader map for material M_Envy_Rocks, compiling.
-[0021.10] Warning: Failed to compile Material Envy_Effects.VH_Deaths.M_Envy_Rocks for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.10] Log: Missing cached shader map for material M_ShieldBelt_Blue, compiling.
-[0021.11] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.11] Log: Missing cached shader map for material M_ShieldBelt_Overlay, compiling.
-[0021.11] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.11] Log: Missing cached shader map for material M_ShieldBelt_Red, compiling.
-[0021.11] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.M_ShieldBelt_Red for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.12] Log: Missing cached shader map for material CharPortrait, compiling.
-[0021.12] Warning: Failed to compile Material UI_HUD.Materials.CharPortrait for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.22] Log: Missing cached shader map for material M_Pickups_Health_Small, compiling.
-[0021.22] Warning: Failed to compile Material Pickups.Health_Small.Materials.M_Pickups_Health_Small for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.22] Log: Missing cached shader map for material M_Pickups_WeaponBase, compiling.
-[0021.22] Warning: Failed to compile Material Pickups.WeaponBase.M_Pickups_WeaponBase for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.22] Log: Missing cached shader map for material M_Ammo_LinkGun, compiling.
-[0021.22] Warning: Failed to compile Material Pickups.Ammo_Link.Materials.M_Ammo_LinkGun for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.22] Log: Missing cached shader map for material M_Pickups_Jump_Pad, compiling.
-[0021.22] Warning: Failed to compile Material Pickups.jump_pad.M_Pickups_Jump_Pad for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.24] Log: Missing cached shader map for material M_Envy_Rocks_burn, compiling.
-[0021.24] Warning: Failed to compile Material Envy_Effects.VH_Deaths.M_Envy_Rocks_burn for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.32] Init: Finished loading startup packages in 1.69 seconds
-[0021.33] Log: 76275 objects as part of root set at end of initial load.
-[0021.33] Log: 0 out of 0 bytes used by permanent object pool.
-[0021.34] Log: Supported Consoles:
-[0021.34] Log:   PC
-[0021.34] Log: Initializing Engine...
-[0021.37] Log: Encountered missing default brush - spawning new one
-[0021.37] Init: UEngine initialized
-[0021.38] Log: Primary PhysX scene will be in software.
-[0021.38] Log: Creating Primary PhysX Scene.
-[0021.38] Init: Transaction tracking system initialized
-[0021.45] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay' ('---').
-[0021.45] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.45] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay' ('---').
-[0021.45] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.45] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_Cicada.Materials.PhysMat_Cicada' ('Engine.PhysicalMaterial:Parent').
-[0021.45] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.45] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_Cicada.Materials.PhysMat_Cicada_driving' ('Engine.PhysicalMaterial:Parent').
-[0021.45] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.45] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Berserk.Materials.M_Pickups_Berserk' ('---').
-[0021.45] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.45] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Large.Materials.M_Pickups_Health_Large_Keg' ('---').
-[0021.45] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.51] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Base_Flag.Materials.M_Pickups_Base_Flag' ('Engine.Material:PhysMaterial').
-[0021.51] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.51] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle2_N'! Referenced by 'Pickups.Base_Flag.Materials.M_Pickups_Base_Flag' ('---').
-[0021.51] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0021.51] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.51] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.51] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.51] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.51] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_All.Materials.M_VH_All_Axon_Base' ('Engine.Material:PhysMaterial').
-[0021.52] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.52] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Berserk.Materials.M_Pickups_Berserk:MaterialExpressionTextureSample_7' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.52] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.52] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Large.Materials.M_Pickups_Health_Large_Keg:MaterialExpressionTextureSample_6' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.52] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.53] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'WP_ShockRifle.Effects.M_WP_ShockRifle_1P' ('---').
-[0021.53] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.53] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_RocketLauncher.Materials.M_WP_RocketLauncher' ('Engine.Material:PhysMaterial').
-[0021.53] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.53] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_Scorpion.Materials.M_VH_Scorpion_Damaged' ('Engine.Material:PhysMaterial').
-[0021.53] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.53] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor.Materials.M_UN_Pickup_Armor' ('---').
-[0021.53] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.53] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor_ShieldBelt.Materials.M_Armor_ShieldBelt' ('---').
-[0021.53] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.53] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Base_Powerup.Materials.M_Pickups_Base_Powerup' ('---').
-[0021.53] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.53] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Medium.Materials.M_Pickup_Health_Medium' ('---').
-[0021.53] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.53] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.JumpBoots.Materials.M_JumpBoots' ('Engine.Material:PhysMaterial').
-[0021.53] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.54] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.JumpBoots.Materials.M_JumpBoots' ('---').
-[0021.54] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.54] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.ThighPads.Materials.M_UN_Pickup_Thigh' ('---').
-[0021.54] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.54] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_All.Materials.M_VH_Burnout' ('Engine.Material:PhysMaterial').
-[0021.54] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
-[0021.54] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle2_N'! Referenced by 'Pickups.Base_Flag.Materials.M_Pickups_Base_Flag:MaterialExpressionTextureSample_6' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.54] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
-[0021.55] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'WP_ShockRifle.Effects.M_WP_ShockRifle_1P:MaterialExpressionTextureSample_31' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.55] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.56] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor.Materials.M_UN_Pickup_Armor:MaterialExpressionTextureSample_27' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.56] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor_ShieldBelt.Materials.M_Armor_ShieldBelt:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.56] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Base_Powerup.Materials.M_Pickups_Base_Powerup:MaterialExpressionTextureSample_7' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.56] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Medium.Materials.M_Pickup_Health_Medium:MaterialExpressionTextureSample_4' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.56] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.JumpBoots.Materials.M_JumpBoots:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.56] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.ThighPads.Materials.M_UN_Pickup_Thigh:MaterialExpressionTextureSample_27' ('Engine.MaterialExpressionTextureSample:Texture').
-[0021.56] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
-[0021.58] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Far:ParticleModuleRequired_33' ('Engine.ParticleModuleRequired:Material').
-[0021.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0021.58] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Near:ParticleModuleRequired_164' ('Engine.ParticleModuleRequired:Material').
-[0021.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0021.58] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Far:ParticleModuleTypeDataMesh_14' ('Engine.ParticleModuleTypeDataMesh:Mesh').
-[0021.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0021.58] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Near:ParticleModuleTypeDataMesh_72' ('Engine.ParticleModuleTypeDataMesh:Mesh').
-[0021.58] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
-[0021.64] Log: Missing cached shader map for material M_UN_Pickup_Thigh, compiling.
-[0021.65] Warning: Failed to compile Material Pickups.ThighPads.Materials.M_UN_Pickup_Thigh for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.65] Log: Missing cached shader map for material M_JumpBoots, compiling.
-[0021.65] Warning: Failed to compile Material Pickups.JumpBoots.Materials.M_JumpBoots for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.65] Log: Missing cached shader map for material M_Armor_ShieldBelt, compiling.
-[0021.65] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.Materials.M_Armor_ShieldBelt for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.65] Log: Missing cached shader map for material M_UN_Pickup_Armor, compiling.
-[0021.65] Warning: Failed to compile Material Pickups.Armor.Materials.M_UN_Pickup_Armor for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.65] Log: Missing cached shader map for material M_Pickup_Health_Medium, compiling.
-[0021.65] Warning: Failed to compile Material Pickups.Health_Medium.Materials.M_Pickup_Health_Medium for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.65] Log: Missing cached shader map for material M_Pickups_Base_Powerup, compiling.
-[0021.65] Warning: Failed to compile Material Pickups.Base_Powerup.Materials.M_Pickups_Base_Powerup for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.74] Log: Missing cached shader map for material M_Pickups_Berserk, compiling.
-[0021.74] Warning: Failed to compile Material Pickups.Berserk.Materials.M_Pickups_Berserk for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.75] Log: Missing cached shader map for material M_Pickups_Health_Large_Keg, compiling.
-[0021.75] Warning: Failed to compile Material Pickups.Health_Large.Materials.M_Pickups_Health_Large_Keg for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.75] Log: Missing cached shader map for material M_UDamage_Overlay, compiling.
-[0021.75] Warning: Failed to compile Material Pickups.UDamage.M_UDamage_Overlay for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.75] Log: Missing cached shader map for material M_Pickups_Base_Flag, compiling.
-[0021.75] Warning: Failed to compile Material Pickups.Base_Flag.Materials.M_Pickups_Base_Flag for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.76] Log: Missing cached shader map for material M_WP_ShockRifle_1P, compiling.
-[0021.76] Warning: Failed to compile Material WP_ShockRifle.Effects.M_WP_ShockRifle_1P for platform PC-D3D-SM5, Default Material will be used in game.
-[0021.79] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[0021.80] Log: Working around XDK XAudio2 regression: TRUE
-[0021.81] Init: XAudio2Device initialized.
-[0022.12] Init: Client initialized
-[0022.12] Init: Editor engine initialized
-[0022.20] Log: Initializing Engine Completed
-[0022.20] Log: >>>>>>>>>>>>>> Initial startup: 22.20s <<<<<<<<<<<<<<<
-[0022.24] Cmd: MODE MAPEXT=udk
-[0022.28] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
-[0022.29] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
-[0022.62] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
-[0022.62] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
-[0022.64] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
-[0022.64] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
-[0024.11] Log: Detected 1 GPUs for rendering
-[0024.27] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\TestMaps\zoo.umap"
-[0024.43] Log: Encountered missing default brush - spawning new one
-[0024.88] Log: -- Checking Building LODs
-[0024.89] Log: Primary PhysX scene will be in software.
-[0024.89] Log: Creating Primary PhysX Scene.
-[0024.89] Log: Finished looking for orphan Actors (0.003 secs)
-[0024.94] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
-[0024.97] Log: TIMER ALL OF INIT : [5.417774]
-[0029.87] Log: 
+[0021.02] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Ammo_Rockets.Materials.M_Ammo_RocketLauncher' ('Engine.MaterialInstance:PhysMaterial').
+[0021.02] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.02] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Ammo_Link.Materials.M_Ammo_LinkGun' ('Engine.Material:PhysMaterial').
+[0021.02] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.02] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.Ammo_Link.Materials.M_Ammo_LinkGun' ('---').
+[0021.02] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
+[0021.03] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase' ('Engine.Material:PhysMaterial').
+[0021.03] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.03] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase' ('---').
+[0021.03] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
+[0021.04] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_All.Materials.MI_WP_ALL_Master' ('Engine.Material:PhysMaterial').
+[0021.04] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.07] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.Ammo_Link.Materials.M_Ammo_LinkGun:MaterialExpressionTextureSample_23' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.07] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
+[0021.07] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Small.Materials.M_Pickups_Health_Small:MaterialExpressionTextureSample_7' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.07] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.07] Warning: Failed to load 'HU_Deco.SM.Materials.T_HU_Deco_SM_Glass01_Cube'! Referenced by 'Pickups.jump_pad.M_Pickups_Jump_Pad:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.07] Log: Failed to load 'HU_Deco': Can't find file for package 'HU_Deco' while loading NULL
+[0021.07] Warning: Failed to load 'HU_Deco3.SM.Materials.T_HU_Deco_SM_Machinery04Alt_ND02'! Referenced by 'Pickups.WeaponBase.M_Pickups_WeaponBase:MaterialExpressionTextureSample_3' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.07] Log: Failed to load 'HU_Deco3': Can't find file for package 'HU_Deco3' while loading NULL
+[0021.09] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Far:ParticleModuleRequired_310' ('Engine.ParticleModuleRequired:Material').
+[0021.09] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.09] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Near:ParticleModuleRequired_310' ('Engine.ParticleModuleRequired:Material').
+[0021.09] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.09] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Far:ParticleModuleTypeDataMesh_145' ('Engine.ParticleModuleTypeDataMesh:Mesh').
+[0021.09] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.09] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SpecialCase_1_Base_Near:ParticleModuleTypeDataMesh_145' ('Engine.ParticleModuleTypeDataMesh:Mesh').
+[0021.09] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.13] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
+[0021.13] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
+[0021.13] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
+[0021.13] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.13] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
+[0021.13] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.13] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks' ('---').
+[0021.13] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.13] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
+[0021.13] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
+[0021.13] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
+[0021.13] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.13] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
+[0021.13] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.13] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn' ('---').
+[0021.13] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.16] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_10' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.16] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.16] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_11' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.16] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.16] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.16] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
+[0021.16] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks:MaterialExpressionTextureSample_13' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.16] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.17] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire_Terrain_D'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_10' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.17] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.17] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_S'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_11' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.17] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.17] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle8_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.17] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
+[0021.17] Warning: Failed to load 'UN_Rock.SM.Materials.T_UN_Rock_SM_Blackspire01_N'! Referenced by 'Envy_Effects.VH_Deaths.M_Envy_Rocks_burn:MaterialExpressionTextureSample_13' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.17] Log: Failed to load 'UN_Rock': Can't find file for package 'UN_Rock' while loading NULL
+[0021.21] Log: Missing cached shader map for material M_Envy_Rocks, compiling.
+[0021.21] Warning: Failed to compile Material Envy_Effects.VH_Deaths.M_Envy_Rocks for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.22] Log: Missing cached shader map for material M_ShieldBelt_Blue, compiling.
+[0021.22] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.M_ShieldBelt_Blue for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.22] Log: Missing cached shader map for material M_ShieldBelt_Overlay, compiling.
+[0021.22] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.M_ShieldBelt_Overlay for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.22] Log: Missing cached shader map for material M_ShieldBelt_Red, compiling.
+[0021.22] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.M_ShieldBelt_Red for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.24] Log: Missing cached shader map for material CharPortrait, compiling.
+[0021.24] Warning: Failed to compile Material UI_HUD.Materials.CharPortrait for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.33] Log: Missing cached shader map for material M_Pickups_Health_Small, compiling.
+[0021.34] Warning: Failed to compile Material Pickups.Health_Small.Materials.M_Pickups_Health_Small for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.34] Log: Missing cached shader map for material M_Pickups_WeaponBase, compiling.
+[0021.34] Warning: Failed to compile Material Pickups.WeaponBase.M_Pickups_WeaponBase for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.34] Log: Missing cached shader map for material M_Ammo_LinkGun, compiling.
+[0021.34] Warning: Failed to compile Material Pickups.Ammo_Link.Materials.M_Ammo_LinkGun for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.34] Log: Missing cached shader map for material M_Pickups_Jump_Pad, compiling.
+[0021.34] Warning: Failed to compile Material Pickups.jump_pad.M_Pickups_Jump_Pad for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.36] Log: Missing cached shader map for material M_Envy_Rocks_burn, compiling.
+[0021.36] Warning: Failed to compile Material Envy_Effects.VH_Deaths.M_Envy_Rocks_burn for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.45] Init: Finished loading startup packages in 1.79 seconds
+[0021.46] Log: 76281 objects as part of root set at end of initial load.
+[0021.46] Log: 0 out of 0 bytes used by permanent object pool.
+[0021.47] Log: Supported Consoles:
+[0021.47] Log:   PC
+[0021.47] Log: Initializing Engine...
+[0021.51] Log: Encountered missing default brush - spawning new one
+[0021.51] Init: UEngine initialized
+[0021.51] Log: Primary PhysX scene will be in software.
+[0021.51] Log: Creating Primary PhysX Scene.
+[0021.52] Init: Transaction tracking system initialized
+[0021.59] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay' ('---').
+[0021.59] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.59] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay' ('---').
+[0021.59] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.59] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_Cicada.Materials.PhysMat_Cicada' ('Engine.PhysicalMaterial:Parent').
+[0021.59] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.59] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_Cicada.Materials.PhysMat_Cicada_driving' ('Engine.PhysicalMaterial:Parent').
+[0021.59] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.59] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Berserk.Materials.M_Pickups_Berserk' ('---').
+[0021.59] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.59] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Large.Materials.M_Pickups_Health_Large_Keg' ('---').
+[0021.59] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.65] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.Base_Flag.Materials.M_Pickups_Base_Flag' ('Engine.Material:PhysMaterial').
+[0021.65] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.65] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle2_N'! Referenced by 'Pickups.Base_Flag.Materials.M_Pickups_Base_Flag' ('---').
+[0021.65] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
+[0021.66] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_Sky01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay:MaterialExpressionTextureSample_1' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.66] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.66] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_NonLinearFalloff01'! Referenced by 'Pickups.UDamage.M_UDamage_Overlay:MaterialExpressionTextureSample_2' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.66] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.66] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_All.Materials.M_VH_All_Axon_Base' ('Engine.Material:PhysMaterial').
+[0021.66] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.67] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Berserk.Materials.M_Pickups_Berserk:MaterialExpressionTextureSample_7' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.67] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.67] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Large.Materials.M_Pickups_Health_Large_Keg:MaterialExpressionTextureSample_6' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.67] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.67] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'WP_ShockRifle.Effects.M_WP_ShockRifle_1P' ('---').
+[0021.67] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.67] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'WP_RocketLauncher.Materials.M_WP_RocketLauncher' ('Engine.Material:PhysMaterial').
+[0021.67] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.67] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_Scorpion.Materials.M_VH_Scorpion_Damaged' ('Engine.Material:PhysMaterial').
+[0021.67] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.68] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor.Materials.M_UN_Pickup_Armor' ('---').
+[0021.68] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.68] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor_ShieldBelt.Materials.M_Armor_ShieldBelt' ('---').
+[0021.68] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.68] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Base_Powerup.Materials.M_Pickups_Base_Powerup' ('---').
+[0021.68] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.68] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Medium.Materials.M_Pickup_Health_Medium' ('---').
+[0021.68] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.68] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'Pickups.JumpBoots.Materials.M_JumpBoots' ('Engine.Material:PhysMaterial').
+[0021.68] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.68] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.JumpBoots.Materials.M_JumpBoots' ('---').
+[0021.68] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.68] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.ThighPads.Materials.M_UN_Pickup_Thigh' ('---').
+[0021.68] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.69] Warning: Failed to load 'PhysicalMaterials.Default.Metal.PM_Metal'! Referenced by 'VH_All.Materials.M_VH_Burnout' ('Engine.Material:PhysMaterial').
+[0021.69] Log: Failed to load 'PhysicalMaterials': Can't find file for package 'PhysicalMaterials' while loading NULL
+[0021.69] Warning: Failed to load 'UN_DetailTex.Materials.UN_DetailTex_Crackle2_N'! Referenced by 'Pickups.Base_Flag.Materials.M_Pickups_Base_Flag:MaterialExpressionTextureSample_6' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.69] Log: Failed to load 'UN_DetailTex': Can't find file for package 'UN_DetailTex' while loading NULL
+[0021.70] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'WP_ShockRifle.Effects.M_WP_ShockRifle_1P:MaterialExpressionTextureSample_31' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.70] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.71] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor.Materials.M_UN_Pickup_Armor:MaterialExpressionTextureSample_27' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.71] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.71] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.Armor_ShieldBelt.Materials.M_Armor_ShieldBelt:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.71] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.71] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Base_Powerup.Materials.M_Pickups_Base_Powerup:MaterialExpressionTextureSample_7' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.71] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.71] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City_Top'! Referenced by 'Pickups.Health_Medium.Materials.M_Pickup_Health_Medium:MaterialExpressionTextureSample_4' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.71] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.71] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.JumpBoots.Materials.M_JumpBoots:MaterialExpressionTextureSample_12' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.71] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.71] Warning: Failed to load 'UN_CubeMaps.Materials.T_UN_CubeMaps_City01_Envmap'! Referenced by 'Pickups.ThighPads.Materials.M_UN_Pickup_Thigh:MaterialExpressionTextureSample_27' ('Engine.MaterialExpressionTextureSample:Texture').
+[0021.71] Log: Failed to load 'UN_CubeMaps': Can't find file for package 'UN_CubeMaps' while loading NULL
+[0021.73] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Far:ParticleModuleRequired_33' ('Engine.ParticleModuleRequired:Material').
+[0021.73] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.73] Warning: Failed to load 'HU_Supports.SM.Materials.M_HU_Supports_SM_IbeamA'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Near:ParticleModuleRequired_164' ('Engine.ParticleModuleRequired:Material').
+[0021.73] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.73] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Far:ParticleModuleTypeDataMesh_14' ('Engine.ParticleModuleTypeDataMesh:Mesh').
+[0021.73] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.73] Warning: Failed to load 'HU_Supports.SM.Mesh.S_HU_Supports_SM_IbeamA_256'! Referenced by 'Envy_Effects.VH_Deaths.P_VH_Death_SMALL_Near:ParticleModuleTypeDataMesh_72' ('Engine.ParticleModuleTypeDataMesh:Mesh').
+[0021.73] Log: Failed to load 'HU_Supports': Can't find file for package 'HU_Supports' while loading NULL
+[0021.81] Log: Missing cached shader map for material M_UN_Pickup_Thigh, compiling.
+[0021.81] Warning: Failed to compile Material Pickups.ThighPads.Materials.M_UN_Pickup_Thigh for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.81] Log: Missing cached shader map for material M_JumpBoots, compiling.
+[0021.81] Warning: Failed to compile Material Pickups.JumpBoots.Materials.M_JumpBoots for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.81] Log: Missing cached shader map for material M_Armor_ShieldBelt, compiling.
+[0021.81] Warning: Failed to compile Material Pickups.Armor_ShieldBelt.Materials.M_Armor_ShieldBelt for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.81] Log: Missing cached shader map for material M_UN_Pickup_Armor, compiling.
+[0021.81] Warning: Failed to compile Material Pickups.Armor.Materials.M_UN_Pickup_Armor for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.81] Log: Missing cached shader map for material M_Pickup_Health_Medium, compiling.
+[0021.81] Warning: Failed to compile Material Pickups.Health_Medium.Materials.M_Pickup_Health_Medium for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.81] Log: Missing cached shader map for material M_Pickups_Base_Powerup, compiling.
+[0021.81] Warning: Failed to compile Material Pickups.Base_Powerup.Materials.M_Pickups_Base_Powerup for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.91] Log: Missing cached shader map for material M_Pickups_Berserk, compiling.
+[0021.91] Warning: Failed to compile Material Pickups.Berserk.Materials.M_Pickups_Berserk for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.91] Log: Missing cached shader map for material M_Pickups_Health_Large_Keg, compiling.
+[0021.91] Warning: Failed to compile Material Pickups.Health_Large.Materials.M_Pickups_Health_Large_Keg for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.91] Log: Missing cached shader map for material M_UDamage_Overlay, compiling.
+[0021.91] Warning: Failed to compile Material Pickups.UDamage.M_UDamage_Overlay for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.91] Log: Missing cached shader map for material M_Pickups_Base_Flag, compiling.
+[0021.91] Warning: Failed to compile Material Pickups.Base_Flag.Materials.M_Pickups_Base_Flag for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.93] Log: Missing cached shader map for material M_WP_ShockRifle_1P, compiling.
+[0021.93] Warning: Failed to compile Material WP_ShockRifle.Effects.M_WP_ShockRifle_1P for platform PC-D3D-SM5, Default Material will be used in game.
+[0021.96] Init: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0021.98] Log: Working around XDK XAudio2 regression: TRUE
+[0021.98] Init: XAudio2Device initialized.
+[0022.35] Init: Client initialized
+[0022.35] Init: Editor engine initialized
+[0022.44] Log: Initializing Engine Completed
+[0022.44] Log: >>>>>>>>>>>>>> Initial startup: 22.44s <<<<<<<<<<<<<<<
+[0022.49] Cmd: MODE MAPEXT=udk
+[0022.53] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0022.54] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0022.96] Log: Found D3D11 adapter 0: NVIDIA GeForce RTX 4090
+[0022.96] Log: Adapter has 24156MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0022.98] Log: Found D3D11 adapter 1: Microsoft Basic Render Driver
+[0022.98] Log: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 32331MB of shared system memory
+[0024.68] Log: Detected 1 GPUs for rendering
+[0024.85] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Maps\TestMaps\zoo.umap"
+[0025.05] Log: Encountered missing default brush - spawning new one
+[0025.59] Log: -- Checking Building LODs
+[0025.60] Log: Primary PhysX scene will be in software.
+[0025.60] Log: Creating Primary PhysX Scene.
+[0025.61] Log: Finished looking for orphan Actors (0.005 secs)
+[0025.67] Cmd: MAP CHECKDEP DONTCLEARMESSAGES
+[0025.70] Log: TIMER ALL OF INIT : [6.138260]
+[0030.59] Log: 
 ==== Worlds needing PIE Save:
-[0029.87] Log: ==== 0 total
-[0029.87] Cmd: MAP LOAD PLAYWORLD=1 FI
+[0030.59] Log: ==== 0 total
+[0030.59] Cmd: MAP LOAD PLAYWORLD=1 FILE="D:\projects\Duke2003\Binaries\Win64\..\..\UDKGame\Autosaves\UEDPIEzoo.udk"
+[0030.59] Log: Finished looking for orphan Actors (0.003 secs)
+[0030.60] Log: Game class is 'dnSinglePlayer'
+[0030.61] Log: Primary PhysX scene will be in software.
+[0030.61] Log: Creating Primary PhysX Scene.
+[0030.61] Log: *** WARNING - PATHS MAY NOT BE VALID ***
+[0030.61] Log: Bringing World UEDPIEzoo.TheWorld up for play (0) at 2023.05.27-22.48.04
+[0030.63] Log: Bringing up level for play took: 0.019472
+[0030.67] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEzoo.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:0033
+[0030.67] ScriptWarning: Accessed None 'OnlineSub'
+	dnPlayerController UEDPIEzoo.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02D1
+[0030.67] ScriptWarning: Accessed None
+	dnPlayerController UEDPIEzoo.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:ClientSetOnlineStatus:02E5
+[0030.67] Log: PIE: play in editor start time for UEDPIEzoo 0.271
+[0030.73] ScriptWarning: Accessed None 'LeftHandIK'
+	DukePawn UEDPIEzoo.TheWorld:PersistentLevel.DukePawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:0066
+[0030.73] ScriptWarning: Accessed None 'RightHandIK'
+	DukePawn UEDPIEzoo.TheWorld:PersistentLevel.DukePawn_0
+	Function UTGame.UTPawn:SetHandIKEnabled:008F
+[0030.73] Cmd: SETSOUNDMODE Default
+[0030.73] ScriptLog: START MATCH
+[0032.25] Cmd: StartFire 
+[0032.25] Cmd: OnRelease StopFire
+[0032.42] Cmd: StopFire
+[0032.98] Cmd: StartFire 
+[0032.98] Cmd: OnRelease StopFire
+[0033.18] Cmd: StopFire
+[0033.82] Cmd: StartFire 
+[0033.82] Cmd: OnRelease StopFire
+[0033.98] Cmd: StopFire
+[0035.63] Cmd: onrelease ShowMenu
+[0035.64] ScriptWarning: Accessed None 'ViewportClient'
+	dnPlayerController UEDPIEzoo.TheWorld:PersistentLevel.dnPlayerController_0
+	Function UTGame.UTPlayerController:Destroyed:0041
+[0038.04] Exit: Preparing to exit.
+[0038.17] Exit: Editor shut down
+[0038.17] Exit: Transaction tracking system shut down
+[0038.34] Exit: Windows client shut down
+[0038.34] Exit: XAudio2 Device shut down.
+[0038.39] Exit: Object subsystem successfully closed.
+[0038.40] Log: Shutting down FaceFX...
+[0038.40] Log: FaceFX shutdown.
+[0038.43] DevDataBase: Spent 18.772937 seconds communicating with "Provider=sqloledb;Data Source=production-db;Initial Catalog=EngineTaskPerf;Trusted_Connection=Yes;Connection Timeout=2" or "10.1.20.20"
+[0038.43] Exit: Exiting.
+[0038.43] Log: Log file closed, 05/27/23 22:48:11

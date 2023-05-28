@@ -50,6 +50,15 @@ enum EAttitude
     op(ATTITUDE_Ignore) \
     op(ATTITUDE_Friendly) \
     op(ATTITUDE_Follow) 
+enum EWeaponState
+{
+    DUKE_WEAPONSTATE_IDLE   =0,
+    DUKE_WEAPONSTATE_FIRE   =1,
+    DUKE_WEAPONSTATE_MAX    =2,
+};
+#define FOREACH_ENUM_EWEAPONSTATE(op) \
+    op(DUKE_WEAPONSTATE_IDLE) \
+    op(DUKE_WEAPONSTATE_FIRE) 
 
 #endif // !INCLUDED_DNGAME_ENUMS
 #endif // !NO_ENUMS
@@ -200,6 +209,20 @@ public:
     }
     DECLARE_ABSTRACT_CLASS(AAIPawn,APawn,0|CLASS_Config,dnGame)
     NO_DEFAULT_CONSTRUCTOR(AAIPawn)
+};
+
+class UAnimNotify_WeaponState : public UAnimNotify
+{
+public:
+    //## BEGIN PROPS AnimNotify_WeaponState
+    MS_ALIGN(4) BYTE weaponState GCC_ALIGN(4); // Extra alignment flags needed because all properties are bytes
+    SCRIPT_ALIGN;
+    //## END PROPS AnimNotify_WeaponState
+
+    DECLARE_CLASS(UAnimNotify_WeaponState,UAnimNotify,0,dnGame)
+	// AnimNotify interface.
+	virtual void Notify( class UAnimNodeSequence* NodeSeq );
+	virtual FString GetEditorComment();
 };
 
 class UCrushed : public UDamageType
@@ -439,6 +462,7 @@ AUTOGENERATE_FUNCTION(ADukeHUD,-1,execHudStartup);
 
 #define AUTO_INITIALIZE_REGISTRANTS_DNGAME \
 	AAIPawn::StaticClass(); \
+	UAnimNotify_WeaponState::StaticClass(); \
 	UCrushed::StaticClass(); \
 	ADecoration::StaticClass(); \
 	GNativeLookupFuncs.Set(FName("Decoration"), GdnGameADecorationNatives); \
@@ -478,6 +502,8 @@ FNativeFunctionLookup GdnGameADukeHUDNatives[] =
 VERIFY_CLASS_OFFSET_NODIE(AAIPawn,AIPawn,Skill)
 VERIFY_CLASS_OFFSET_NODIE(AAIPawn,AIPawn,WanderDir)
 VERIFY_CLASS_SIZE_NODIE(AAIPawn)
+VERIFY_CLASS_OFFSET_NODIE(UAnimNotify_WeaponState,AnimNotify_WeaponState,weaponState)
+VERIFY_CLASS_SIZE_NODIE(UAnimNotify_WeaponState)
 VERIFY_CLASS_SIZE_NODIE(UCrushed)
 VERIFY_CLASS_OFFSET_NODIE(ADecoration,Decoration,EffectWhenDestroyed)
 VERIFY_CLASS_OFFSET_NODIE(ADecoration,Decoration,LastValidAnchorTime)
